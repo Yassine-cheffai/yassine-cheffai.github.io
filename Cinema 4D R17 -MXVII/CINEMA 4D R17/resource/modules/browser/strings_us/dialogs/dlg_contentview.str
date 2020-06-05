@@ -1,8 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS DLG_CONTENTVIEW
-{
-  IDS_STATIC  "Group";
-  STR_EMPTY   "";
-  STR_TITLE   "...";
-}

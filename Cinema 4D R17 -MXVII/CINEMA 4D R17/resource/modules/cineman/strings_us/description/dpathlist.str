@@ -1,8 +1,0 @@
-STRINGTABLE Dpathlist
-{
-	Dpathlist					"Example Datatype";
-
-	PATHLIST_LONG			"Long";
-	PATHLIST_STRING		"String";
-	PATHLIST_VECTOR		"Vector";
-}

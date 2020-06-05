@@ -1,6 +1,0 @@
-STRINGTABLE Tarchigrass
-{
-	Tarchigrass			"Architectural Grass Material Tag";
-
-	GRASS_MATLINK		"Material";
-}

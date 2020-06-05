@@ -1,5 +1,0 @@
-CONTAINER Tfbxexportreference
-{
-	NAME Tfbxexportreference;
-
-}

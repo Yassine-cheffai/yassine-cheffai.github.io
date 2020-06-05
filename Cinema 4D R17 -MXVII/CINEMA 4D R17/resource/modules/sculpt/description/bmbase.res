@@ -1,4 +1,0 @@
-CONTAINER BMbase
-{
-	NAME BMbase;
-}

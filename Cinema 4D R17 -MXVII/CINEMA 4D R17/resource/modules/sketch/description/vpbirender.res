@@ -1,4 +1,0 @@
-CONTAINER vpbirender
-{
-  NAME vpbirender;
-}

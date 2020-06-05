@@ -1,6 +1,0 @@
-STRINGTABLE SBextrude
-{
-	SBextrude             "Extrusion Surface" "Extrusion";
-
-	EXTRUDESURFACE_DIRECTION  "Direction";
-}

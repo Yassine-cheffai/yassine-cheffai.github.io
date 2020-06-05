@@ -1,4 +1,0 @@
-CONTAINER tctpdata
-{
-	NAME tctpdata;
-}

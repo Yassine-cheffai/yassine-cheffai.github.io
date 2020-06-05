@@ -1,9 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS DLG_DEMOALERT
-{
-	STR_TITLE "Okino demo version";
-	STR_NOTICE "Please notice, that Polytrans demo versions remove every 5th polygon.";
-	
-	STRING_OK "Ok";
-}

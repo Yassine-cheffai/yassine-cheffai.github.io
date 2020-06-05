@@ -1,7 +1,0 @@
-STRINGTABLE ToolSculptBrushKnife
-{
-	ToolSculptBrushKnife		"Sculpt Brush Knife Tool";
-	MDATA_SCULPTBRUSH_KNIFE_PINCH	"Pinch";
-	MDATA_SCULPTBRUSH_KNIFE_PUSH	"Push";
-	MDATA_SCULPTBRUSH_KNIFE_SMOOTH 	"Smooth";
-}

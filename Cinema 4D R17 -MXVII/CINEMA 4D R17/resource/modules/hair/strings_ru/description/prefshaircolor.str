@@ -1,6 +1,0 @@
-STRINGTABLE Prefshaircolor
-{
-  Prefshaircolor         "\u0426\u0432\u0435\u0442\u0430";
-  PREF_HAIRCOLOR_COLORS  "";
-  PREF_HAIRCOLOR_LIST    "";
-}

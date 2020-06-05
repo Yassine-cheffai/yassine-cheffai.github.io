@@ -1,5 +1,0 @@
-DIALOGSTRINGS IDD_RELAXUV_WORKING
-{
-	TDLG "Relax UV Working";
-	T1 "Stop";
-}

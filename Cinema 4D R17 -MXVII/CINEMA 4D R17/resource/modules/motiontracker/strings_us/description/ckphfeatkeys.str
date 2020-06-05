@@ -1,8 +1,0 @@
-STRINGTABLE CKphfeatkeys
-{
-	CKphfeatkeys			"2D Track Key";
-	PHFEATKEYSKEY_NUMBER		"Number";
-
-	ID_CKEY_TIME				"Time";
-	ID_CKEY_MUTE				"Mute";
-}

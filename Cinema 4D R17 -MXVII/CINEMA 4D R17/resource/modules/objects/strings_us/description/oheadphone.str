@@ -1,5 +1,0 @@
-STRINGTABLE Oheadphone
-{
-	Oheadphone								 "Stereo Microphone Object";
-	HEADPHONEOBJECT_BASIS			 "Stereo Basis";
-}

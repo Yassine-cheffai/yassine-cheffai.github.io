@@ -1,5 +1,0 @@
-STRINGTABLE ToolCloseHole
-{
-   ToolCloseHole	     "Close Hole";
-	 MDATA_CLOSEHOLE_TRI  "Create Tri-/Quadrangle";
-}

@@ -1,9 +1,0 @@
-// C4D Dialog Strings
-
-DIALOGSTRINGS IDD_OP_PARTICLEDRAWTOOL
-{
-	TDLG "TP ParticleDraw";
-
-	FRAMEPARTICLES	"Frame Particles";
-	REMOVE					"Remove";
-}

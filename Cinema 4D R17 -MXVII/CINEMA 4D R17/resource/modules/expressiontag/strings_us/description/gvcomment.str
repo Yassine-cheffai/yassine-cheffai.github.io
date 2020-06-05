@@ -1,5 +1,0 @@
-STRINGTABLE GVcomment
-{
-	GVcomment									"Comment Operator";
-	GV_COMMENT_STRING					"Comment";
-}

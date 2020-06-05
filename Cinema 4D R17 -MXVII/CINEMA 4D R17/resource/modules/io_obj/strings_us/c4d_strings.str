@@ -1,7 +1,0 @@
-// C4D-StringResource
-// Identifier	Text
-
-STRINGTABLE
-{
-	IDS_OBJ								"Wavefront OBJ (*.obj)";
-}

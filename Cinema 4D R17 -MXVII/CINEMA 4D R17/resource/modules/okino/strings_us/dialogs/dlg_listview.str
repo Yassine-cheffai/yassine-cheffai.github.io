@@ -1,9 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS DLG_LISTVIEW
-{
-	STR_TITLE "Okino Importer Selection";
-	STR_EMPTY "";
-	STRING_SEL_ALL "Select all";
-	STRING_DESEL_ALL "Deselect all";
-}

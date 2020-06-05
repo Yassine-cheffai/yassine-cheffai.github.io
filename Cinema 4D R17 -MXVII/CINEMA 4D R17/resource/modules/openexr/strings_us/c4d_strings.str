@@ -1,9 +1,0 @@
-// C4D-StringResource
-// Identifier	Text
-
-STRINGTABLE
-{
-	STRING_CMD_OPENEXR_NAME "OpenEXR";
-	STRING_CMD_SETTINGS "OpenEXR Settings";
-
-}

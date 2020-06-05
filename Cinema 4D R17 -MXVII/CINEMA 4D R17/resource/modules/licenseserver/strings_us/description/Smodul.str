@@ -1,9 +1,0 @@
-STRINGTABLE Smodul
-{
-	Smodul	"Serial Module";
-	SMODUL_NAME "Name";
-	SMODUL_SERIAL "Serial";
-	SMODUL_VERSION "Version";
-	SMODUL_LICENSES "Licenses";
-	SMODUL_OS "OS";
-}

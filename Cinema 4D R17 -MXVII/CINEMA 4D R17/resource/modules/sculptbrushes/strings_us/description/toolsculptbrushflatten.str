@@ -1,6 +1,0 @@
-STRINGTABLE ToolSculptBrushFlatten
-{
-	ToolSculptBrushFlatten		"Sculpt Brush Flatten Tool";
-	
-	MDATA_SCULPTBRUSH_FLATTEN_SMOOTH "Smooth";
-}

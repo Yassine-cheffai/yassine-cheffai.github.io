@@ -1,4 +1,0 @@
-CONTAINER Tvwdata
-{
-	NAME Tvwdata;
-}

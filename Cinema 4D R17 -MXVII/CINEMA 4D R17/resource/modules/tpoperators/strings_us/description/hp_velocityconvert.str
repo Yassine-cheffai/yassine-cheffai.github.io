@@ -1,9 +1,0 @@
-STRINGTABLE HP_VelocityConvert
-{
-	HP_VelocityConvert	"PVelocity Convert";
-	
-	IN_VELCON_SPEED		"Speed";
-	IN_VELCON_AXIS		"Axis";
-		
-	OUT_VELCON_VELOCITY	"Velocity";
-}

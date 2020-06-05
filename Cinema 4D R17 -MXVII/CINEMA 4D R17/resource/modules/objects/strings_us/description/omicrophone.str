@@ -1,6 +1,0 @@
-STRINGTABLE Omicrophone
-{
-	Omicrophone							"Microphone Object";
-	MICROPHONEOBJECT_DOPPLER "Doppler Effect";
-	MICROPHONEOBJECT_DFACTOR "Strength";
-}

@@ -1,7 +1,0 @@
-STRINGTABLE Osculptlayer
-{
-	Osculptlayer	"Sculpt Layer";
-
-	MDATA_STRENGTH	"Strength";
-	MDATA_VISIBLE	"Visible";
-}

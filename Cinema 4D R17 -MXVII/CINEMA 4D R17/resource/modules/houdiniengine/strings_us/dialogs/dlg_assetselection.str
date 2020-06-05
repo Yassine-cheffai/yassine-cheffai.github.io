@@ -1,8 +1,0 @@
-// C4D-DialogResource
-
-DIALOGSTRINGS DLG_ASSETSELECTION
-{
-	STRING_TITLE						"Houdini Asset Selection";
-	STRING_SELECT_ALL				"Select All";
-	STRING_DESELECT_ALL			"Deselect All";
-}
