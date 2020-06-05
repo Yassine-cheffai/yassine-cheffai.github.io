@@ -1,0 +1,8 @@
+STRINGTABLE Fdwg
+{
+	Fdwg                                    "DWG Import";
+
+	DWGFILTER_SCALE                         "Scale";
+	DWGFILTER_CURVE_SUBDIVISION_FACTOR      "Curve Subdivision Factor";
+	DWGFILTER_KEEP_IGES											"Keep NURBS Objects";
+}

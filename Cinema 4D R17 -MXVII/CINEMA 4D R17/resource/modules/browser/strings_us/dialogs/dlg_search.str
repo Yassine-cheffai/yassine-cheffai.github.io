@@ -1,0 +1,20 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_SEARCH
+{
+  STR_SEARCH_DLG			"Search for...";
+//  STR_NAME						"Name ";
+//  STR_QUERY					"Query ";
+//	STR_ANNOTATION			"Annotation ";
+//	STR_FILESIZE				"File size ";
+//	STR_MOD_DATE				"Modification date ";
+//	STR_CREAT_DATE			"Creation date ";
+//	STR_FILETYPE				"File type ";
+// STR_RECURSIVE_SCAN		"Recursive scan of folders";
+//  STR_SHOW_SEARCH_RESULTS	"Open Search Result folder when finished";
+
+//   STR_PLUS "+";
+//  STR_MINUS "-";
+
+
+}

@@ -1,0 +1,21 @@
+STRINGTABLE SBnurbs
+{
+	SBnurbs               "Rational B-Spline Surface" "NURBS Surface";
+
+	NURBSSURFACE_UCLOSED      "Closed U";
+	NURBSSURFACE_VCLOSED      "Closed V";
+	NURBSSURFACE_UDEGREE      "Degree U";
+	NURBSSURFACE_VDEGREE      "Degree V";
+	NURBSSURFACE_UPOINTCOUNT  "Points U";
+	NURBSSURFACE_VPOINTCOUNT  "Points V";
+
+	NURBSSURFACE_POLYNOMIAL   "Polynomial";
+	NURBSSURFACE_UPERIODICITY	"Periodic U";
+	NURBSSURFACE_VPERIODICITY	"Periodic V";
+
+  NURBSSURFACE_UMIN         "Start U-Parameter" "Start U";
+	NURBSSURFACE_UMAX         "End U-Parameter" "End U";
+  NURBSSURFACE_VMIN         "Start V-Parameter" "Start V";
+	NURBSSURFACE_VMAX         "End V-Parameter" "End V";
+}
+

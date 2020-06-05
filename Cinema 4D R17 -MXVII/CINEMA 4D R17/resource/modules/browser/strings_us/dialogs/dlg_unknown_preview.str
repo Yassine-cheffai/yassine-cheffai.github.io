@@ -1,0 +1,11 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_UNKNOWN_PREVIEW
+{
+	STR_TITLE "Preview";
+	STR_EMPTY "";
+	STR_FOLDER_NAME "Directory Name:";
+	STR_FOLDER_COUNT "Number Of Subdirectories:";
+	STR_FILE_COUNT "Number of Files:";
+	STR_NEW_BROWSER	"Open New Browser ...";
+}

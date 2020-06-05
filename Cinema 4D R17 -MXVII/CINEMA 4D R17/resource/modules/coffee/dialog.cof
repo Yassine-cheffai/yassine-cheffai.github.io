@@ -1,0 +1,65 @@
+enum
+{
+	IDC_OK = 1,
+	IDC_CANCEL = 2
+};
+
+enum
+{
+	COLOR_BG							= 1000,
+	COLOR_BGEDIT					= 1001,
+	COLOR_BGFOCUS					= 1002,
+	COLOR_TEXT						= 1003,
+	COLOR_TEXTFOCUS				= 1004,
+	COLOR_EDGELT					= 1005,	// bright border
+	COLOR_EDGEWH					= 1006,	// brightest border
+	COLOR_EDGEDK					= 1007,	// dark border
+	COLOR_EDGEBL					= 1008,	// darkest border
+	COLOR_DBARFG1					= 1009,	// dialog bar
+	COLOR_DBARBG1					= 1010,	// dialog bar
+	COLOR_DBARFG2					= 1011,	// dialog bar
+	COLOR_DBARBG2					= 1012,	// dialog bar
+	COLOR_BGGADGET				= 1013,	// gadget background color
+
+	COLOR_BGSELECTEDTEXT 	= 1014,	// selected text in gadgets
+	COLOR_FGSELECTEDTEXT 	= 1015,	// selected text in gadgets
+
+	COLOR_TIMELINE				= 1016,	// Timeline
+	COLOR_BGTRISTATE			= 1017, // bgcolor for tristates
+
+	COLOR_TRANS						= 999,  // transparent background for text
+
+	oCOLOR_BG							= 11000,
+	oCOLOR_BGEDIT					= 11001,
+	oCOLOR_BGFOCUS				= 11002,
+	oCOLOR_TEXT						= 11003,
+	oCOLOR_TEXTFOCUS			= 11004,
+	oCOLOR_EDGELT					= 11005, // bright border
+	oCOLOR_EDGEWH					= 11006, // brightest border
+	oCOLOR_EDGEDK					= 11007, // dark border
+	oCOLOR_EDGEBL					= 11008, // darkest border
+	oCOLOR_DBARFG1				= 11009, // dialog bar
+	oCOLOR_DBARBG1				= 11010, // dialog bar
+	oCOLOR_DBARFG2				= 11011, // dialog bar
+	oCOLOR_DBARBG2				= 11012, // dialog bar
+	oCOLOR_BGGADGET				= 11013, // gadget background color
+	oCOLOR_BGSELECTEDTEXT = 11014, // selected text in gadgets
+	oCOLOR_FGSELECTEDTEXT = 11015, // selected text in gadgets
+
+	oCOLOR_TIMELINE				= 11016, // Timeline
+	oCOLOR_BGTRISTATE			= 11017  // bgcolor for tristates
+};
+
+include "gui_defines.h"
+include "gui_coremsg.h"
+include "gui_commands.h"
+include "geuserarea.cox"
+include "gebasedialog.cox"
+include "geuserdialog.cox"
+include "gedialog.cox"
+include "gemodaldialog.cox"
+
+
+
+
+

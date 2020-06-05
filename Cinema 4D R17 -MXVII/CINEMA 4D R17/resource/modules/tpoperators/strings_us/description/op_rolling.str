@@ -1,0 +1,20 @@
+STRINGTABLE OP_Rolling
+{
+	OP_Rolling					"PRolling";
+
+	ROLL_LAZINESS			"Laziness";
+	ROLL_SOURCE				"Source";
+	ROLL_SOURCE_X			"X";
+	ROLL_SOURCE_Y			"Y";
+	ROLL_SOURCE_Z			"Z";
+	ROLL_INVERT				"Invert";
+	ROLL_STRETCH			"Stretch";
+	ROLL_AXIS					"Axis";
+	ROLL_TYPE_ROLL		"Roll";
+	ROLL_TYPE_TRAVEL	"Direction Of Travel";
+	ROLL_TYPE					"Type";
+	
+	IN_ROLL_PARTICLE	"Particle";
+	IN_ROLL_ON				"On";
+	IN_ROLL_ATIME			"Animation Time";	
+}

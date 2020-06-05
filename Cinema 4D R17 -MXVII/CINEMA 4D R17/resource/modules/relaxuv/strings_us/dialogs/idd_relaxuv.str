@@ -1,0 +1,18 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_RELAXUV
+{
+	IDS_RELAXUV_TITLE "Relax UV";
+	IDS_BUTTON1  "  Apply  ";
+	IDS_STATIC1  "Group";
+	IDS_DUMMY    "";
+  
+	T5  "Pin to Neighbors";
+	T6  "Pin Border Points";
+	T9  "Pin Point Selection";
+	T10 "Cut Selected Edges";
+	T11 "Use Tag";
+	T12 "Auto Realign";
+	T13 "LSCM";
+	T14 "ABF";
+}

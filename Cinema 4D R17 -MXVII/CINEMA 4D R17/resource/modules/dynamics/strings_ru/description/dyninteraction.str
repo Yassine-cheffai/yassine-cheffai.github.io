@@ -1,0 +1,36 @@
+STRINGTABLE DynInteraction
+{
+  FORCE_ALWAYS_VISIBLE                                "\u0412\u0441\u0435\u0433\u0434\u0430 \u0432\u0438\u0434\u043D\u043E";
+  FORCE_SIZE                                          "\u0420\u0430\u0437\u043C\u0435\u0440";
+  FORCE_OBJECT_A                                      "\u041E\u0431\u044A\u0435\u043A\u0442 A";
+  FORCE_OBJECT_B                                      "\u041E\u0431\u044A\u0435\u043A\u0442 B";
+  FORCE_REFERENCE_X                                   "X \u043E\u0431\u044A\u0435\u043A\u0442\u0430";
+  FORCE_REFERENCE_Y                                   "Y \u043E\u0431\u044A\u0435\u043A\u0442\u0430";
+  FORCE_REFERENCE_Z                                   "Z \u043E\u0431\u044A\u0435\u043A\u0442\u0430";
+  FORCE_REFERENCE_DIRECTION                           "\u041D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u043A \u043E\u0431\u044A\u0435\u043A\u0442\u0443";
+  FORCE_APPLICATION_COM                               "\u0426\u0435\u043D\u0442\u0440 \u0442\u044F\u0436\u0435\u0441\u0442\u0438";
+  FORCE_APPLICATION_OFFSET                            "\u0421\u0434\u0432\u0438\u0433";
+  FORCE_APPLICATION_POLYPOINT                         "\u0422\u043E\u0447\u043A\u0430 \u043F\u043E\u043B\u0438\u0433\u043E\u043D\u0430";
+  FORCE_APPLICATION_POINT_SELECTION                   "\u0412\u044B\u0434\u0435\u043B\u0435\u043D\u0438\u0435 \u0442\u043E\u0447\u0435\u043A";
+  FORCE_REFERENCE_A                                   "\u041E\u0441\u044C \u0441\u0441\u044B\u043B\u043A\u0438 A";
+  FORCE_APPLICATION_A                                 "\u0421\u0432\u044F\u0437\u044C A";
+  FORCE_OFFSET_A                                      "\u0421\u0434\u0432\u0438\u0433";
+  FORCE_POINT_A                                       "\u0418\u043D\u0434\u0435\u043A\u0441";
+  FORCE_POINT_SELECTION_A                             "\u041A\u0430\u0440\u0442\u0430";
+  FORCE_POINT_SELECTION_SHAPE_CONSERVATION_A          "\u0421\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435 \u0444\u043E\u0440\u043C\u044B";
+  FORCE_POINT_SELECTION_SHAPE_CONSERVATION_DAMPING_A  "\u0417\u0430\u0442\u0443\u0445\u0430\u043D\u0438\u0435";
+  FORCE_REGION_A                                      "\u0423\u0447\u0430\u0441\u0442\u043E\u043A \u0432\u043B\u0438\u044F\u043D\u0438\u044F";
+  FORCE_REFERENCE_B                                   "\u041E\u0441\u044C \u0441\u0441\u044B\u043B\u043A\u0438 B";
+  FORCE_APPLICATION_B                                 "\u0421\u0432\u044F\u0437\u044C B";
+  FORCE_OFFSET_B                                      "\u0421\u0434\u0432\u0438\u0433";
+  FORCE_POINT_B                                       "\u0418\u043D\u0434\u0435\u043A\u0441";
+  FORCE_POINT_SELECTION_B                             "\u041A\u0430\u0440\u0442\u0430";
+  FORCE_POINT_SELECTION_SHAPE_CONSERVATION_B          "\u0421\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435 \u0444\u043E\u0440\u043C\u044B";
+  FORCE_POINT_SELECTION_SHAPE_CONSERVATION_DAMPING_B  "\u0417\u0430\u0442\u0443\u0445\u0430\u043D\u0438\u0435";
+  FORCE_REGION_B                                      "\u0423\u0447\u0430\u0441\u0442\u043E\u043A \u0432\u043B\u0438\u044F\u043D\u0438\u044F";
+  FORCE_TYPE                                          "\u0422\u0438\u043F";
+  FORCE_TYPE_LINEAR                                   "\u041B\u0438\u043D\u0435\u0439\u043D\u044B\u0439";
+  FORCE_TYPE_ANGULAR                                  "\u0412\u0440\u0430\u0449\u0435\u043D\u0438\u0435";
+  FORCE_TYPE_BOTH                                     "\u041B\u0438\u043D\u0435\u0439\u043D\u044B\u0439 \u0438 \u0412\u0440\u0430\u0449\u0435\u043D\u0438\u0435";
+  FORCE_GROUP_DISPLAY                                 "\u041F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u0435";
+}

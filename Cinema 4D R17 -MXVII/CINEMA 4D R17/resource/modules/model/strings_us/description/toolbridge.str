@@ -1,0 +1,5 @@
+STRINGTABLE ToolBridge
+{
+	ToolBridge	"Bridge";
+	MDATA_BRIDGE_DELETE "Delete Original Polygons";
+}

@@ -1,0 +1,7 @@
+STRINGTABLE DynBinForce
+{
+	FORCE_APPLY "Apply";
+	FORCE_APPLY_A "Only to A";
+	FORCE_APPLY_B "Only to B";
+	FORCE_APPLY_BOTH "To Both";
+}

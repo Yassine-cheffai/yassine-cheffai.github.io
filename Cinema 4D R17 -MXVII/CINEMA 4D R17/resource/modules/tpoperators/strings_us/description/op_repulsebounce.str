@@ -1,0 +1,14 @@
+STRINGTABLE OP_RepulseBounce
+{
+	OP_RepulseBounce	"PRepulse&Bounce";
+		
+	RB_REPULSION			"Repulsion";
+	RB_BOUNCE					"Bounce";
+	RB_ELAST				  "Bounce Elasticity";	
+	RB_MASS					  "Mass Dependent";	
+
+	IN_RB_PARTICLEA	"Particle A";
+	IN_RB_PARTICLEB	"Particle B";
+	IN_RB_ON				"On";
+	IN_RB_ATIME			"Animation Time";	
+}

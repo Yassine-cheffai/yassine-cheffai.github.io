@@ -1,0 +1,8 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	STRING_CMD_SETTINGS "Okino Settings";
+	STRING_CMD_OKINO_NAME "Okino";
+}

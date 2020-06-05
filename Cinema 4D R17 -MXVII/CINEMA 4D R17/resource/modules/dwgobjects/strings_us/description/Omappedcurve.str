@@ -1,0 +1,11 @@
+STRINGTABLE Omappedcurve
+{
+	Omappedcurve                  "Mapped Curve";
+
+	MAPPEDCURVE_TYPE              "Mapped Curve Type" "Type";
+		MAPPEDCURVE_TYPE_UNKNOWN        "Unknown";
+		MAPPEDCURVE_TYPE_STANDARD       "Standard";
+    MAPPEDCURVE_TYPE_SEGMENT        "Segment";
+
+	ID_MAPPEDCURVEPROPERTIES			"Mapped Curve Properties" "Mapped Curve";
+}

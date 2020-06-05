@@ -1,0 +1,9 @@
+STRINGTABLE SBrotate
+{
+	SBrotate               "Rotation Surface" "Rotation";
+
+	ROTATESURFACE_ANGLE_START  "Start Angle" "Start";
+	ROTATESURFACE_ANGLE_END    "End Angle" "End";
+	ROTATESURFACE_LINK_AXIS    "Rotation Axis" "Axis";
+  ROTATESURFACE_INVERT_AXIS  "Reverse Rotation" "Inverse Axis";
+}

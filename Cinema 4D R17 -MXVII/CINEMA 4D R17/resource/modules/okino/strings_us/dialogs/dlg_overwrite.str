@@ -1,0 +1,12 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_OVERWRITE
+{
+	STR_TITLE "Okino Exporter Warning";
+	STR_EMPTY "";
+	STR_TMP_PART1 "The file ";
+	STR_TMP_FILE_EXISTS "xxx.fbx"; 
+	STR_TMP_PART2 " already exists.";
+	STRING_OVERWRITE "Overwrite";
+	STRING_CANCEL "Cancel";
+}

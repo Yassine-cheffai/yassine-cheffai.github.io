@@ -1,0 +1,296 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	BROWSER_NAME			"Content Browser";
+	BROWSER_NAME_CMD		"Content Browser...";
+	BROWSER_HELP      "Open Content Browser";
+
+	BROWSER_FILE_MENU						"File";
+	BROWSER_FILE_NEW_FOLDER_STRING	"New Folder";
+	BROWSER_FILE_NEW_BROWSER_STRING	"New Browser...";
+	BROWSER_FILE_NEW_CATALOG_STRING	"New Catalog...";
+	BROWSER_FILE_NEW_PRESET_STRING	"New Preset Library...";
+	BROWSER_FILE_IMPORT_PRESET_STRING	"Build Preset Library...";
+	BROWSER_FILE_OPEN_STRING				"Open";
+	BROWSER_FILE_UPDATE_STRING			"Refresh";
+
+	BROWSER_EDIT_MENU						"Edit";
+	BROWSER_EDIT_SETTINGS_STRING	"Browser Preferences...";
+	BROWSER_EDIT_CLEANUP_STRING		"Clean Up Database";
+
+	BROWSER_VIEW_MENU						"View";
+	BROWSER_VIEW_LIST_STRING		"As List";
+	BROWSER_VIEW_ICON_STRING		"As Icons";
+	BROWSER_VIEW_UNKNOWN_STRING	"Unknown File Formats";
+	BROWSER_VIEW_KNOWN_STRING		"Other Known File Formats";
+	BROWSER_VIEW_IMAGES_STRING	"Images";
+	BROWSER_VIEW_MOVIES_STRING	"Movies";
+	BROWSER_VIEW_C4D_FILES_STRING	"CINEMA 4D Project Files";
+	BROWSER_VIEW_OTHER_3D_FILES_STRING	"Other 3D Project Files";
+
+	BROWSER_VIEW_SIMPLE_STRING	"Tree View";
+	BROWSER_VIEW_SEARCH_STRING	"Search Bar";
+	BROWSER_VIEW_DEFAULTS_STRING	"Default View Settings...";
+	BROWSER_VIEW_RESET_STRING		"Reset to Default View Settings...";
+
+	BROWSER_SORTBY_MENU					"Sort By";
+	BROWSER_SORTBY_NAME_STRING	"Name";
+	BROWSER_SORTBY_MDATE_STRING	"Modification Date";
+	BROWSER_SORTBY_CDATE_STRING	"Creation Date";
+	BROWSER_SORTBY_SIZE_STRING	"Size";
+	BROWSER_SORTBY_KIND_STRING	"Kind";
+	BROWSER_SORTBY_UNSORTED_STRING	"Unsorted";
+
+	BROWSER_GO_MENU							"Go";
+	BROWSER_GO_BACK_STRING			"Back";
+	BROWSER_GO_FORWARD_STRING		"Forward";
+	BROWSER_GO_FOLDER_UP_STRING	"Up One Level";
+	BROWSER_GO_COMPUTER_STRING	"Computer";
+	BROWSER_GO_DESKTOP_STRING		"Desktop";
+	BROWSER_GO_HOME_STRING			"Home Directory";
+	BROWSER_GO_PRESETS_STRING		"Presets";
+	BROWSER_GO_CATALOGS_STRING	"Catalogs";
+	BROWSER_GO_RECENT_STRING		"Recent Items";
+	BROWSER_GO_SEARCH_STRING		"Search Results";
+	BROWSER_GO_FAVORITES_STRING	"Favorites";
+
+	STR_SIZE_BYTES				"Bytes";
+	STR_SIZE_GB						"GB";
+	STR_SIZE_MB						"MB";
+	STR_SIZE_KB						"KB";
+	
+	STR_ROOT_LEVEL				"Overview";
+	STR_COMPUTER					"Computer";
+	STR_NETWORK						"Network";
+	STR_PRESETS						"Presets";
+	STR_CATALOGS					"Catalogs";
+	STR_RECENT_ITEMS			"Recent Items";
+	STR_SEARCH_RESULTS		"Search Results";
+	STR_FAVORITES					"Favorites";
+	STR_DEFAULTS					"Defaults";
+	
+	// strings for the context menu
+	STR_OPEN							"Open";
+	STR_OPEN_NEW_BROWSER	"Open in New Browser...";
+	STR_OPEN_IN_BP3D			"Open in BodyPaint 3D...";
+	STR_OPEN_CONTAINING_FOLDER	"Open Containing Folder";
+	STR_SHOW_IN_FINDER		"Show in Finder";
+	STR_SHOW_IN_EXPLORER	"Show in Explorer";
+	STR_OPEN_IN_FINDER		"Open via Finder";
+	STR_OPEN_IN_EXPLORER	"Open via Explorer";
+	STR_MERGE							"Merge";
+	STR_SEARCH_FOLDER			"Search...";
+	STR_VIEW_AS						"View";
+	STR_AS_ICONS					"As Icons";
+	STR_AS_LIST						"As List";
+	STR_NEW_FOLDER				"New Folder";
+	STR_RENAME						"Rename";
+	STR_DELETE						"Delete...";
+	STR_ADDTO							"Add to ";
+	STR_CREATE_PREVIEW		"Create Preview";
+	STR_PASTE_PREVIEW			"Set Preview...";
+	STR_VIEW_REVERT				"Reset to Default View Settings...";
+	STR_VIEW_DEFAULTS			"Default View Settings...";
+	STR_NEW_FOLDER_NAME		"New Folder";
+	STR_CLIPBOARD_COPY		"Copy";
+	STR_CLIPBOARD_PASTE		"Paste";
+	STR_SHOW_TREEVIEW			"Show Tree View";
+	STR_HIDE_TREEVIEW			"Hide Tree View";
+	STR_UP_ONE_LEVEL				"Up One Level";
+	STR_READ_ONLY						"Read Only";
+	STR_CHANGE_BASE_FOLDER	"Change Base Folder...";
+	STR_ENABLE_SINGLE_CLICK	"Single Click Open";
+	STR_ADDTOFAVORITES			"Add to Favorites";
+
+	STR_TAB_PREVIEW_GROUP			"Preview";
+	STR_TAB_INFO_GROUP				"Info";
+	STR_TAB_LANGUAGE_GROUP				"Languages";
+	STR_PREVIEW_NODE_COUNT		"%d1 of %d2 Objects selected";
+	STR_INFO_NODE_COUNT				"Objects:";
+	STR_INFO_NODE_NAME				"Name:";
+	STR_INFO_NODE_TYPE				"Kind:";
+	STR_INFO_NODE_SIZE				"Size:";
+	STR_INFO_NODE_CREATED			"Created:";
+	STR_INFO_NODE_MODIFIED		"Modified:";
+	STR_INFO_ANNOTATIONS			"Annotations:";
+	STR_INFO_IMAGE_SIZE				"Resolution:";
+	STR_INFO_IMAGE_PROFILE		"Profile:";
+	STR_INFO_IMAGE_BITS				"Bit Depth:";
+	STR_INFO_IMAGE_GRAY				"Grayscale";
+	STR_INFO_IMAGE_RGB				"RGB";
+	STR_INFO_IMAGE_ALPHA			"Alpha";
+	STR_INFO_IMAGE_8BITS			"(8 Bit per Channel)";
+	STR_INFO_IMAGE_16BITS			"(16 Bit per Channel)";
+	STR_INFO_IMAGE_32BITS			"(32 Bit per Channel)";
+	STR_INFO_INQUIRE_SIZE			"Inquiring ...";
+	STR_UPDATETEXTUREPATHS		"Update Texture Paths";
+	STR_UPDATETEXTUREPATHS_ERR	"Updating the texture paths failed.";
+	STR_UPDATETEXTUREPATHS_NOT_FOUND	"The following files could not be found in the local texture directory:";
+	STR_READ_PREVIEW_ERR			"Could not read preview data.";
+	
+	STR_SELECT_HOME						"Select Home Directory";
+	STR_SELECT_PREVIEW_ICON		"Select Preview Icon";
+	STR_SELECT_CATALOG_BASE		"Select Catalog Base Folder";
+
+	STR_COPY_OBJECTS_TITLE		"Copy";
+	STR_COPY_OBJECTS					"Copy %d Objects";
+	STR_OBJECTS_COPIED				"%d Objects Copied";
+	STR_MOVE_OBJECTS_TITLE		"Move";
+	STR_MOVE_OBJECTS					"Move %d Objects";
+	STR_OBJECTS_MOVED					"%d Objects Moved";
+	STR_DELETE_OBJECTS_TITLE	"Delete";
+	STR_DELETE_OBJECTS				"Delete %d Objects";
+	STR_OBJECTS_DELETED				"%d Objects Deleted";
+	STR_MOVE_ERR							"Move Error";
+	STR_COPY_ERR							"Copy Error";
+	STR_READ_ERR							"Read Error";
+	STR_WRITE_ERR							"Write Error";
+	STR_DELETE_ERR						"Delete Error";
+	STR_RECURSIVE_ERR					"You cannot copy or move an item|to a folder which is one of its children";
+	STR_DELETE_WARNING				"You cannot undo this action.|Do you want to delete these items?";
+	STR_DELETE_IMPOSSIBLE			"One of the selected items cannot be deleted.|It might be protected or require different access rights.";
+	STR_NAME_CONFLICT_STR1		"There already is an object called %s.";
+	STR_NAME_CONFLICT_STR2		"Do you want to replace it?";
+
+	STR_3D_FILE								"Project File";
+	STR_C4D_FILE							"CINEMA 4D File";
+	STR_FBX_FILE							"FBX (Filmbox/Motionbuilder) File";
+	STR_LWS_FILE							"LightWave 3D Project File";
+	STR_LWO_FILE							"LightWave 3D Object File";
+	STR_VRML_FILE							"Virtual Reality Modeling Language File";
+	STR_STL_FILE							"STL (Stereolitography) File";
+	STR_Q3D_FILE							"QuickDraw 3D File";
+	STR_3DS_FILE							"3D Studio Max File";
+	STR_OBJ_FILE							"Wavefront File";
+	
+	STR_IMAGE_FILE						"Image File";
+	STR_BMP_FILE							"Windows Bitmap File";
+	STR_PNT_FILE							"MacPaint Image File";
+	STR_PICT_FILE							"Macintosh Picture File";
+	STR_PNG_FILE							"Portable Network Graphics File";
+	STR_JPEG_FILE							"Joint Photographic Experts Group Image File";
+	STR_QTIF_FILE							"Quicktime Picture File";
+	STR_SGI_FILE							"Silicon Graphics Image File";
+	STR_TGA_FILE							"TrueVision Targa Image File";
+	STR_TIF_FILE							"Tagged Image File Format";
+	STR_PSD_FILE							"Adobe Photoshop File";
+	STR_IFF_FILE							"Amiga Interchange Format File";
+	STR_GIF_FILE							"Graphics Interchange Format File";
+	STR_B3D_FILE							"BodyPaint 3D Image File";
+	STR_JPEG2000_FILE					"JPEG 2000 Image File";
+	STR_XBM_FILE							"X Windows BitMap";
+	STR_FPX_FILE							"FlashPix Image File";
+	STR_EXR_FILE							"OpenEXR Image File";
+
+	STR_PLUGIN_SOUND_FILE			"Audio File Plugin";
+	STR_SOUND_FILE						"Audio File";
+	STR_AIF_FILE							"Audio Interchange File Format";
+	STR_AU_FILE								"Sun Audio File";
+	STR_MP2_FILE							"MPEG-1 Audio Layer 2 File";
+	STR_MP3_FILE							"MPEG-1 Audio Layer 3 File";
+	STR_MP4A_FILE							"MPEG-4 Audio File";
+	STR_MP4PA_FILE						"MPEG-4 Protected Audio File";
+	STR_WMA_FILE							"Windows Media Audio File";
+	STR_WAV_FILE							"WAVE File";
+	
+	STR_PLUGIN_COFFEE_FILE		"C.O.F.F.E.E. Plugin";
+	STR_COFFEE_FILE						"C.O.F.F.E.E. File";
+	STR_COF_FILE							"C.O.F.F.E.E. File";
+	STR_COB_FILE							"C.O.F.F.E.E. Binary File";
+
+	STR_PLUGIN_LAYOUT_FILE		"Layout File Plugin";
+	STR_LAYOUT_FILE						"Layout File";
+	STR_L4D_FILE							"CINEMA 4D Layout File";				
+
+	STR_PLUGIN_BASETAG				"Tag Preset Plugin";
+	STR_NODE_BASETAG					"Tag Preset";
+	STR_PLUGIN_SCENE					"Project Plugin";
+	STR_PLUGIN_DEFAULTS				"Default Preset Plugin";
+	STR_NODE_DEFAULT					"Default Element Preset";
+	STR_PLUGIN_SHADER					"Shader Preset Plugin";
+	STR_NODE_SHADER						"Shader Preset";
+	STR_PLUGIN_VIDEOPOST			"Post Effect Preset Plugin";
+	STR_NODE_VIDEOPOST				"Post Effect Preset";
+	STR_PLUGIN_DIRECTORY			"Directory Plugin";
+	STR_NODE_DIRECTORY				"Directory";
+	STR_PLUGIN_UNKNOWN				"Unknown Item Plugin";
+	STR_NODE_UNKNOWN					"Unknown Item";
+	STR_PLUGIN_RENDERDATA			"Render Setting Preset Plugin";
+	STR_NODE_RENDERDATA				"Render Setting Preset";
+	STR_PLUGIN_FILEPRESET			"File Preset Plugin";
+	STR_NODE_FILEPRESET				"File Preset";
+	STR_PLUGIN_BASEOBJECT			"Object Preset Plugin";
+	STR_NODE_BASEOBJECT				"Object Preset";
+	STR_PLUGIN_BASEMATERIAL		"Material Preset Plugin";
+	STR_NODE_BASEMATERIAL			"Material Preset";
+	STR_PLUGIN_MOVIE					"Movie Plugin";
+	STR_NODE_MOVIE						"Movie File";
+	STR_PLUGIN_CATEGORY				"Category Plugin";
+	STR_NODE_CATEGORY					"Category";
+	STR_PLUGIN_CATALOG				"Catalog Plugin";
+	STR_NODE_CATALOG					"Catalog Item";
+	STR_PLUGIN_IMAGE					"Image Plugin";
+	STR_PLUGIN_XPRESSO				"XPresso Preset Plugin";
+	STR_NODE_XPRESSO					"XPresso Preset";
+	STR_PLUGIN_PRESET_LIBRARY_FILE	"Preset Library Plugin";
+	STR_PRESET_LIBRARY_FILE		"Preset Library";
+	STR_PLUGIN_CATALOG_FILE		"Catalog Plugin";
+	STR_CATALOG_FILE					"Catalog";
+	STR_PLUGIN_SCRIPT_FILE		"Script Plugin";
+	STR_SCRIPT_FILE						"Script File";
+
+	STR_BASE_FOLDER						"Base Folder:";
+
+	STR_ERR_RENAME						"Cannot rename!|A file with that name already exists";
+	STR_ERR_RENAME_FAILED			"Rename Failed!|Check for permissions and invalid characters";
+	STR_ERR_FOLDER_CREATE			"Creation of New Folder Failed|Check for permissions and identical names";
+	STR_ERR_CATALOG_CREATE		"Creation of New Catalog Failed|Check for permissions and identical names";
+	STR_ERR_PRESET_LIB_CREATE	"Creation of New Preset Library Failed|Check for permissions and identical names";
+	STR_ERR_ILLEGAL_NAME			"The name contains invalid characters.|Please enter a name without punctuation marks.";
+
+	STR_NAME									"Name";
+  STR_QUERY									"Query";
+	STR_ANNOTATION						"Annotation";
+	STR_FILESIZE							"File Size";
+	STR_MOD_DATE							"Modification Date";
+	STR_CREAT_DATE						"Creation Date";
+	STR_FILETYPE							"File Type";
+  STR_RECURSIVE_SEARCH			"Include Sub-Folders";
+	STR_PLUS									"+";
+	STR_MINUS									"-";
+	
+	STR_CONTAINS							"Contains";
+	STR_STARTSWITH						"Starts With";
+	STR_ENDSWITH							"Ends With";
+	STR_IS										"Is";
+
+	STR_AFTER									"After";
+	STR_BEFORE								"Before";
+	STR_EXACTLY								"Exactly";
+	STR_GREATERTHAN						"Greater Than";
+	STR_LESSTHAN							"Less Than";
+	STR_IS_SCENE							"Project file";
+	STR_IS_MATERIAL						"Material";
+	STR_IS_TEXTURE						"Texture";
+	STR_IS_MOVIE							"Movie";
+	STR_IS_UNKNOWN						"unknown";
+	STR_KB										"KB";
+
+	STR_BROWSER_DB_DAMAGE			"The following database file(s) might have been damaged:";
+	STR_COMMAND_SCAN_DB				"Scan DBs";
+	STR_BROWSER_DB_WRITE_ERR	"Saving data in the following preset library failed:";
+
+	STR_SEARCH								"Search";
+	STR_CANCEL								"Stop";
+	STR_SEARCH_IN_PATH				"Searching in:";
+	STR_SEARCH_BY							"by";
+
+	STR_EXTRACT_LIB4D					"Export library...";
+	STR_EXTRACT_LIB4D_FOLDER	"Export Library As";
+	STR_IMPORT_LIB4D_SRC			"Select Library Import Source";
+	STR_IMPORT_LIB4D_DST			"Save Library As";
+}
+
+

@@ -1,0 +1,14 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_DEINTERLACE
+{
+	STR_TITLE "Deinterlace ...";
+	STR_MIX	"Blend:";
+	STR_FILTERTYP "Filter Type:";
+	STR_D1 "Smooth Deinterlace";
+	STR_D2 "Odd Lines";
+	STR_D3 "Even Lines";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

@@ -1,0 +1,12 @@
+STRINGTABLE Otrimmedsurface
+{
+	Otrimmedsurface             "Trimmed Surface";
+
+	TRIMMEDSURFACE_TYPE             "Trimmed Surface Type" "Type";
+		TRIMMEDSURFACE_TYPE_UNKNOWN       "Unknown";
+		TRIMMEDSURFACE_TYPE_STANDARD      "Standard";
+
+	TRIMMEDSURFACE_PRECISION				"Precision (* 0.001)";
+
+  ID_TRIMMEDSURFACEPROPERTIES			"Trimmed Surface Properties" "Trimmed Surface";
+}

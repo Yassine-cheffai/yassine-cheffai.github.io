@@ -1,0 +1,15 @@
+STRINGTABLE Tignoreobj
+{
+	Tignoreobj				"Sketch Render Tag";
+
+	OUTLINEITAG_INCCHILDREN		"Include Children";
+	OUTLINEITAG_MODE			"Render Culling";
+	OUTLINEITAG_TOONALLOWED		"Allow Lines";
+	OUTLINEITAG_SHADERALLOWED	"Allow Shading";
+
+	OUTLINEITAG_MODE_IGNORECULL		"Exclude";
+	OUTLINEITAG_MODE_CULLINSIDE		"Forced";
+
+	OUTLINEITAG_TAGLIST		"Style Tags";
+
+}

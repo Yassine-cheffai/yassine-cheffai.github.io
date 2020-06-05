@@ -1,0 +1,96 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_OUTLINETAG			"Sketch Style";
+	IDS_OUTLINEMAT			"Sketch Material";
+	IDS_IGNOREOBJECTTAG		"Sketch Render";
+	IDS_TOONUPPOST			"Sketch and Toon";
+	IDS_TOONUPMAT			"Sketch Material";
+	IDS_TOONMATSHORT		"Sketch Mat";
+	IDS_MATERIALTAG			"Sketch Texture";
+
+	//
+
+	IDS_TOONUP			"Sketch and Toon";
+	IDS_VECTOREXPORT	"Vector Export";
+	IDS_TOONUPPREFS		"Sketch Preferences";
+	IDS_TOONUPDEFAULTS	"Sketch Defaults Preferences";
+	IDS_RESETDEFAULTS	"Reset to Defaults";
+	IDS_DEFAULTS		"Defaults";
+	IDS_COFFEESTATUS	"Status: ";
+	IDS_COFFEENOERR		"No Errors";
+	IDS_COFFEELINE		"Line: ";
+	IDS_COFFEECOL		" Col: ";
+	IDS_COFFEEERR		" Error: ";
+	IDS_COFFEEFAILED	"Coffee failed to initialise";
+	IDS_EXPORTING		"Exporting...";
+	IDS_FRAME			"Frame";
+	IDS_SURFACE			"Surface";
+	IDS_LAYER			"Layer";
+	IDS_LINES			"Lines";
+	IDS_COMPLETE		"Completed.";
+
+	IDS_MULTIPLY		"Multiply";
+	IDS_HIDDEN			"Hidden";
+	IDS_DEPTH			"Depth";
+	IDS_ALPHA			"Alpha";
+
+	IDS_LINE_OUTLINE	"Outline";
+	IDS_LINE_FOLD		"Folds";
+	IDS_LINE_OVERLAPS	"Overlaps";
+	IDS_LINE_CREASE		"Creases";
+	IDS_LINE_INTERSECTION	"Intersections";
+	IDS_LINE_BORDER		"Border";
+	IDS_LINE_MATERIAL	"Material";
+	IDS_LINE_EDGES		"Edges";
+	IDS_LINE_ANGLE		"Angle";
+	IDS_LINE_CONTOUR	"Contour";
+	IDS_LINE_ISOPARMS	"Isoparms";
+	IDS_LINE_TRI		"Triangulation";
+	IDS_LINE_SPLINES	"Splines";
+	IDS_LINE_PARTICLES	"Particles";
+	IDS_LINE_MOTION		"Motion";
+	IDS_LINE_ZDELTA		"Depth";
+
+	IDS_PROGRESSLINE	"Generating Lines (pass 2 of 2)...";
+	IDS_OBJECTBUILD		"Build Lines (pass 1 of 2)...";
+
+	IDS_EDITPATTERN		"Edit Pattern";
+	IDS_SPOTSHADER		"Spots";
+	IDS_CELSHADER		"Cel";
+	IDS_HATCHSHADER		"Hatch";
+	IDS_ARTSHADER		"Art";
+	IDS_ILLUSTRATOR		"Illustrator (*.ai)";
+	IDS_TOONNAME		"CINEMA 4D Sketch and Toon";
+	IDS_TOONCOPYRIGHT	"(c)MAXON Computer";
+
+	IDS_TOONNOTFOUND	"The Sketch and Toon Post Effect is required to export this format";
+	IDS_DEMORENDER		"Rendering is limited to 640x480 pixels for this DEMO";
+
+	IDS_STROKEPREVIEW		"Stroke";
+
+	IDS_PREVIEW_BACKGROUND	"Colors";
+	IDS_PREVIEW_DEFAULT		"Default Background";
+	IDS_PREVIEW_BLACK		"Black Background";
+	IDS_PREVIEW_WHITE		"White Background";
+	IDS_PREVIEW_SHADING		"Shaded Background";
+	IDS_PREVIEW_OBJDEFAULT	"Default Object";
+	IDS_PREVIEW_OBJWHITE	"White Object";
+	IDS_PREVIEW_OBJBLACK	"Black Object";
+	IDS_PREVIEW_OBJTRANS	"Transparent Object";
+	IDS_PREVIEW_OBJSHADING	"Shaded Object";
+
+	IDS_BIRENDER				"BiRender";
+	IDS_BIRENDER_INIT		"BiRender Preparing...";
+	IDS_BIRENDER_SHADOWS	"BiRendering Shadows...";
+	IDS_BIRENDER_RENDER		"BiRendering...";
+
+	IDS_ST_OBJECT_NAME "Sketch Lines";
+
+	IDS_SKETCH_BROWSERPRESET	"Sketch Preset";
+
+	IDS_BROWSERPRESET_PRESETEXISTS	"A # with the name # already exists, do you want to overwrite it?";
+	IDS_MATERIAL_TYPE_ERROR		"Error: Only materials of type 'Sketch Material' may be connected to the 'Default Visible' slot.";
+}

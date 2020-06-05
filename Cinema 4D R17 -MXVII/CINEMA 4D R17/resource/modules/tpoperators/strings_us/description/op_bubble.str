@@ -1,0 +1,14 @@
+STRINGTABLE OP_Bubble
+{
+	OP_Bubble					"PBubble";
+	
+	BUB_AMP 			"Amplitude";
+	BUB_AMPVAR	  "Variation";
+	BUB_PERIOD	  "Speed";
+	BUB_PERIODVAR "Variation";
+	BUB_PHASEVAR  "Phase Variation";
+	
+	IN_BUB_PARTICLE	"Particle";
+	IN_BUB_ON				"On";
+	IN_BUB_ATIME		"Animation Time";	
+}

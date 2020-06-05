@@ -1,0 +1,8 @@
+STRINGTABLE CBpolynom
+{
+	CBpolynom             "Polynomial Spline Curve" "Polynom Curve";
+
+	POLYNOMCURVE_CLOSED       "Closed Spline";
+	POLYNOMCURVE_DEGREE       "Degree";
+	POLYNOMCURVE_POINTCOUNT   "Points";
+}

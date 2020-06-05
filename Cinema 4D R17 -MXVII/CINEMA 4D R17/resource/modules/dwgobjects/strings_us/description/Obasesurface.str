@@ -1,0 +1,29 @@
+STRINGTABLE Obasesurface
+{
+	Obasesurface                "Base Surface";
+
+	BASESURFACE_TYPE                "Surface Type" "Type";
+		BASESURFACE_TYPE_UNKNOWN          "Unknown";
+		BASESURFACE_TYPE_NURBS            "NURBS";
+		BASESURFACE_TYPE_POLYNOMIAL       "Polynomial";
+		BASESURFACE_TYPE_PLANE            "Plane";
+    BASESURFACE_TYPE_EXTRUDE          "Extrusion";
+    BASESURFACE_TYPE_ROTATE           "Rotation";
+	BASESURFACE_OUTPUT              "Output";
+		BASESURFACE_OUTPUT_LINEAR         "Linear";
+		BASESURFACE_OUTPUT_BSPLINE        "B-Spline";
+		BASESURFACE_OUTPUT_HYPERNURBS	    "Subdivision Surface";
+    BASESURFACE_OUTPUT_CONVERT        "Basis-Convert";
+	BASESURFACE_USUB                "Subdivisions U" "Sub U";
+	BASESURFACE_VSUB                "Subdivisions V" "Sub V";
+	BASESURFACE_NORMALS             "Calculate Normals";
+	BASESURFACE_SWAPNORMALS         "Swap Normals";
+  BASESURFACE_MAKENURBS           "Make NURBS";
+
+ 	BASESURFACE_TESTON              "Enable";
+	BASESURFACE_TESTUPOINT					"Position U" "Pos.U";
+	BASESURFACE_TESTVPOINT					"Position V" "Pos.V";
+
+	ID_SURFACEPROPERTIES						"Surface Properties" "Surface";
+	ID_SURFACETEST      						"Test Properties" "Test";
+}

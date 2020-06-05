@@ -1,0 +1,11 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+  IDS_COLLADA15_IMPORT "COLLADA 1.5 (*.dae)";
+  
+  IDS_COLLADA15_EXPORT "COLLADA 1.5 (*.dae)";
+  
+  IDS_COLLADA15_IMPORT_TAG "COLLADA15IMPORTTAG";
+}

@@ -1,0 +1,35 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_SCULPT_BRUSH_PULL		"Pull";
+	IDS_SCULPT_BRUSH_FLATTEN	"Flatten";
+	IDS_SCULPT_BRUSH_PINCH		"Pinch";
+	IDS_SCULPT_BRUSH_ERASE		"Erase";
+	IDS_SCULPT_BRUSH_GRAB		"Grab";
+	IDS_SCULPT_BRUSH_MASK		"Mask";
+	IDS_SCULPT_BRUSH_WAX		"Wax";
+	IDS_SCULPT_BRUSH_KNIFE		"Knife";
+	IDS_SCULPT_BRUSH_INFLATE	"Inflate";
+	IDS_SCULPT_BRUSH_FILL		"Fill";
+	IDS_SCULPT_BRUSH_SCRAPE		"Scrape";
+	IDS_SCULPT_BRUSH_REPEAT		"Repeat";
+	IDS_SCULPT_BRUSH_AMPLIFY	"Amplify";
+	IDS_SCULPT_BRUSH_SELECT		"Select";
+
+	IDS_SCULPT_BRUSH_PULL_HELP	"Pull or push the surface";
+	IDS_SCULPT_BRUSH_FLATTEN_HELP	"Flatten out the surface by moving the vertices so they lie on the same plane";
+	IDS_SCULPT_BRUSH_PINCH_HELP	"Pinch the vertices together";
+	IDS_SCULPT_BRUSH_ERASE_HELP	"Erase the data on the currently selected layer";
+	IDS_SCULPT_BRUSH_GRAB_HELP	"Grab the surface and stretch or pull it out from the surface";
+	IDS_SCULPT_BRUSH_MASK_HELP	"Mask out an area of the surface so that it will not be affected by any brush";
+	IDS_SCULPT_BRUSH_WAX_HELP	"Use the wax brush to build up the surface using flat strips";
+	IDS_SCULPT_BRUSH_KNIFE_HELP	"Cut into surface to create fine creases or pull the surface to create fine ridges";
+	IDS_SCULPT_BRUSH_INFLATE_HELP	"Moves the vertices along their normal";
+	IDS_SCULPT_BRUSH_FILL_HELP	"Fill in gaps on the surface";
+	IDS_SCULPT_BRUSH_SCRAPE_HELP	"Scrape away the tops of bumps or ridges";
+	IDS_SCULPT_BRUSH_REPEAT_HELP	"Create a repeatable pattern that follows the stroke of the brush";
+	IDS_SCULPT_BRUSH_AMPLIFY_HELP	"Amplifies the differences in the surface by moving points away from brush";
+	IDS_SCULPT_BRUSH_SELECT_HELP	"Select Points and Polygons using Symmetry";
+}

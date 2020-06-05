@@ -1,0 +1,7 @@
+STRINGTABLE Ofigure
+{
+	Ofigure "Figure Object";
+
+	PRIM_FIGURE_HEIGHT "Height";
+	PRIM_FIGURE_SUB    "Segments";
+}

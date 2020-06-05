@@ -1,0 +1,14 @@
+// C4D-DialogResource
+
+DIALOG DLG_DEMOALERT
+{
+	NAME	STR_TITLE;
+	
+	GROUP
+	{
+		COLUMNS 1;
+		STATICTEXT {NAME STR_NOTICE; }		
+	}
+
+	DLGGROUP { OK; }
+}

@@ -1,0 +1,17 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_EMBOSS
+{
+	STR_TITLE "Emboss";
+	STR_E1 "Emboss #1";
+	STR_E2 "Emboss #2";
+	STR_E3 "Emboss #3";
+	STR_E4 "Emboss #4";
+	STR_E5 "Emboss #5";
+	STR_ANGLE	"Angle:";
+	STR_MIX	"Blend:";
+	STR_FILTERTYP "Filter Type:";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

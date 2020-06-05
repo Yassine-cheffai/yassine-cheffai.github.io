@@ -1,0 +1,41 @@
+STRINGTABLE OP_Blurp
+{
+	OP_Blurp	"PBlurp";
+		
+	OP_BLURP_OBJECTS						"Objects";
+	OP_BLURP_PHASE							"Animation Phase";
+	OP_BLURP_STAY								"Stay";
+	OP_BLURP_FRAG								"Frag";
+	OP_BLURP_NEXT								"Next";
+	OP_BLURP_INTANGENT					"In Tangent";
+	OP_BLURP_OUTTANGENT					"Out Tangent";
+	OP_BLURP_FROMTO							"From to";
+	OP_BLURP_FROMTO_NZ_PZ				"-Z to +Z";
+	OP_BLURP_FROMTO_PZ_NZ				"+Z to -Z";
+	OP_BLURP_FROMTO_NY_PY				"-Y to +Y";
+	OP_BLURP_FROMTO_PY_NY				"+Y to -Y";
+	OP_BLURP_FROMTO_NX_PX				"-X to +X";
+	OP_BLURP_FROMTO_PX_NX				"+X to -X"; 
+	OP_BLURP_TYPE								"Type";
+	OP_BLURP_TYPE_FACE					"Single Faces";
+	OP_BLURP_TYPE_SMOOTH				"Smooth and Distance";
+	OP_BLURP_TYPE_COUNT					"Count";
+	OP_BLURP_SANGLE							"Angle";
+	OP_BLURP_SRAD								"Radius";
+	OP_BLURP_COUNT							"Count";
+	OP_BLURP_THICK							"Thickness";
+	OP_BLURP_NOFRAG							"No Fragments";
+	OP_BLURP_RTYPE							"Remaining Type";
+	OP_BLURP_RTYPE_NONE					"None";
+	OP_BLURP_RTYPE_HOLLOW				"Hollow";
+	OP_BLURP_RTYPE_SOLID				"Solid";
+	OP_BLURP_RTHICK							"Thickness";
+	OP_BLURP_IN_ON							"On";
+	OP_BLURP_IN_ATIME						"Animation Time";	
+	OP_BLURP_OUT_REMAINING			"Remaining Particle";
+	OP_BLURP_OUT_REMAININGCOUNT	"Remaining Count";
+	OP_BLURP_OUT_REMAININGNUM		"Remaining Number";
+	OP_BLURP_OUT_FRAGMENT				"Fragment Particle";
+	OP_BLURP_OUT_FRAGMENTCOUNT	"Fragment Count";
+	OP_BLURP_OUT_FRAGMENTNUM		"Fragment Number";
+}

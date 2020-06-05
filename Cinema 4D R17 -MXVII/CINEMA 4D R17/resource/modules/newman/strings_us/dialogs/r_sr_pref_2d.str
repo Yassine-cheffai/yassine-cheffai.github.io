@@ -1,0 +1,12 @@
+DIALOGSTRINGS R_SR_PREF_2D
+{
+  T1 "Render 2D Sound...";
+  T2 "Path...";
+  T3 "Range";
+  T4 "Project";
+  T5 "Preview";
+  T6 "Raytracer";
+  T7 "Play Sound when Ready";
+  TC "Start Rendering...";
+  TF "Save as";
+}

@@ -1,0 +1,42 @@
+// C4D-StringResource
+// Identifier	Text 
+
+STRINGTABLE
+{
+	IDS_LS_ALL						"ALL";
+	IDS_LS_WIN						"WIN";
+	IDS_LS_MAC						"OSX";
+	IDS_LS_LX							"LINUX";
+	IDS_LS_DELETEGROUP		"Delete Group";
+	IDS_LS_DELETE					"Delete";
+	IDS_LS_INSYNC					"in sync";
+	IDS_LS_BLOCKLIC				"Block License";
+	IDS_LS_UNBLOCKLIC			"Unblock License";
+	IDS_LS_AGO						"ago";
+	IDS_LS_REMAINING			"remaining";
+	IDS_LS_NOW						"now";
+	IDS_LS_NOTCONNECTED		"<<not connected>>";
+	IDS_LS_EXPIRED				"<<expired>>";
+	IDS_LS_PACKAGE				"Serial Package";
+	IDS_LS_SERIAL					"Serial";
+	IDS_LS_VERSION				"Version";
+	IDS_LS_LICENSES				"Licenses";
+	IDS_LS_NAME						"Name";
+	IDS_LS_COLOR					"Color";
+	IDS_LS_MACHINEID			"MachineID";
+	IDS_LS_IPADDRESS			"IP Address";
+	IDS_LS_COMPUSER				"Computer/User";
+	IDS_LS_LASTLOGIN			"Last Login";
+	IDS_LS_LASTSEEN				"Last Seen";
+	IDS_LS_VALIDUNTIL			"Valid Until";
+	IDS_LS_ENTERREGDATA		"Please enter your Registration Data (Name, Company, Street, City, Country)!";
+	IDS_LS_ENTERSERIALS		"Enter your Serial Numbers";
+	IDS_LS_ERRORREADING		"Error reading #";
+	IDS_LS_ERRORWRINTING	"Error writing #";
+	IDS_LS_DEFAULT				"<<Default>>";
+	IDS_LS_DEFAULT_NONE		"<<None>> (Using Default Group Settings)";
+	IDS_LS_OPENLICSERVER	"Open Serial Number Server...";
+	IDS_LS_MODULE					"Serial Module";
+	IDS_LS_CLIENT					"Client";
+	IDS_LS_GROUP					"User Group";
+}

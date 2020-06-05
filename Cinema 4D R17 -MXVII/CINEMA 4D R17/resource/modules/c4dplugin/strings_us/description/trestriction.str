@@ -1,0 +1,18 @@
+STRINGTABLE Trestriction
+{
+	Trestriction "Restriction Tag";
+
+	RESTRICTIONTAG_NAME_01					"Name [1]" "Name";
+	RESTRICTIONTAG_NAME_02					"Name [2]" "Name";
+	RESTRICTIONTAG_NAME_03					"Name [3]" "Name";
+	RESTRICTIONTAG_NAME_04					"Name [4]" "Name";
+	RESTRICTIONTAG_NAME_05					"Name [5]" "Name";
+	RESTRICTIONTAG_NAME_06					"Name [6]" "Name";
+
+	RESTRICTIONTAG_VAL_01						"Strength [1]" "V";
+	RESTRICTIONTAG_VAL_02						"Strength [2]" "V";
+	RESTRICTIONTAG_VAL_03						"Strength [3]" "V";
+	RESTRICTIONTAG_VAL_04						"Strength [4]" "V";
+	RESTRICTIONTAG_VAL_05						"Strength [5]" "V";
+	RESTRICTIONTAG_VAL_06						"Strength [6]" "V";
+}

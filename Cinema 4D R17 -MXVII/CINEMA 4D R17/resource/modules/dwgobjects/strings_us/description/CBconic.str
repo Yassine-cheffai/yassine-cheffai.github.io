@@ -1,0 +1,16 @@
+STRINGTABLE CBconic
+{
+	CBconic                "Conic Curve" "Conic";
+
+  CONICCURVE_TYPE            "Conic Type" "Type";
+	  CONICCURVE_DEPRECIATED       "Depreciated";
+	  CONICCURVE_ELLIPSE           "Ellipse";
+	  CONICCURVE_HYPERBOLA         "Hyperbola";
+	  CONICCURVE_PARABOLA          "Parabola";
+
+	CONICCURVE_ABC             "Coefficients A,B,C" "A,B,C";
+	CONICCURVE_DEF             "Coefficients D,E,F" "D,E,F";
+
+	CONICCURVE_P1              "Start Point" "Start";
+	CONICCURVE_P2              "End Point" "End";
+}

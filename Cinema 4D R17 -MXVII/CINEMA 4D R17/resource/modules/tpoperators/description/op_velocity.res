@@ -1,0 +1,41 @@
+CONTAINER OP_Velocity
+{
+	NAME OP_Velocity;
+	INCLUDE GVbase;
+
+	GROUP ID_GVPROPERTIES
+	{
+	}
+
+	GROUP ID_GVPORTS
+	{
+		LONG	VEL_USE	{ INPORT; EDITPORT; 
+										CYCLE
+										{
+											VEL_USE_DIRSPEED;
+											VEL_USE_SPEED;
+											VEL_USE_DIR;
+										}
+									}
+	
+		VECTOR		VEL_DIR			{ INPORT;	EDITPORT; }
+		REAL			VEL_DIRVAR	{ INPORT; EDITPORT; UNIT DEGREE; MIN 0.0; MAX 180.0; }
+		REAL      VEL_SPEED		{ INPORT; EDITPORT; }
+		REAL			VEL_SPEEDVAR{ INPORT; EDITPORT; UNIT PERCENT; MIN 0.0; MAX 100.0; }
+		LONG			VEL_TYPE{ INPORT; EDITPORT; 
+												CYCLE
+												{
+													VEL_TYPE_REPLACE;
+													VEL_TYPE_MULT;
+													VEL_TYPE_ADD;
+												}
+											}
+
+		BOOL      VEL_PERSEC  { INPORT; EDITPORT; }
+
+
+		BOOL      	IN_VEL_ON				{ INPORT; PORTONLY; }
+		BASETIME   	IN_VEL_ATIME		{ INPORT; PORTONLY; }
+		TP_PARTICLE	IN_VEL_PARTICLE	{ INPORT; PORTONLY; STATICPORT; NEEDCONNECTION; CREATEPORT; }
+	}
+}

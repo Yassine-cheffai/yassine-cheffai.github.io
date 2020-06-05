@@ -1,0 +1,29 @@
+STRINGTABLE OP_Alignment
+{
+	OP_Alignment					"PAlignment";
+
+	ALIGN_LAZINESS			"Laziness";
+	ALIGN_SOURCE				"Source";
+	ALIGN_SOURCE_X			"X";
+	ALIGN_SOURCE_Y			"Y";
+	ALIGN_SOURCE_Z			"Z";
+	ALIGN_INVERT				"Invert";
+	ALIGN_XROT					"X Rotation";
+	ALIGN_YROT					"Y Rotation";
+	ALIGN_ZROT					"Z Rotation";
+	ALIGN_AXIS					"Axis";
+	ALIGN_VAR						"Variation";
+	ALIGN_TYPE_NONE			"None";
+	ALIGN_TYPE_RANDOM		"Random";
+	ALIGN_TYPE_TRAVEL		"Direction Of Travel";
+	ALIGN_TYPE_X				"World X";
+	ALIGN_TYPE_Y				"World Y";
+	ALIGN_TYPE_Z				"World Z";
+	ALIGN_TYPE_USERDIR	"User Direction";
+	ALIGN_TYPE_USERPOS	"User Position";
+	ALIGN_TYPE					"Type";
+	
+	IN_ALIGN_PARTICLE	"Particle";
+	IN_ALIGN_ON				"On";
+	IN_ALIGN_ATIME		"Animation Time";	
+}

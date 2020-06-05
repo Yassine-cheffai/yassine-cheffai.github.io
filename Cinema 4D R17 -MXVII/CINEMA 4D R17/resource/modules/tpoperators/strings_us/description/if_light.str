@@ -1,0 +1,19 @@
+STRINGTABLE IF_Light
+{
+	IF_Light	"PLight";
+	
+	TP_IF_LIGHT_LIGHT	  "Light";
+	TP_IF_LIGHT_THRESH  "Threshold";
+	TP_IF_LIGHT_COLON		"Color On";
+	TP_IF_LIGHT_COLOR		"Color";
+	TP_IF_LIGHT_COLVAR	"Color Variation";
+
+	TP_IF_LIGHT_POSITION	"Position";
+	TP_IF_LIGHT_NORMAL		"Normal";
+	TP_IF_LIGHT_ATIME			"Animation Time";
+
+	TP_OUT_IF_LIGHT_ON					"On";
+	TP_OUT_IF_LIGHT_INTENSITY		"Intensity";
+	TP_OUT_IF_LIGHT_COLOR				"Color";
+	TP_OUT_IF_LIGHT_DIRECTION		"Direction";
+}

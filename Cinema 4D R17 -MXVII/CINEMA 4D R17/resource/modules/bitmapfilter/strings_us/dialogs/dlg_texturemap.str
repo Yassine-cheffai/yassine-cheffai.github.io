@@ -1,0 +1,18 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_TEXTUREMAP
+{
+	STR_TITLE "Texture Blend";
+	STR_DEPTH "Exposure:";
+	STR_DIRECTION "Rotation:";
+	STR_E1 "0 Degree";
+	STR_E2 "90 Degree";
+	STR_E3 "180 Degree";
+	STR_E4 "270 Degree";
+	STR_TEXNAME "Texture Name:";
+	STR_PRENAME "Please Select Texture";
+	STR_MID	"Center Value:";
+	STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

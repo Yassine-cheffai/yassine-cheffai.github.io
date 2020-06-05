@@ -1,0 +1,17 @@
+STRINGTABLE HP_Chronometer
+{
+	HP_Chronometer	"PChronometer";
+	
+	CHR_TYPE					"Type";	
+	CHR_TYPE_RESET		"Reset";
+	CHR_TYPE_SUM			"Sum"; 	
+	CHR_TFAC					"Time Factor";
+	CHR_TVAR					"Variation";							
+
+
+	IN_CHR_ON					"On";
+	IN_CHR_ATIME			"Animation Time";
+	IN_CHR_PARTICLE		"Particle";
+	
+	OUT_CHR_TIME			"Time";
+}

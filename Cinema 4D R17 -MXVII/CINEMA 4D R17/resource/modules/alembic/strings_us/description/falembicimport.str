@@ -1,0 +1,24 @@
+STRINGTABLE Falembicimport
+{
+	Falembicimport			"Alembic Import Settings";
+	ABCIMPORT_STR_ANIMATION		"Animation";
+	ABCIMPORT_STARTFRAME		"Start Frame";
+	ABCIMPORT_NOSTARTFRAME		"Original";
+	ABCIMPORT_FPS			"Frame Rate";
+	ABCIMPORT_STR_GENERAL		"General";
+	ABCIMPORT_SCALE			"Scale";
+	ABCIMPORT_CAMERAS		"Cameras";
+	ABCIMPORT_SUBDS			"SubD";
+	ABCIMPORT_CURVES		"Curves";
+	ABCIMPORT_CURVES_AS_SPLINES	"As Splines Only";
+	ABCIMPORT_CURVES_AS_HAIR	"As Hair If Possible";
+	ABCIMPORT_POINTS		"Points";
+	ABCIMPORT_POINTS_AS_TPARTICLES	"As Particle Geometry";
+	ABCIMPORT_POINTS_AS_GEOMETRY	"As Polygon Object";
+	
+	ABCIMPORT_STR_OPTIONS		"Optional Data";
+	ABCIMPORT_VISIBILITY		"Visibility";
+	ABCIMPORT_NORMALS		"Normals";
+	ABCIMPORT_UVS			"UVs";
+	ABCIMPORT_FACESETS		"Face Sets";
+}

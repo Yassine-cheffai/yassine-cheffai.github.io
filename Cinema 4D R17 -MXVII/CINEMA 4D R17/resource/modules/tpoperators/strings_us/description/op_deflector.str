@@ -1,0 +1,48 @@
+STRINGTABLE OP_Deflector
+{
+	OP_Deflector	"PDeflector";
+	
+	UD_OBJECT				"Object";
+	UD_BOUNCE				"Bounce";
+	UD_BOUNCEVAR		"Variation";
+	UD_ENERGY				"Energy";
+	UD_SURFACE			"Surface";
+	UD_FRICTION			"Friction";
+	UD_SPIN					"Spin";
+	UD_VELINHERI		"Vel. Inheritance";
+	UD_CHAOS			  "Chaos";
+	UD_SEED				  "Seed";
+	UD_EVENT			  "Event Only";
+	UD_CTYPE			  "Collision Type";
+	UD_CTYPE_FRONT  "Front";
+	UD_CTYPE_BACK		"Back";
+	UD_CTYPE_TWO		"Two Side";
+	UD_OTYPE				"Offset Type";
+	UD_OTYPE_NONE		"None";
+	UD_OTYPE_PSIZE_TRAVEL	"Particle Size Travel";
+	UD_OTYPE_PSIZE_X	"Particle Size X";
+	UD_OTYPE_PSIZE_Y	"Particle Size Y";
+	UD_OTYPE_PSIZE_Z	"Particle Size Z";
+	UD_OTYPE_VALUE_TRAVEL	"User Defined Travel";
+	UD_OTYPE_VALUE_X	"User Defined X";
+	UD_OTYPE_VALUE_Y	"User Defined Y";
+	UD_OTYPE_VALUE_Z	"User Defined Z";
+	UD_OFFSET			  "Offset";
+	UD_OFFSETVAR		"Variation";		
+	UD_DTYPE			  "Deflector Type";		
+	UD_DTYPE_BOX		"Box";
+	UD_DTYPE_SPHERE	"Sphere";
+	UD_DTYPE_OBJECT	"Object";
+	UD_DTYPE_GEOM		"Geometry";
+	UD_XSIZE			  "X Size";
+	UD_YSIZE			  "Y Size";
+	UD_ZSIZE				"Z Size";
+	UD_RADIUS			  "Radius";
+	IN_UD_PARTICLE	"Particle";
+	IN_UD_ON				"On";
+	IN_UD_ATIME			"Animation Time";	
+	OUT_UD_EVENT							"Event";	
+	OUT_UD_EVENT_POSITION			"Event Position";	
+	OUT_UD_EVENT_NORMAL				"Event Normal";	
+	OUT_UD_EVENT_REFLECTION		"Event Reflection";	
+}

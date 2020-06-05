@@ -1,0 +1,11 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_MARCHIGRASS		"Grass";
+	IDS_TARCHIGRASS		"Architectural Grass";
+	IDS_CARCHIGRASS		"Grow Grass";
+	IDH_CARCHIGRASS		"Grow Architectural Grass on Selected Object";
+	IDS_MARCHIGRASS_PREVIEW	"Grass";
+}

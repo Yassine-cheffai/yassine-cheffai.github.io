@@ -1,0 +1,10 @@
+STRINGTABLE Oextrude
+{
+	Oextrude "Extrude Object";
+
+	EXTRUDEOBJECT_ISOPARM			"Isoparm Subdivision" "Iso Subdivision";
+	EXTRUDEOBJECT_SUB					"Subdivision";
+	EXTRUDEOBJECT_MOVE				"Movement";
+	EXTRUDEOBJECT_FLIPNORMALS	"Flip Normals";
+	EXTRUDEOBJECT_HIERARCHIC	"Hierarchical";
+}

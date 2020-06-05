@@ -1,0 +1,14 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_SMOOTH
+{
+	STR_TITLE "Smooth Image";
+	STR_1 "Box";
+	STR_2 "Triangle";
+	STR_3 "Gauss";
+	STR_MIX	"Blend:";
+	STR_FILTERTYP "Filter Type:";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

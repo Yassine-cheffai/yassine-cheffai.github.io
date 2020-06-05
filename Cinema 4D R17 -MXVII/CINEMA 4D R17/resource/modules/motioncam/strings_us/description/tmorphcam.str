@@ -1,0 +1,43 @@
+STRINGTABLE Tmorphcam
+{
+	Tmorphcam															"Camera Morph";
+
+	TMORPHCAM_LIST												"Source Cameras";
+	TMORPHCAM_LIST_LINKS									"Multi Morph: List" "List";
+	TMORPHCAM_BLEND												"Blend";
+	TMORPHCAM_STEADY											"Stabilize";
+	TMORPHCAM_INFOTEXT										"";
+	TMORPHCAM_INTERPOLATION								"Morph Interpolation" "Interpolation";
+		TMORPHCAM_INTERPOLATION_LINEAR				"Linear";
+		TMORPHCAM_INTERPOLATION_CUBIC					"Soft 1";
+		TMORPHCAM_INTERPOLATION_AKIMA					"Soft 2";
+	TMORPHCAM_BLEND_CURVE									"Blend Curve";
+	TMORPHCAM_LIST_MODE										"Source Mode";
+		TMORPHCAM_LIST_MODE_SIMPLE						"Simple Morph";
+		TMORPHCAM_LIST_MODE_MULTI							"Multi Morph";
+	TMORPHCAM_LIST_LINK_A									"Simple Morph: Camera 1" "Camera 1";
+	TMORPHCAM_LIST_LINK_B									"Simple Morph: Camera 2" "Camera 2";
+	TMORPHCAM_STEADY_LINK									"Stabilizing Object";
+
+	TMORPHCAM_VISUALIZATION								"Visualization";
+	TMORPHCAM_VISUALIZATION_POS						"Show Position";
+	TMORPHCAM_VISUALIZATION_ALIGN					"Show Alignment";
+	TMORPHCAM_VISUALIZATION_NAMES					"Show Names";
+	TMORPHCAM_VISUALIZATION_CAM_ENABLED		"Use Custom Camera Color" "Use Custom Color";
+	TMORPHCAM_VISUALIZATION_CAM_COLOR			"Camera Color" "Color";
+
+	TMORPHCAM_TRACK												"Morph Tracks";
+	TMORPHCAM_TRACK_FOCALLENGTH						"Morph Focal Length" "Focal Length";
+	TMORPHCAM_TRACK_APERTURE							"Morph Sensor Size" "Sensor Size";
+	TMORPHCAM_TRACK_TARGETDIST						"Morph Focus Distance" "Focus Distance";
+	TMORPHCAM_TRACK_DOF										"Morph Depth of Field" "Depth of Field";
+	TMORPHCAM_TRACK_WB										"Morph White Balance" "White Balance";
+	TMORPHCAM_TRACK_STEREO								"Morph Stereo Parameters" "Stereo Parameters";
+	TMORPHCAM_TRACK_PHY_FNUMBER						"Morph F-Stop" "F-Stop";
+	TMORPHCAM_TRACK_PHY_ISOGAIN						"Morph ISO/Gain" "ISO/Gain";
+	TMORPHCAM_TRACK_PHY_SHUTTER						"Morph Shutter" "Shutter";
+	TMORPHCAM_TRACK_PHY_LENSDIST					"Morph Lens Distortion" "Lens Distortion";
+	TMORPHCAM_TRACK_PHY_VIGNETTE					"Morph Vignetting" "Vignetting";
+	TMORPHCAM_TRACK_PHY_ABERRATION				"Morph Chromatic Aberration" "Chromatic Aberration";
+	TMORPHCAM_TRACK_PHY										"Physical Camera";
+}

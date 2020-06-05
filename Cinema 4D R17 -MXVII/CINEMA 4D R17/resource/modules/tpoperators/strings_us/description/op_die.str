@@ -1,0 +1,11 @@
+STRINGTABLE OP_Die
+{
+	OP_Die	"PDie";
+		
+	DIE_TIME				"Time";
+	DIE_VAR					"Variation";
+
+	IN_DIE_PARTICLE	"Particle";
+	IN_DIE_ON				"On";
+	IN_DIE_ATIME		"Animation Time";	
+}

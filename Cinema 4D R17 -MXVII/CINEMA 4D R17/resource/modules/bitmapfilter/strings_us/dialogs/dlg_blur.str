@@ -1,0 +1,12 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_BLUR
+{
+	STR_TITLE "Blur";
+	STR_WIDTH	"Horizontal Radius:";
+	STR_HEIGHT	"Vertical Radius:";
+	STR_SYNC_SLIDERS "Synchronize Sliders";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

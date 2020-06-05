@@ -1,0 +1,21 @@
+STRINGTABLE ToolPhongSelection
+{
+   ToolPhongSelection "Phong Break Selection";
+
+	MDATA_PWS_ADD_TO_SEL "Add to Selection";
+	MDATA_PWS_OVERRIDE_PHONG "Override Phong Tag";
+	MDATA_PWS_PHONGGROUP "Phong Settings";
+	MDATA_PWS_USE_PHONGBREAKS "Use Edge Breaks";
+	MDATA_PWS_ANGLE_THRESHOLD "Phong Angle";
+	MDATA_PWS_SP_LENWEIGHT "Length Weight";
+	MDATA_PWS_SP_PHONGWEIGHT "PhongBreak Weight";
+	
+	PWS_BTN_SELECT_ALL "Select All";
+	
+	PWS_TAG_GROUP "Selection Tag Functions";
+	PWS_TAG_LINK "Tag Name";
+	PWS_TAG_SET_SEL "Set Selection";
+	PWS_TAG_ADD_SEL "Add Selection";
+	PWS_TAG_REM_SEL "Remove Selection";
+	PWS_TAG_AUTO_SET_SEL "Auto Set Selection";	
+}

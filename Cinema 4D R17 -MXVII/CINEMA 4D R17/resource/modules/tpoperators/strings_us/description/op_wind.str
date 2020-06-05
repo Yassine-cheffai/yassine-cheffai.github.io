@@ -1,0 +1,21 @@
+STRINGTABLE OP_Wind
+{
+	OP_Wind	"PWind";
+		
+	WIND_OBJECT					"Object";
+	WIND_STRENGTH				"Strength";
+	WIND_DECAY					"Decay";
+	WIND_TYPE						"Type";
+	WIND_TYPE_PLANAR		"Planar";
+	WIND_TYPE_SPHERICAL "Spherical";
+	WIND_ICONSIZE			  "Icon Size";
+	WIND_TURBULENCE			"Turbulence";
+	WIND_FREQUENCY			"Frequency";
+	WIND_SCALE					"Structure Size";
+	WIND_MASSDEP				"Mass Dependence";
+	WIND_SIZEDEP				"Size Dependence";
+
+	IN_WIND_ON					"On";
+	IN_WIND_ATIME				"Animation Time";
+	IN_WIND_PARTICLE		"Particle";
+}

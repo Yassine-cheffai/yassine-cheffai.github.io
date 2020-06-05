@@ -1,0 +1,10 @@
+STRINGTABLE GVdynspring
+{
+	name "Dynamics Spring State";
+
+	SPRING_NODE_INPUT_LINEAR_PLASTIC_ELONGATION "Linear Plastic Elongation";
+	SPRING_NODE_INPUT_ANGULAR_PLASTIC_ELONGATION "Angular Plastic Elongation";
+
+	SPRING_NODE_OUTPUT_LINEAR_PLASTIC_ELONGATION "Linear Plastic Elongation";
+	SPRING_NODE_OUTPUT_ANGULAR_PLASTIC_ELONGATION "Angular Plastic Elongation";
+}

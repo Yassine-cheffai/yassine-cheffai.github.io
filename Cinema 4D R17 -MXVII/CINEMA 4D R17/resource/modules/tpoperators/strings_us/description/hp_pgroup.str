@@ -1,0 +1,8 @@
+STRINGTABLE HP_PGroup
+{
+	HP_PGroup	"PGroup";
+	
+	OUT_PG_LINK		"PGroup";		
+	OUT_PG_GROUP	"PGroup";
+	OUT_PG_PARTICLECOUNT	"Particle Count";
+}

@@ -1,0 +1,11 @@
+STRINGTABLE Tpointselection
+{
+	Tpointselection "Point Selection Tag";
+
+	POINTSELECTIONTAG_COMMAND1 "Restore Selection";
+	POINTSELECTIONTAG_COMMAND2 "Select and Hide Others";
+	POINTSELECTIONTAG_COMMAND3 "Select Points";
+	POINTSELECTIONTAG_COMMAND4 "Deselect Points";
+	POINTSELECTIONTAG_COMMAND5 "Hide Points";
+	POINTSELECTIONTAG_COMMAND6 "Unhide Points";
+}

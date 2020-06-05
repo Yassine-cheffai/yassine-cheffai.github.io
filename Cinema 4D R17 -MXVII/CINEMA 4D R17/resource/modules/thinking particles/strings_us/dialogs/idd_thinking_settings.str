@@ -1,0 +1,31 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_THINKING_SETTINGS
+{
+  ADD              "Add";
+  BOX              "Box";
+  DATACHANNELS     "Data Channels";
+  DOTS             "Dots";
+  DROPS            "Drops";
+  FLAKES           "Flakes";
+  FORCETHIS        "Force this Setting";
+  GROUP            "Group";
+  IDS_STATIC       "Group";
+  IDS_STATIC1      "Group";
+  IDS_STATIC2      "";
+  IDS_STATIC3      "";
+  IDS_STATIC4      "";
+  NONE             "None";
+  NUMLIMIT         "Max Particles";
+  PARTICLEGROUPS   "Particle Groups";
+  PARTICLEGROUPS2  "Particle Group Settings";
+  REMOVE           "Remove";
+  SHOWOBJECT       "Show Objects";
+  TB1              "General";
+  TB2              "Channels";
+  TDLG             "Thinking Particles";
+  TICKS            "Ticks";
+  TOTAL            "Total";
+  TREE             "Tree";
+  VIEWTYPE         "View Type";
+}

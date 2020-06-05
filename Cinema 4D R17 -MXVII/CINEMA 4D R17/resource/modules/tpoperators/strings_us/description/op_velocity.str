@@ -1,0 +1,23 @@
+STRINGTABLE OP_Velocity
+{
+	OP_Velocity	"PVelocity";
+		
+	VEL_USE							"Change";	
+	VEL_USE_DIRSPEED	  "Speed&Direction";
+	VEL_USE_SPEED				"Speed";
+	VEL_USE_DIR					"Direction";
+	VEL_SPEED						"Speed";
+	VEL_SPEEDVAR				"Variation";
+	VEL_DIR							"Direction";
+	VEL_DIRVAR					"Variation";
+	VEL_TYPE_REPLACE	  "Replace";
+	VEL_TYPE_MULT			  "Multiply";
+	VEL_TYPE_ADD				"Added";
+	VEL_PERSEC					"Per Second";
+	VEL_TYPE						"Evaluation Type";	
+
+	
+	IN_VEL_ON						"On";
+	IN_VEL_ATIME				"Animation Time";
+	IN_VEL_PARTICLE			"Particle";
+}

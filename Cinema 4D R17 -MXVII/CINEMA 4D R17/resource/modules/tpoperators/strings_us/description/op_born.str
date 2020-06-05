@@ -1,0 +1,21 @@
+STRINGTABLE OP_Born
+{
+	OP_Born	"PBorn";
+			
+	OP_BORN_BTYPE							"Birth Type";
+	OP_BORN_BTYPE_COUNT				"Count";
+	OP_BORN_BTYPE_RATE				"Rate";
+	OP_BORN_BTYPE_SHOT				"Shot";
+	OP_BORN_COUNT							"Count";
+	OP_BORN_RATE							"Rate";
+	OP_BORN_SHOT							"Shot";
+	OP_BORN_LIFE							"Life";
+	OP_BORN_LIFEVAR						"Life Varation";
+	OP_BORN_SEED							"Random Seed";
+	
+	OP_BORN_IN_ON							"On";
+	OP_BORN_IN_ATIME 					"Animation Time";
+	OP_BORN_OUT_PARTICLE			"Particle Birth";
+	OP_BORN_OUT_PARTICLECOUNT	"Birth Count";
+	OP_BORN_OUT_PARTICLENUM		"Birth Num";	
+}

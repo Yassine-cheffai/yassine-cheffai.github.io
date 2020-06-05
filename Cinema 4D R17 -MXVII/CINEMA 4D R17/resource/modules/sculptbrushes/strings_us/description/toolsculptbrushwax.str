@@ -1,0 +1,9 @@
+STRINGTABLE ToolSculptBrushWax
+{
+	ToolSculptBrushWax		"Sculpt Brush Wax Tool";
+	
+	MDATA_SCULPTBRUSH_WAXMODE	"Wax Mode";
+	MDATA_SCULPTBRUSH_WAXMODE_A "Flow Over";
+	MDATA_SCULPTBRUSH_WAXMODE_B "Valley";
+	MDATA_SCULPTBRUSH_WAXMODE_C "Valley Limited";
+}

@@ -1,0 +1,63 @@
+STRINGTABLE
+{
+	IDS_MENU_HOUDINI_ENGINE												"Houdini Engine";
+	IDS_HOUDINI_SCENE_LOADER											"Houdini Asset";
+	
+	IDS_COMMAND_LOAD_ASSET_NAME										"Load Asset...";
+	IDS_COMMAND_LOAD_ASSET_HELP										"Load a Houdini Asset";
+	IDS_COMMAND_LOAD_ASSET_TITLE									"Select a Houdini Asset File";
+	IDS_COMMAND_SAVE_SCENE_NAME										"Save Houdini Scene...";
+	IDS_COMMAND_SAVE_SCENE_HELP										"Save a Houdini Scene File";
+	IDS_COMMAND_SAVE_SCENE_TITLE									"Specify a Houdini Scene File Name";
+
+	IDS_COMMAND_GET_ASSETS_FROM_ORBOLT_NAME				"Get Assets From Orbolt...";
+	IDS_COMMAND_GET_ASSETS_FROM_ORBOLT_HELP				"Get Houdini Assets From the Orbolt Store";
+
+	IDS_COMMAND_GET_MORE_INFORMATION_NAME					"Get More Information...";
+	IDS_COMMAND_GET_MORE_INFORMATION_HELP					"Get More Informations From the Maxon Web Site";
+
+	IDS_STATUS_LOADING_ASSET											"Loading Houdini Asset, press ESC to cancel...";
+	IDS_STATUS_COOKING_ASSET											"Cooking Houdini Asset, press ESC to cancel...";
+
+	IDS_STATUS_LOADING_ASSET_NO_ESC								"Loading Houdini Asset...";
+	IDS_STATUS_COOKING_ASSET_NO_ESC								"Cooking Houdini Asset...";
+
+	IDS_DESC_NAME_INCLUDE_CHILDREN								"Include Children";
+	IDS_DESC_NAME_INCLUDE_PARTICLE_SUB_GROUPS			"Include Particle Sub-groups";
+
+	IDS_STATUS_CREATING_OBJECTS										"Creating Objects...";
+
+	IDS_HOUDINI_GENERATOR													"Houdini Generator";
+
+	IDS_HOUDINI_GENERATOR_ASSET										"Asset";
+	IDS_HOUDINI_GENERATOR_OBJECT									"Object";
+
+	IDS_HOUDINI_INPUTS														"Inputs";
+	IDS_HOUDINI_PARAMETERS												"Parameters";
+
+	IDS_PREFS_LICENSE_TYPE_NONE										"None";
+	IDS_PREFS_LICENSE_TYPE_HOUDINI								"Houdini";
+	IDS_PREFS_LICENSE_TYPE_HOUDINI_ENGINE					"Houdini Engine";
+	IDS_PREFS_LICENSE_TYPE_HOUDINI_FX							"Houdini FX";
+	IDS_PREFS_LICENSE_TYPE_HOUDINI_ENGINE_INDIE		"Houdini Engine Indie";
+	IDS_PREFS_LICENSE_TYPE_HOUDINI_INDIE					"Houdini Indie";
+	IDS_PREFS_LICENSE_TYPE_HOUDINI_EDUCATION			"Education";
+	IDS_PREFS_LICENSE_TYPE_HOUDINI_APPRENTICE			"Apprentice";
+	IDS_PREFS_LICENSE_TYPE_HOUDINI_UNKNOWN				"Unknown";
+
+	IDS_PREFS_LICENSE_STATUS_INITIALIZED					"Initialized";
+
+	IDS_LICENSE_TYPE_NOT_FOUND										"No valid Houdini license found";
+	IDS_LICENSE_TYPE_APPRENTICE										"Apprentice license is not supported";
+
+	IDS_LICENSE_ASSET_LEVEL_INCOMPATIBLE					"Asset level is #; incompatible with # license";
+	IDS_LICENSE_ASSET_LEVEL_LC										"Limited Commercial";
+	IDS_LICENSE_ASSET_LEVEL_NC										"Non-Commercial";
+
+	IDS_ASSET_INSTANTIATION_FAILURE								"Asset # from file # could not be instantiated: #";
+
+	IDS_HOUDINI_INFO_INSTANCE_ID  								"Instance ID";
+	IDS_HOUDINI_INFO_OBJECT_ID  								  "Object";
+	IDS_HOUDINI_INFO_GEO_ID  											"Geo";
+	IDS_HOUDINI_INFO_PART_ID  										"Part";
+}

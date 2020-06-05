@@ -1,0 +1,9 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_PIXELIZE
+{
+	STR_TITLE "Mosaic";
+	STR_PIXELIZE_PIXELSIZE	"Pixel Size:";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

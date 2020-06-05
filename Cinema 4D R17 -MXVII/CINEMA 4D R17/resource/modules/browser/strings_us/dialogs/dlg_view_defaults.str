@@ -1,0 +1,22 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_VIEW_DEFAULTS
+{
+  STR_VIEW_DEFAULTS		"Default View Settings";
+
+	STR_VIEW_MODE				"View As";
+	STR_VIEW_LIST				"List";
+	STR_VIEW_ICON				"Icons";
+
+	STR_SORT_MODE				"Sort By";
+	STR_SORTBY_NAME			"Name";
+	STR_SORTBY_MDATE		"Modification Date";
+	STR_SORTBY_CDATE		"Creation Date";
+	STR_SORTBY_SIZE			"Size";
+	STR_SORTBY_KIND			"Kind";
+
+	STR_ICON_SIZE				"Icon Size";
+
+	STR_TAB_NORMAL_MODE_GROUP			"Default View";
+	STR_TAB_SIMPLIFIED_MODE_GROUP	"Simplified View";
+}

@@ -1,0 +1,45 @@
+DIALOGSTRINGS IDD_SCULPT_DISPLACEMENT_BAKE_DIALOG
+{
+  IDS_EXTRACTION_OPTIONS    "Extraction Options";
+  IDS_EXTRACTION_TYPE   "Displacement Map Extraction";
+  IDS_EXTRACTION_DEFINITION "Compare detailed and simple surfaces and extract the detail";
+  IDS_TARGET_MODELS   "Target Models (low resolution mesh)";
+  IDS_ADDALL    "Add all";
+  IDS_ADDSELECTED   "Add selected";
+  IDS_REMOVE    "Remove";
+  IDS_ONE_MAP_ALL_TARGETS "Generate one map for all targets";
+  IDS_SMOOTH_TARGETMODELS "Smooth Target Models";
+  IDS_SMOOTH_TARGETUVS  "Smooth Target UVs";
+  IDS_SOURCE_MODELS    "Source Models (high resolution mesh)";
+  IDS_SMOOTH_SOURCEMODELS "Smooth Source Models";
+  
+  IDS_METHOD    "Method:";
+    IDS_METHOD_RAYCASTING "Ray Casting";
+  
+  IDS_CHOOSE_SAMPLES    "Choose Samples:";
+    IDS_CHOOSE_SAMPLES_FURTHESTOUTSIDE "Furthest outside";
+  
+  IDS_SEARCH_DISTANCE   "Search distance:";
+  IDS_BEST_GUESS    "Best Guess";
+  IDS_TEST_BOTH_SIDES   "Test Both Sides:";
+  
+  IDS_IMAGE_PROPERTIES  "Image properties";
+  IDS_IMAGE_SIZE    "Image Size";
+    IDS_IMAGE_SIZE_256    "256x256";
+    IDS_IMAGE_SIZE_512    "512x512";
+    IDS_IMAGE_SIZE_1024   "1024x1024";
+    IDS_IMAGE_SIZE_2048   "2048x2048";
+    IDS_IMAGE_SIZE_4096   "4096x4096";
+  IDS_ANTIALIASING    "Antialiasing:";
+    IDS_ANTIALIASING_OFF "Off";
+    IDS_ANTIALIASING_1  "x1";
+    IDS_ANTIALIASING_2  "x2";
+    IDS_ANTIALIASING_4  "x4";
+    IDS_ANTIALIASING_8  "x8";
+  
+  IDS_DISPLACEMENT_MAP_OPTIONS "Displacement Map Options";
+  IDS_NORMALIZE_TO_SEARCH_DISTANCE "Normalize to Search Distance";
+  
+  IDS_OUTPUT_OPTIONS    "Output Options";
+  IDS_BASE_FILE_NAME    "Base File Name:";
+}

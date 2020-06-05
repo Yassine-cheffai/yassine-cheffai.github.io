@@ -1,0 +1,91 @@
+STRINGTABLE reeper
+{
+	reeper "Reeper Object";
+
+	REEPER_GROUP_GEN			"Cuerda";
+		REEPER_COILS			"Torcidos";
+		REEPER_STRANDS			"Hebras";
+		REEPER_RAD				"Grosor Hebra";
+		REEPER_DIS				"Grosor Cuerda";	
+	
+	REEPER_GROUP_MOD			"Modalidad";
+		REEPER_MODE				"Modo";	
+			REEPER_MODE_ROPE		"Cuerda Torcida (Nº-Hebras)";	
+			REEPER_MODE_BRAID		"Trenzado (3 Hebras)";
+			REEPER_MODE_LISSAJOUS_3	"Trenzado Lissajous (3 Hebras)";			
+			REEPER_MODE_LISSAJOUS_5	"Trenzado Lissajous (5 Hebras)";	
+			
+	REEPER_MESSAGE_TEXT			"Aplica a Reeper una Spline hijo.";
+	
+	REEPER_GROUP_OPT		"Opciones";		
+		REEPER_ROTA				"Rotación";
+		REEPER_OFFSET			"Offset";
+		REEPER_FROM				"Inicio";
+		REEPER_TO				"Fin";		
+		REEPER_FORM				"Forma";
+		REEPER_MULTISHADE_MODE	"Modo Multishade";
+	
+	REEPER_GROUP_INT				"Interpolación";
+		REEPER_PATH_TEXT			"Desarrollo-Hebra:";	
+					
+		REEPER_INTERPOLATION				"Puntos Intermedios";
+			REEPER_INTERPOLATION_NONE		"Ninguno";
+			REEPER_INTERPOLATION_NATURAL	"Natural";
+			REEPER_INTERPOLATION_UNIFORM	"Uniforme";
+			REEPER_INTERPOLATION_ADAPTIVE	"Adatativo";
+			REEPER_INTERPOLATION_SUBDIV		"Subdividido";
+		REEPER_SUB					"Número";
+		REEPER_ANGLE				"Ángulo";
+		REEPER_MAXIMUMLENGTH		"Longitud Máxima";
+		
+		REEPER_RAD_TEXT				"Desarrollo-Radio:";		
+		REEPER_NSIDES				"Lados";
+				
+		
+	REEPER_GROUP_SWEEP							"Trenzado";
+			REEPER_SWEEPOBJECT_ISOPARM			"Isoparámetro Subdivisión";
+			REEPER_SWEEPOBJECT_STARTGROWTH		"Crecimiento Inicial";
+			REEPER_SWEEPOBJECT_GROWTH			"Crecimiento Final";
+			REEPER_SWEEPOBJECT_SCALE			"Escalado Final";
+			REEPER_SWEEPOBJECT_ROTATE			"Rotación";
+			REEPER_SWEEPOBJECT_PARALLEL			"Movimiento Paralelo";	
+			REEPER_SWEEPOBJECT_CONSTANT			"Sección Constante";
+			REEPER_SWEEPOBJECT_BANKING			"Balancear";			
+			REEPER_SWEEPOBJECT_KEEPSEGMENTS		"Mantener Segmentos";		
+		
+		
+		REEPER_GROUP_CAPSANDROUNDING				"Tapas Cuerda";
+			ID_NURBS_U								"Direción U";
+			ID_NURBS_V								"Direción V";
+
+			REEPER_CAP_START						"Tapa Inicio" "Inicio";
+			REEPER_CAP_END							"Tapa Final" "Final";
+				REEPER_CAPTYPE_NOCAP					"Ninguno";
+				REEPER_CAPTYPE_CAP						"Tapa";
+				REEPER_CAPTYPE_ROUNDING					"Canto";
+				REEPER_CAPTYPE_ROUNDINGANDCAP			"Tapa con Canto";
+			REEPER_CAP_ROUNDING						"Típo Canto";
+				REEPER_CAP_ROUNDING_LINEAR				"Lineal";
+				REEPER_CAP_ROUNDING_CONVEX				"Convexo";
+				REEPER_CAP_ROUNDING_CONCAVE				"Cóncava";
+				REEPER_CAP_ROUNDING_HALFCIRCLE 			"Medio Círculo";
+				REEPER_CAP_ROUNDING_STEP				"1 Paso";
+				REEPER_CAP_ROUNDING_2STEPS				"2 Pasos";
+				REEPER_CAP_ROUNDING_ENGRAVED			"Grabado";
+			REEPER_CAP_STARTSTEPS					"Pasos Tapa Inicio" "Pasos";
+			REEPER_CAP_ENDSTEPS						"Pasos Tapa Final" "Pasos";
+			REEPER_CAP_STARTRADIUS					"Radio Tapa Inicio"   "Radio";
+			REEPER_CAP_ENDRADIUS					"Radio Tapa Final"   "Radio";
+			REEPER_CAP_HULLINWARD					"Cubierta Hacia Dentro";
+			REEPER_CAP_HOLEINWARD					"Agujero Hacia Dentro";
+			REEPER_CAP_CONSTRAIN					"Limitar";
+			REEPER_CAP_CONNECT						"Crear un Único Objeto";
+			REEPER_CAP_UVWROUDING					"Mantener la forma UVW en redondeado";
+			REEPER_CAP_TYPE							"Típo";
+				REEPER_CAP_TYPE_TRI						"Triangular";
+				REEPER_CAP_TYPE_QUAD					"Cuadrángular";
+				REEPER_CAP_TYPE_NGON					"N-Gongs";
+			REEPER_CAP_REGULAR						"Cuadrícula Regular";
+			REEPER_CAP_REGULARWIDTH					"Ancho Cuadrícula" "Ancho";
+			REEPER_CAP_PHONG						"Ángulo Phong";
+}

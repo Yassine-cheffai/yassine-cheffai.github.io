@@ -1,0 +1,13 @@
+STRINGTABLE DynMotorObject
+{
+	name "Motor";
+
+	MOTOR_FORCE "Force";
+	MOTOR_LINEAR_SPEED "Linear Target Speed";
+	MOTOR_TORQUE "Torque";
+	MOTOR_ANGULAR_SPEED "Angular Target Speed";
+
+	MOTOR_MODE "Mode";
+	MOTOR_MODE_REGULATE_SPEED "Regulate Speed";
+	MOTOR_MODE_APPLY_FORCE "Apply Force";
+}

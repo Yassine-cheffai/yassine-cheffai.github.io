@@ -1,0 +1,74 @@
+class GeDialog : GeUserDialog
+{
+		var createlayout;
+
+	public:
+		GeDialog(pluginid);
+
+		Message(msg);
+
+		Init();
+		CreateLayout();
+		Command(id,msg);
+		CoreMessage(id,msg);
+		Timer(msg);
+		AskClose();
+}
+
+GeDialog::GeDialog(pluginid)
+{
+	createlayout = FALSE;
+	super(pluginid);
+}
+
+GeDialog::Init()         { return FALSE; }
+GeDialog::CreateLayout() { return FALSE; }
+GeDialog::Command(id,msg){ return FALSE; }
+GeDialog::CoreMessage(id,msg){ return FALSE; }
+GeDialog::Timer(msg)     { }
+GeDialog::AskClose()     { return FALSE; }
+
+GeDialog::Message(msg)
+{
+	try
+	{
+		switch (msg->GetId())
+		{
+			case BFM_INIT:
+				if (createlayout) return TRUE;
+				createlayout = TRUE;
+				return CreateLayout();
+
+			case BFM_DESTROY:
+				createlayout = FALSE;
+				break;
+
+			case BFM_INITVALUES:
+				return Init();
+				break;
+
+			case BFM_CORE_MESSAGE:
+				return CoreMessage(msg->GetInt(BFM_CORE_ID),msg);
+				break;
+
+			case BFM_ACTION:
+				return Command(msg->GetInt(BFM_ACTION_ID),msg);
+				break;
+
+			case BFM_CHECKCLOSE:
+				return AskClose();
+				break;
+
+			case BFM_TIMER_MESSAGE:
+				Timer(msg);
+				return TRUE;
+				break;
+		}
+		return FALSE;
+	}
+	catch(ExLastException)
+	{
+		ExShowLastError();
+		return FALSE;
+	}
+}

@@ -1,0 +1,48 @@
+#!/bin/bash
+#Put this script to {C4D_PATH}/plugins/Py4D/stuff/packages/
+
+#first clear
+clear
+
+#check if paths are correct
+relative_script_dir=`dirname $0`
+absolute_cur_dir=`pwd`
+absolute_cinema_dir=$absolute_cur_dir/../../../..
+relative_python_plug_dir=plugins/Py4D
+absolute_python_plug_dir=$absolute_cinema_dir/$relative_python_plug_dir
+python_file="Python-2.6.4.tgz"
+#enter hierarchy of this script
+cd $relative_script_dir
+
+if [ ! -f python_file ]
+then
+echo -e "\033[1mSCRIPT ABORTED!\033[0m"
+echo "Please download Python-2.6.4.tgz before you start."
+echo "Try: http://www.python.org/ftp/python/2.6.4/Python-2.6.4.tgz"
+echo "Store in the folder of this script."
+echo ""
+exit 1
+fi
+
+#unzip Python and enter dir
+tar xvzf Python-2.6.4.tgz 
+cd Python-2.6.4
+
+#compile
+./configure --with-framework-name=Py4D --with-universal-archs=all --enable-framework --enable-universalsdk=/ --with-pydebug
+make
+sudo make install
+
+#move and initialize
+cd $absolute_python_plug_dir
+sudo rm -r $absolute_python_plug_dir/res/Py4D.framework/
+
+#copy the Py4D library to Py4D/res/
+sudo mv -v /Library/Frameworks/Py4D.framework res/Py4D.framework/
+cd $absolute_python_plug_dir/res/Py4D.framework/
+
+#change the install name of the lib
+sudo install_name_tool -id @executable_path/../../../$relative_python_plug_dir/res/Py4D.framework/Py4D Py4D
+
+#mv file
+sudo mv $absolute_python_plug_dir/res/Py4D.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Py4D $absolute_python_plug_dir/res/Py4D.framework/Py4D-64

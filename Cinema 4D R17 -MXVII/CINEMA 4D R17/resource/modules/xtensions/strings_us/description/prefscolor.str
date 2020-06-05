@@ -1,0 +1,6 @@
+STRINGTABLE Prefscolor
+{
+	Prefscolor "Color";
+	PREF_COLOR_COLORS	"";
+	PREF_COLOR_LIST		"";
+}

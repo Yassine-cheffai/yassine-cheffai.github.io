@@ -1,0 +1,9 @@
+STRINGTABLE FCollada15Export
+{
+	FCollada15Export  "COLLADA 1.5 Export";
+	
+	COLLADA_EXPORT_SCALE                        "Scale";
+	COLLADA_EXPORT_2D_GEOMETRY                  "Export 2D geometry";
+	COLLADA_EXPORT_ANIMATION                    "Export animation";
+	COLLADA_EXPORT_TRIANGLES                    "Export triangles";
+}

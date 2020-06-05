@@ -1,0 +1,7 @@
+STRINGTABLE Oinstance
+{
+	Oinstance "Instance Object";
+
+	INSTANCEOBJECT_LINK "Reference Object";
+	INSTANCEOBJECT_RENDERINSTANCE "Render Instance";
+}

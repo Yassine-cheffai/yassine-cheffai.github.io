@@ -1,0 +1,13 @@
+STRINGTABLE OP_Freeze
+{
+	OP_Freeze	"PFreeze";
+		
+	FREEZE_FREEZE				"Freeze";
+	FREEZE_VAR					"Variation";
+	FREEZE_AGEGRAD			"Age Gradient";	
+	FREEZE_OVERAGE		  "Over Age";	
+
+	IN_FREEZE_PARTICLE	"Particle";
+	IN_FREEZE_ON				"On";
+	IN_FREEZE_ATIME			"Animation Time";	
+}

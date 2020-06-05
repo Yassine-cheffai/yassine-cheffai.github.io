@@ -1,0 +1,41 @@
+STRINGTABLE OP_Fragment
+{
+	OP_Fragment	"PFragment";
+		
+	FRAG_THRESH							"Threshold";
+	FRAG_VAR								"Variation";
+	FRAG_GRAD								"Weight";
+	FRAG_FROMTO							"From to";
+	FRAG_FROMTO_NZ_PZ				"-Z to +Z";
+	FRAG_FROMTO_PZ_NZ				"+Z to -Z";
+	FRAG_FROMTO_NY_PY				"-Y to +Y";
+	FRAG_FROMTO_PY_NY				"+Y to -Y";
+	FRAG_FROMTO_NX_PX				"-X to +X";
+	FRAG_FROMTO_PX_NX				"+X to -X"; 
+	FRAG_TYPE								"Type";
+	FRAG_TYPE_FACE					"Single Faces";
+	FRAG_TYPE_SMOOTH				"Smooth and Distance";
+	FRAG_TYPE_COUNT					"Count";
+	FRAG_SANGLE							"Angle";
+	FRAG_SRAD								"Radius";
+	FRAG_COUNT							"Count";
+	FRAG_THICK							"Thickness";
+	FRAG_NOFRAG							"No Fragments";
+	FRAG_ALIGNC							"Alignment Correction";
+	FRAG_LIFE								"Life Span";
+	FRAG_LIFEVAR						"Variation";
+	FRAG_SPEED							"Speed";
+	FRAG_SPEEDVAR						"Variation";
+	FRAG_RTYPE							"Remaining Type";
+	FRAG_RTYPE_NONE					"None";
+	FRAG_RTYPE_HOLLOW				"Hollow";
+	FRAG_RTYPE_SOLID				"Solid";
+	FRAG_RTHICK							"Thickness";
+	FRAG_DELP								"Die after Fragmentation";
+	IN_FRAG_PARTICLE				"Particle";
+	IN_FRAG_ON							"On";
+	IN_FRAG_ATIME						"Animation Time";	
+	OUT_FRAG_PARTICLE				"Born Particle";
+	OUT_FRAG_PARTICLECOUNT	"Particle Count";
+	OUT_FRAG_PARTICLENUM		"Particle Number";
+}

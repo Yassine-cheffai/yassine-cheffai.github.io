@@ -1,0 +1,9 @@
+STRINGTABLE testscenehook
+{
+	testscenehook "Test Scene Hook";
+	TSH_INITTYPE "Init Type";
+	TSH_INITTYPE_PICK "Pick";
+	TSH_INITTYPE_CLIP_VPS "Clip Vps";
+	TSH_INITTYPE_CLIP_BF"Clip Brute Force";
+
+}

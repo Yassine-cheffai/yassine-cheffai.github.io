@@ -1,0 +1,6 @@
+STRINGTABLE Prefshaircolor
+{
+	Prefshaircolor "Color";
+	PREF_HAIRCOLOR_COLORS	"";
+	PREF_HAIRCOLOR_LIST		"";
+}

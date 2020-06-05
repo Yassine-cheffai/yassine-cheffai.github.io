@@ -1,0 +1,7 @@
+STRINGTABLE STstandard
+{
+	STstandard            "Standard Trimmed Surface" "Trimmed Surface";
+
+	TRIMMEDSURFACE_OUTER      "First curve is outer" "Outer curve";
+}
+

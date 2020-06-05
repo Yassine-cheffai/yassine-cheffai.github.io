@@ -1,0 +1,10 @@
+STRINGTABLE Ocapsule
+{
+	Ocapsule "Capsule Object";
+
+	PRIM_CAPSULE_RADIUS  			"Radius";
+	PRIM_CAPSULE_HEIGHT 			"Height";
+	PRIM_CAPSULE_HSUB	 				"Height Segments";
+	PRIM_CAPSULE_FSUB 				"Cap Segments";
+	PRIM_CAPSULE_SEG 					"Rotation Segments";
+}

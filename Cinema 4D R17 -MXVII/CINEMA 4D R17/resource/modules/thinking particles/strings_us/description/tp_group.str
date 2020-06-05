@@ -1,0 +1,17 @@
+STRINGTABLE TP_Group
+{
+	TP_Group "Particle Group";
+
+	PGROUP_NAME				"Name";
+	PGROUP_COLOR 			"Color";
+	PGROUP_VIEWTYPE		"View Type";
+		PG_NONE 					"None";
+		PG_FLAKES 				"Flakes";
+		PG_DOTS  					"Dots";
+		PG_TICKS					"Ticks";
+		PG_DROPS					"Drops";
+		PG_BOX						"Box";
+		PG_GLOBAL					"Global";
+	PGROUP_SHOWOBJECT	"Show Object";
+	PGROUP_USE_COLOR 	"Use Color";
+}

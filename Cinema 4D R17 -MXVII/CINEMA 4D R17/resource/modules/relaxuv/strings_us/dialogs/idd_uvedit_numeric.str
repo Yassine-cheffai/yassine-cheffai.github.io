@@ -1,0 +1,25 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_UVEDIT_NUMERIC
+{
+  IDS_STATIC10          "";
+  IDS_STATIC11          "";
+  IDS_STATIC12          "";
+  IDS_STATIC13          "";
+  IDS_STATIC3           "Static text";
+  IDS_STATIC4           "Static text";
+  IDS_STATIC5           "Move";
+  IDS_STATIC6           "Scale";
+  IDS_STATIC7           "a";
+  IDS_STATIC8           "";
+  IDS_STATIC9           "";
+  IDS_UVEDIT_ANGLE      "Angle";
+  IDS_UVEDIT_APPLY_BTN  " Apply ";
+  IDS_UVEDIT_POSITION   "Move";
+  IDS_UVEDIT_POSITOIN   "";
+  IDS_UVEDIT_ROTATION   "Rotate";
+  IDS_UVEDIT_SCALE      "Scale";
+  IDS_UVEDIT_TRANSFORM  "Transform";
+  IDS_UVEDIT_X          "X";
+  IDS_UVEDIT_Y          "Y";
+}

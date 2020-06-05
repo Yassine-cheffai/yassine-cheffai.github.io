@@ -1,0 +1,8 @@
+STRINGTABLE Tphong
+{
+	Tphong "Phong Tag";
+
+	PHONGTAG_PHONG_ANGLELIMIT "Angle Limit";
+	PHONGTAG_PHONG_ANGLE			"Phong Angle";
+	PHONGTAG_PHONG_USEEDGES   "Use Edge Breaks";
+}

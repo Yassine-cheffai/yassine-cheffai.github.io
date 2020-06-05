@@ -1,0 +1,14 @@
+STRINGTABLE CBnurbs
+{
+	CBnurbs             "Rational B-Spline Curve" "NURBS Curve";
+
+	NURBSCURVE_CLOSED       "Closed Spline";
+	NURBSCURVE_DEGREE       "Degree";
+	NURBSCURVE_POINTCOUNT   "Points";
+
+	NURBSCURVE_POLYNOMIAL   "Polynomial";
+	NURBSCURVE_PERIODICITY  "Periodic";
+
+  NURBSCURVE_TMIN         "Start Parameter" "Start";
+	NURBSCURVE_TMAX         "End Parameter" "End";
+}

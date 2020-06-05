@@ -1,0 +1,156 @@
+class GeBaseDialog : _GeBaseDialog
+{
+	public:
+		GeBaseDialog(pluginid);
+
+		SetTitle       (title);
+
+		AddItem        (id,item,name);
+		FreeItems      (id);
+
+		SetCheckbox    (id,b);
+		SetItem        (id,item);
+		SetFloat       (id,val,min,max,step);
+		SetFloatWithUnits(id,val,min,max,step,format);
+		SetMeter       (id,val,min,max,step);
+		SetDegree      (id,val,min,max,step);
+		SetRadians     (id,val,min,max,step);
+		SetPercent     (id,val,min,max,step);
+		SetColorField  (id,color);
+
+		GetCheckbox    (id);
+		GetItem        (id);
+		GetMeter       (id);
+		GetDegree      (id);
+		GetRadians     (id);
+		GetPercent     (id);
+
+		LayoutChanged  (id);
+		Activate       (id);
+
+		CheckDropArea  (id,msg,check_x,check_y);
+}
+
+GeBaseDialog::GeBaseDialog(pluginid)
+{
+	super(pluginid,0);
+}
+
+GeBaseDialog::CheckDropArea(id,msg,check_x,check_y)
+{
+	var x,y,w,h,dx,dy;
+	dx = GetDragPosition(msg,0);
+	dy = GetDragPosition(msg,1);
+	x  = GetItemPosX(id);
+	y  = GetItemPosY(id);
+	w  = GetItemWidth(id);
+	h  = GetItemHeight(id);
+
+	if ( (!check_x || (dx>x && dx<x+w)) && (!check_y || (dy>y && dy<y+h)) )
+	{
+		return TRUE;
+	}
+	return FALSE;
+}
+
+GeBaseDialog::SetTitle(title)
+{
+	return _AddGadget(DIALOG_SETTITLE,0,title,0,0,0,0);
+}
+
+GeBaseDialog::AddItem(id,subid,child)
+{
+	return _AddGadget(DIALOG_CHILD,id,child,subid,0,0,0);
+}
+
+GeBaseDialog::FreeItems(id)
+{
+	return _AddGadget(DIALOG_FREECHILDREN,id,"",0,0,0,0);
+}
+
+GeBaseDialog::SetCheckbox(id,b)
+{
+	return SetInt(id,b,0,1,0);
+}
+
+GeBaseDialog::GetCheckbox(id)
+{
+	return GetInt(id);
+}
+
+GeBaseDialog::SetItem(id,item)
+{
+	return SetInt(id,item,-0x7FFFFFFF,0x7FFFFFFF,1);
+}
+
+GeBaseDialog::SetFloat(id,val,min,max,step)
+{
+	return _SetFloat(id,val,min,max,step,FORMAT_FLOAT);
+}
+
+GeBaseDialog::SetFloatWithUnits(id,val,min,max,step,format)
+{
+	return _SetFloat(id,val,min,max,step,format);
+}
+
+GeBaseDialog::SetMeter(id,val,min,max,step)
+{
+	return _SetFloat(id,val,min,max,step,FORMAT_METER);
+}
+
+GeBaseDialog::SetDegree(id,val,min,max,step)
+{
+	return _SetFloat(id,Radians(val),Radians(min),Radians(max),Radians(step),FORMAT_DEGREE);
+}
+
+GeBaseDialog::SetRadians(id,val,min,max,step)
+{
+	return _SetFloat(id,val,min,max,step,FORMAT_DEGREE);
+}
+
+GeBaseDialog::SetPercent(id,val,min,max,step)
+{
+	return _SetFloat(id,val/100.0,min/100.0,max/100.0,step/100.0,FORMAT_PERCENT);
+}
+
+GeBaseDialog::SetColorField(id,color)
+{
+	return SetColorChooser(id,color,1.0,1.0,0);
+}
+
+GeBaseDialog::GetItem(id)
+{
+	return GetInt(id);
+}
+
+GeBaseDialog::GetMeter(id)
+{
+	return GetFloat(id);
+}
+
+GeBaseDialog::GetDegree(id)
+{
+	return Degree(GetFloat(id));
+}
+
+GeBaseDialog::GetRadians(id)
+{
+	return GetFloat(id);
+}
+
+GeBaseDialog::GetPercent(id)
+{
+	return GetFloat(id)*100.0;
+}
+
+GeBaseDialog::LayoutChanged(id)
+{
+	return _AddGadget(DIALOG_LAYOUTCHANGED,id,"",0,0,0,0);
+}
+
+GeBaseDialog::Activate(id)
+{
+	return _AddGadget(DIALOG_ACTIVATE,id,"",0,0,0,0);
+}
+
+

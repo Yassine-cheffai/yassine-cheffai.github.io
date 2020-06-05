@@ -1,0 +1,4 @@
+CONTAINER BMbase
+{
+	NAME BMbase;
+}

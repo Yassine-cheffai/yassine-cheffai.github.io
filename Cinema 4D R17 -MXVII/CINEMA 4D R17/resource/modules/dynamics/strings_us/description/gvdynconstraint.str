@@ -1,0 +1,4 @@
+STRINGTABLE GVdynconstraint
+{
+	name "Dynamics Connector State";
+}

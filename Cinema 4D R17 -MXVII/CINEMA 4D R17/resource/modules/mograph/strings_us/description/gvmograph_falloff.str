@@ -1,0 +1,8 @@
+STRINGTABLE GVmograph_falloff
+{
+	GVmograph_falloff "Falloff";
+
+	GV_MG_FALLOFF_POSITION "Sample Position";
+	GV_MG_FALLOFF_VALUE "Value";
+	GV_MG_FALLOFF_MATRIX "Falloff Matrix";
+}

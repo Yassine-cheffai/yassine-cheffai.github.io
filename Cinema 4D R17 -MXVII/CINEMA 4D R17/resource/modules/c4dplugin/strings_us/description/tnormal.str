@@ -1,0 +1,8 @@
+STRINGTABLE Tnormal
+{
+	Tnormal "Normal Tag";
+
+  NORMALTAG_ALIGN_FACE2VERTEX  "Align Face to Vertex Normals";
+  NORMALTAG_ALIGN_VERTEX2FACE  "Align Vertex to Face Normals";
+  NORMALTAG_SWAP_NORMALS       "Swap Normals";
+}

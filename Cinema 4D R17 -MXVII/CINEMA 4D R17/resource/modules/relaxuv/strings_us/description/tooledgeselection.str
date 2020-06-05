@@ -1,0 +1,22 @@
+STRINGTABLE ToolEdgeSelection
+{
+  ToolEdgeSelection "Path Selection";
+
+	MDATA_MWS_ADD_TO_SEL "Add to Selection";
+	MDATA_MWS_EDGEMODE "Selection Mode";
+	MDATA_MWS_EDGEMODE_LOOP "Simple Edge Loop";
+	MDATA_MWS_EDGEMODE_GUIDED "Live Path";
+	MDATA_MWS_EDGEMODE_LINE "Line fitted Path";
+	MDATA_MWS_EDGEMODE_LINE2 "Free Path";
+	MDATA_MWS_SP_LENWEIGHT "Length Weight";
+	MDATA_MWS_SP_PHONGWEIGHT "PhongBreak Weight";
+	MDATA_MWS_SP_ANGLEWEIGHT "Angle Weight";
+	MDATA_MWS_SP_QUADWEIGHT "Quads Weight";	
+	
+	MWS_TAG_GROUP "Selection Tag Functions";
+	MWS_TAG_LINK "Tag Name";
+	MWS_TAG_SET_SEL "Set Selection";
+	MWS_TAG_ADD_SEL "Add Selection";
+	MWS_TAG_REM_SEL "Remove Selection";
+	MWS_TAG_AUTO_SET_SEL "Auto Set Selection";
+}

@@ -1,0 +1,18 @@
+STRINGTABLE OP_Gravity
+{
+	OP_Gravity	"PGravity";
+		
+	GRAV_OBJECT						"Object";
+	GRAV_STRENGTH					"Strength";
+	GRAV_DECAY						"Decay";
+	GRAV_TYPE							"Type";
+	GRAV_TYPE_PLANAR		  "Planar";
+	GRAV_TYPE_SPHERICAL	  "Spherical";
+	GRAV_ICONSIZE					"Icon Size";
+	GRAV_MASSDEP					"Mass Dependence";
+	GRAV_SIZEDEP					"Size Dependence";
+
+	IN_GRAV_PARTICLE			"Particle";
+	IN_GRAV_ON						"On";
+	IN_GRAV_ATIME					"Animation Time";	
+}

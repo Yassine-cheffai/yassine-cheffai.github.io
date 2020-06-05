@@ -1,0 +1,47 @@
+DIALOGSTRINGS P_UVEDIT_PREFS
+{
+  TITLE           "UV Manager";
+
+	TOPTIONS				"Options";
+	TSNAPQUANT			"Snapping";
+	TCOLORS					"Mesh Colors";
+
+	TLIVESELECTION	"Live";
+	TTOLERANT       "Tolerant";
+	TLINKMODE       "Keep Face Neighbors";
+	TCLIPMODE       "Clip UV Coordinates (0..1)";
+	TSNAP           "Snapping";
+  TPOINT          "Point";
+	TEDGE           "Edge";
+	TRADIUS         "Radius";
+	TQUANTIZE       "Quantize";
+	TMOVE           "Move";
+	TSCALE          "Scale";
+	TROTATE         "Rotate";
+	TDRAGNET        "Magnet";
+	TUSE            "Use";
+	TSELECT         "Selection";
+
+	TCOLOR          "Colors";
+	TCOL1           "Ghosted Polygons";
+	TCOL2           "Active Polygons";
+	TCOL3           "Inactive Polygons";
+	TCOL4           "Active Points";
+	TCOL5           "Inactive Points";
+
+
+  TM_MAGNET       "Magnet";
+  TM_NEAREST      "Nearest Point Method";
+  TM_RADIUS       "Radius";
+  TM_TYPE         "Type";
+  TM_WIDTH        "Width";
+
+  T6 "Constant";
+  T7 "Linear";
+  T8 "Dome";
+  T9 "Bell";
+  T10 "Circle";
+  T11 "Needle";
+
+  TVISIBLE				"Only Visible Elements";
+}

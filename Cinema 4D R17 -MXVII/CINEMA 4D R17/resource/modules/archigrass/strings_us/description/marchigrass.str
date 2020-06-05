@@ -1,0 +1,17 @@
+STRINGTABLE Marchigrass
+{
+	Marchigrass						"Architectural Grass";
+
+	GRASS_COLOR						"Color";
+	GRASS_COLOR_VAR_SHD		"Color Texture";
+	GRASS_DENSITY					"Density";
+	GRASS_DENSITY_SHD			"Density Texture";
+	GRASS_LENGTH					"Blade Length";
+	GRASS_INHERITCOL			"Mix Strength";
+	GRASS_CULLING					"Culling";
+	GRASS_CULLING_VAL			"Angle";
+	GRASS_WIDTH						"Blade Width";
+	GRASS_STYLE_1					"Crinkle";
+	GRASS_STYLE_2					"Bend";
+	GRASS_SPECULAR				"Wetness";
+}

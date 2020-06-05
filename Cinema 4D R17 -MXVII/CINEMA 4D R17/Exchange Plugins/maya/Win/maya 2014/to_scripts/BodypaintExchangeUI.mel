@@ -1,0 +1,222 @@
+
+// (C) 2003 MAXON Computer, Jens Uhlig
+
+global proc GetBodyPaintFilePath()
+{
+	string $BodypaintExchangeBPPath  = `textField -q -tx "BodypaintExchangeWindow|parameters|bppathrow|bppath"`;
+    string $dirMask;
+    int $a = size($BodypaintExchangeBPPath);
+    while ( $a > 0 )
+    {
+		if ( `substring $BodypaintExchangeBPPath $a $a` == "/" ) break;
+		$a = $a - 1;
+	}
+	$dirMask = `substring $BodypaintExchangeBPPath 1 $a`;
+	//$dirMask = $dirMask + "*.exe";
+	$BodypaintExchangeBPPath  = `fileDialog`;
+	if ( $BodypaintExchangeBPPath != "" )
+		textField -edit -tx $BodypaintExchangeBPPath "BodypaintExchangeWindow|parameters|bppathrow|bppath";
+}
+
+global proc GetTexPath()
+{
+	// workspace dir merken
+	string $tmp_dir = `workspace  -q -dir`;
+
+	// neues workspace dir setzen
+	workspace -dir `textField -q -tx "BodypaintExchangeWindow|parameters|texpathrow|texpath"`;
+
+	fileBrowser ( "CallbackTexPath", "Select Texture Path", "TexDir", 4 );
+
+	// altes workspace dir setzen
+	workspace -dir $tmp_dir;
+}
+
+global proc CallbackTexPath( string $filePath, string $FileType )
+{
+	string $BodypaintExchangeTEXPath  = $filePath;
+	textField -edit -tx $BodypaintExchangeTEXPath "BodypaintExchangeWindow|parameters|texpathrow|texpath";
+}
+
+global proc BodypaintExchangeCommand()
+{
+	// Read values out of controls
+	int $BodypaintExchangeScale = `intSliderGrp -q -v "BodypaintExchangeWindow|parameters|scale"`;
+	int $BodypaintExchangeScene = `radioButtonGrp -q -sl "BodypaintExchangeWindow|parameters|scene"`;
+	int $BodypaintExchangeUseNurbsCage = `checkBox -q -v "BodypaintExchangeWindow|parameters|usenurbscage"`;
+	int $BodypaintExchangeUseSubdCage  = `checkBox -q -v "BodypaintExchangeWindow|parameters|usesubdcage"`;
+	int $BodypaintExchangeResizeUVs  = `checkBox -q -v "BodypaintExchangeWindow|parameters|resizeuvs"`;
+	int $BodypaintExchangeRebuildSurface  = `checkBox -q -v "BodypaintExchangeWindow|parameters|rebuildsurface"`;
+	int $BodypaintExchangeOneWay  = `checkBox -q -v "BodypaintExchangeWindow|parameters|oneway"`;
+	int $BodypaintExchangeUnlockUVs  = `checkBox -q -v "BodypaintExchangeWindow|parameters|unlockuvs"`;
+	string $BodypaintExchangeBPPath  = `textField -q -tx "BodypaintExchangeWindow|parameters|bppathrow|bppath"`;
+	string $BodypaintExchangeTEXPath  = `textField -q -tx "BodypaintExchangeWindow|parameters|texpathrow|texpath"`;
+
+
+	// save values
+	optionVar -iv "BodypaintExchangeScale" $BodypaintExchangeScale;
+	optionVar -iv "BodypaintExchangeScene" $BodypaintExchangeScene;
+	optionVar -iv "BodypaintExchangeUseNurbsCage" $BodypaintExchangeUseNurbsCage;
+	optionVar -iv "BodypaintExchangeUseSubdCage" $BodypaintExchangeUseSubdCage;
+	optionVar -iv "BodypaintExchangeResizeUVs" $BodypaintExchangeResizeUVs;
+	optionVar -iv "BodypaintExchangeRebuildSurface" $BodypaintExchangeRebuildSurface;
+	optionVar -iv "BodypaintExchangeOneWay" $BodypaintExchangeOneWay;
+	optionVar -iv "BodypaintExchangeUnlockUVs" $BodypaintExchangeUnlockUVs;
+	optionVar -sv "BodypaintExchangeBPPath" $BodypaintExchangeBPPath;
+	optionVar -sv "BodypaintExchangeTEXPath" $BodypaintExchangeTEXPath;
+
+
+    int $amount = 0;
+    int $neg = 1;
+	int $result;
+	string $filename1;
+	string $filename2;
+
+	// cursor to wait
+	waitCursor -state on;
+
+	deleteUI -window BodypaintExchangeWindow;
+
+	// Call command (written in API) to create BodypaintExchange
+	$result = `BodypaintExchange
+	-s $BodypaintExchangeScale
+	-o $BodypaintExchangeScene
+	-nc $BodypaintExchangeUseNurbsCage
+	-dc $BodypaintExchangeUseSubdCage
+	-rs $BodypaintExchangeResizeUVs
+	-rb $BodypaintExchangeRebuildSurface
+	-w $BodypaintExchangeOneWay
+	-u $BodypaintExchangeUnlockUVs
+	-tp $BodypaintExchangeTEXPath
+	-bp $BodypaintExchangeBPPath`;
+
+	// cursor to normal
+	waitCursor -state off;
+}
+
+
+// dialog
+global proc BodypaintExchangeStart(int $quick)
+{
+	int		$BodypaintExchangeScale;
+	int		$BodypaintExchangeScene;
+	int		$BodypaintExchangeUseNurbsCage;
+	int		$BodypaintExchangeUseSubdCage;
+	int		$BodypaintExchangeResizeUVs;
+	int		$BodypaintExchangeRebuildSurface;
+	int		$BodypaintExchangeOneWay;
+	int		$BodypaintExchangeUnlockUVs;
+	string	$BodypaintExchangeBPPath;
+	string	$BodypaintExchangeTEXPath;
+
+	if ( !`optionVar -exists BodypaintExchangeScale` ) optionVar -iv BodypaintExchangeScale 100;
+	if ( !`optionVar -exists BodypaintExchangeScene` ) optionVar -iv BodypaintExchangeScene 2;
+	if ( !`optionVar -exists BodypaintExchangeUseNurbsCage`  ) optionVar -iv BodypaintExchangeUseNurbsCage 1;
+	if ( !`optionVar -exists BodypaintExchangeUseSubdCage`  ) optionVar -iv BodypaintExchangeUseSubdCage 1;
+	if ( !`optionVar -exists BodypaintExchangeResizeUVs`  ) optionVar -iv BodypaintExchangeResizeUVs 1;
+	if ( !`optionVar -exists BodypaintExchangeRebuildSurface`  ) optionVar -iv BodypaintExchangeRebuildSurface 1;
+	if ( !`optionVar -exists BodypaintExchangeOneWay`  ) optionVar -iv BodypaintExchangeOneWay 0;
+	if ( !`optionVar -exists BodypaintExchangeUnlockUVs`  ) optionVar -iv BodypaintExchangeUnlockUVs 0;
+	if ( !`optionVar -exists BodypaintExchangeBPPath`  ) optionVar -sv BodypaintExchangeBPPath "Choose BodyPaint 3D Application";
+	if ( !`optionVar -exists BodypaintExchangeTEXPath`  ) optionVar -sv BodypaintExchangeTEXPath "";
+
+	window -t "Send to BodyPaint..." -resizeToFitChildren true -w 400 "BodypaintExchangeWindow";
+
+	// Create UI Controls
+	columnLayout -cw 400 -rs 10 -adj true -co "both" 10 parameters;
+
+		rowLayout -numberOfColumns 3 -adjustableColumn 2 -columnAttach 2 "both" 0 -columnAttach 3 "both" 0 -columnWidth 1 120 -columnWidth 2 250 -columnWidth 3 25 bppathrow;
+			text -label "BodyPaint 3D Path";
+			textField -tx `optionVar -q BodypaintExchangeBPPath` bppath;
+			button -l "..." BPbrowseButton;
+		setParent ..;
+
+		rowLayout -numberOfColumns 3 -adjustableColumn 2 -columnAttach 2 "both" 0 -columnAttach 3 "both" 0 -columnWidth 1 120 -columnWidth 2 250 -columnWidth 3 25 texpathrow;
+			text -label "Default Texture Path";
+			textField -tx `optionVar -q BodypaintExchangeTEXPath` texpath;
+			button -l "..." TEXbrowseButton;
+		setParent ..;
+
+		radioButtonGrp
+			-label "Objects to Exchange:"
+			-numberOfRadioButtons 2
+			-label1 "All"
+			-data1 0
+			-label2 "Selection"
+			-data2 1
+			-sl `optionVar -q BodypaintExchangeScene`
+			-cal 1 "left"
+			scene;
+
+		intSliderGrp -adj 3
+			-field true -l "Scale:"
+			-min 1 -max 1000
+			-cal 1 "left"
+			-v `optionVar -q BodypaintExchangeScale`
+			scale;
+
+		checkBox
+			-label "NURBS: Use Cage Points and HyperNURBS"
+			-v `optionVar -q BodypaintExchangeUseNurbsCage`
+			-align "left"
+			usenurbscage;
+
+		checkBox
+			-label "NURBS: Use RebuildSurface"
+			-v `optionVar -q BodypaintExchangeRebuildSurface`
+			-align "left"
+			rebuildsurface;
+
+		checkBox
+			-label "SUBDIV: Use Cage Points and HyperNURBS"
+			-v `optionVar -q BodypaintExchangeUseSubdCage`
+			-align "left"
+			usesubdcage;
+
+		checkBox
+			-label "Resize UVs to Fit HyperNURBS"
+			-v `optionVar -q BodypaintExchangeResizeUVs`
+			-align "left"
+			resizeuvs;
+
+		checkBox
+			-label "Allow To Modify UVs (only available at objects without construction history)"
+			-v `optionVar -q BodypaintExchangeUnlockUVs`
+			-align "left"
+			unlockuvs;
+
+		checkBox
+			-label "Do Not Wait for BodyPaint 3D (One Way)"
+			-v `optionVar -q BodypaintExchangeOneWay`
+			-align "left"
+			oneway;
+
+				rowLayout -h 25 -numberOfColumns 3 -adjustableColumn 2 -columnWidth3 100 200 100 -columnAttach 1 "left" 0 -columnAttach 2 "left" 0 -columnAttach 3 "both" 0;
+			button -l "Ok" -w 100 okayButton;
+			text -l "";
+			button -l "Cancel" -w 100 cancelButton;
+		setParent ..;
+
+	setParent ..;
+
+	// Set Callbacks
+	button -e -c "deleteUI BodypaintExchangeWindow" cancelButton;
+	button -e -c "BodypaintExchangeCommand" okayButton;
+	button -e -c "GetBodyPaintFilePath" BPbrowseButton;
+	button -e -c "GetTexPath" TEXbrowseButton;
+
+	if ($quick)
+	{
+		BodypaintExchangeCommand();
+	}
+	else
+	{
+
+		showWindow BodypaintExchangeWindow;
+	}
+}
+
+global proc BodypaintExchangeUI(int $quick)
+{
+	BodypaintExchangeStart($quick);
+}

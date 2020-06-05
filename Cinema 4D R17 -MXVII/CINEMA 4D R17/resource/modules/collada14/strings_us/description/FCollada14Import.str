@@ -1,0 +1,10 @@
+STRINGTABLE FCollada14Import
+{
+	FCollada14Import  "COLLADA 1.4 Import";
+	
+	COLLADA_IMPORT_SCALE                                           "Scale";
+	COLLADA_IMPORT_SPLINE_SUBDIVISION_FACTOR                       "Spline Subdivision Factor";
+	COLLADA_IMPORT_2D_GEOMETRY                                     "Import 2D geometry";
+	COLLADA_IMPORT_ANIMATION                                       "Import animation";
+	COLLADA_IMPORT_FORCE_TRANSPARENCY_OPAQUE_MODE_TO_RGB_ZERO      "Fix transparency for incompatible files";
+}

@@ -1,0 +1,9 @@
+STRINGTABLE ToolEdgeCut
+{
+  ToolEdgeCut	"Edge Cut";
+
+	MDATA_EDGECUT_SUBDIV				"Subdivision";
+	MDATA_EDGECUT_OFFSET				"Offset";
+	MDATA_EDGECUT_SCALE					"Scale";
+	MDATA_EDGECUT_CREATENGONS		"Create N-gons";
+}

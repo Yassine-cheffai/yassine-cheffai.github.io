@@ -1,0 +1,66 @@
+CONTAINER OP_Fragment
+{
+	NAME OP_Fragment;
+	INCLUDE GVbase;
+
+	GROUP ID_GVPROPERTIES
+	{
+	}
+
+	GROUP ID_GVPORTS
+	{
+		GRADIENT		FRAG_GRAD					{ INPORT; ALPHA;  EDITPORT; }
+		REAL				FRAG_THRESH				{ INPORT; MIN 0.0; STEP 0.01; EDITPORT; }
+		REAL				FRAG_VAR					{ INPORT; UNIT PERCENT; MIN 0.0; MAX 100.0; STEP 1.0; EDITPORT;}
+		LONG				FRAG_FROMTO				{ INPORT; EDITPORT;
+																		CYCLE 
+																		{ 
+																			FRAG_FROMTO_NZ_PZ;
+																			FRAG_FROMTO_PZ_NZ;
+																			FRAG_FROMTO_NY_PY;
+																			FRAG_FROMTO_PY_NY;
+																			FRAG_FROMTO_NX_PX;
+																			FRAG_FROMTO_PX_NX;
+																		}
+																	}
+		LONG				FRAG_TYPE					{ INPORT; EDITPORT;
+																		CYCLE 
+																		{ 
+																			FRAG_TYPE_FACE; 
+																			FRAG_TYPE_SMOOTH;
+																			FRAG_TYPE_COUNT;
+																		}
+																	}
+		REAL				FRAG_SANGLE				{ INPORT; EDITPORT; UNIT DEGREE; MIN 0.0; MAX 180; STEP 1.0; }
+		REAL				FRAG_SRAD					{ INPORT; EDITPORT; UNIT PERCENT; MIN 0.0; STEP 1.0; }
+		LONG				FRAG_COUNT				{ INPORT; EDITPORT; MIN 0; }
+		BOOL				FRAG_NOFRAG				{ INPORT; EDITPORT; }
+		BOOL				FRAG_ALIGNC				{ INPORT; EDITPORT; }
+		REAL				FRAG_THICK				{ INPORT; EDITPORT; UNIT PERCENT; STEP 0.1; MIN 0.0; }
+		BASETIME		FRAG_LIFE					{ INPORT; EDITPORT; MIN 0.0; MINEX; }
+		REAL				FRAG_LIFEVAR			{ INPORT; EDITPORT; UNIT PERCENT; MIN 0.0; MAX 100.0; STEP 1.0; }
+		REAL				FRAG_SPEED				{ INPORT; EDITPORT; }
+		REAL				FRAG_SPEEDVAR			{ INPORT; EDITPORT; UNIT PERCENT; MIN 0.0; MAX 100.0; STEP 1.0; }
+
+		LONG				FRAG_RTYPE				{ INPORT; EDITPORT; 
+																		CYCLE 
+																		{ 
+																			FRAG_RTYPE_NONE;
+																			FRAG_RTYPE_HOLLOW;
+																			FRAG_RTYPE_SOLID;
+																		}
+																	}
+		REAL				FRAG_RTHICK				{ INPORT; EDITPORT; UNIT PERCENT; STEP 0.1; MIN 0.0;}
+		BOOL				FRAG_DELP					{ INPORT; EDITPORT; }
+
+
+		BOOL      	IN_FRAG_ON				{ INPORT; PORTONLY; }
+		BASETIME   	IN_FRAG_ATIME			{ INPORT; PORTONLY; }
+		TP_PARTICLE	IN_FRAG_PARTICLE	{ INPORT; PORTONLY; STATICPORT; NEEDCONNECTION; CREATEPORT; }
+
+
+		TP_PARTICLE	OUT_FRAG_PARTICLE	    { OUTPORT; PORTONLY; ITERATOR;}
+		LONG				OUT_FRAG_PARTICLECOUNT{	OUTPORT; PORTONLY; ITERATOR;}
+		LONG        OUT_FRAG_PARTICLENUM	{ OUTPORT; PORTONLY; ITERATOR;}
+	}
+}

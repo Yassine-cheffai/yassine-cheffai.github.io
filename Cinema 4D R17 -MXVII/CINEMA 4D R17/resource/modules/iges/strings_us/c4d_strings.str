@@ -1,0 +1,21 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_IGES	                  "IGES (*.igs)";
+	IDS_IGESIMPORTTAG           "IGES Import";
+	IDS_IGESENTITYTAG           "IGES Entity";
+
+  STR_ERROR_IGES143_PSPACE    "This file contains unsupported IGES-143 bounded surface entity data.";
+  STR_ERROR_IGES143_MSPACE    "This file contains unsupported IGES-143 bounded surface entity data.";
+  STR_ERROR_IGES144_MSPACE    "This file contains unsupported IGES-144 trimmed surface entity data.";
+  STR_ERROR_IGES186_UNKNOWN   "This file contains unsupported IGES-186 manifold solid b-rep object entity data.";
+  STR_ERROR_IGES514_SHELL     "This file contains unsupported IGES-514 shell entity data.";
+  STR_ERROR_IGES_UNKNOWN      "This file contains unsupported data.";
+  STR_ERROR_IGES_UNSUPPORTED  "";
+
+  STR_ERROR_IGES_EXPORTHELP   "Please try to export again as IGES type 126, 128 and 144 with parameter space curves.";
+
+  STR_ERROR_IGES_CANCEL       "Press OK to import anyway.";
+}

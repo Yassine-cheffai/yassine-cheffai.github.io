@@ -1,0 +1,91 @@
+STRINGTABLE reeper
+{
+	reeper "Reeper Object";
+
+	REEPER_GROUP_GEN			"General";
+		REEPER_COILS			"Coils";
+		REEPER_STRANDS			"Strands";
+		REEPER_RAD				"Radius";
+		REEPER_DIS				"Distance";			
+				
+	REEPER_GROUP_MOD			"Mode";
+		REEPER_MODE				"Mode";	
+			REEPER_MODE_ROPE		"Coiled Rope (Multiple Strands)";	
+			REEPER_MODE_BRAID		"Simple Braid (3 Strands)";
+			REEPER_MODE_LISSAJOUS_3	"Lissajous Braid (3 Strands)";			
+			REEPER_MODE_LISSAJOUS_5	"Lissajous Braid (5 Strands)";
+			
+	REEPER_MESSAGE_TEXT			"Reeper needs a Spline Child to work.";
+			
+	REEPER_GROUP_OPT			"Options";		
+		REEPER_ROTA				"Rotation";
+		REEPER_OFFSET			"Offset";
+		REEPER_FROM				"From";
+		REEPER_TO				"To";		
+		REEPER_FORM				"Form";
+		REEPER_MULTISHADE_MODE	"Multishade Mode";
+	
+	REEPER_GROUP_INT			"Interpolation";
+		REEPER_PATH_TEXT		"Strands-Path:";
+			
+		REEPER_INTERPOLATION				"Intermediate Points";
+			REEPER_INTERPOLATION_NONE		"None";
+			REEPER_INTERPOLATION_NATURAL	"Natural";
+			REEPER_INTERPOLATION_UNIFORM	"Uniform";
+			REEPER_INTERPOLATION_ADAPTIVE	"Adaptive";
+			REEPER_INTERPOLATION_SUBDIV		"Subdivided";
+		REEPER_SUB							"Number";
+		REEPER_ANGLE						"Angle";
+		REEPER_MAXIMUMLENGTH				"Maximum Length";
+		
+		REEPER_RAD_TEXT						"Radius-Path:";		
+		REEPER_NSIDES						"Sides";	
+		
+		
+		REEPER_GROUP_SWEEP						"Strands";
+			REEPER_SWEEPOBJECT_ISOPARM			"Isoparm Subdivision";
+			REEPER_SWEEPOBJECT_STARTGROWTH		"Start Growth";
+			REEPER_SWEEPOBJECT_GROWTH			"End Growth";
+			REEPER_SWEEPOBJECT_SCALE			"Scaling";
+			REEPER_SWEEPOBJECT_ROTATE			"Rotation";
+			REEPER_SWEEPOBJECT_PARALLEL			"Parallel Movement";			
+			REEPER_SWEEPOBJECT_CONSTANT			"Constant Cross Section";
+			REEPER_SWEEPOBJECT_BANKING			"Banking";			
+			REEPER_SWEEPOBJECT_KEEPSEGMENTS		"Keep Segments";			
+		
+		
+		REEPER_GROUP_CAPSANDROUNDING					"Strandcaps";
+			ID_NURBS_U									"U Direction";
+			ID_NURBS_V									"V Direction";
+
+			REEPER_CAP_START							"Start Cap" "Start";
+			REEPER_CAP_END								"End Cap" "End";
+				REEPER_CAPTYPE_NOCAP					"None";
+				REEPER_CAPTYPE_CAP						"Cap";
+				REEPER_CAPTYPE_ROUNDING					"Fillet";
+				REEPER_CAPTYPE_ROUNDINGANDCAP			"Fillet Cap";
+			REEPER_CAP_ROUNDING							"Fillet Type";
+				REEPER_CAP_ROUNDING_LINEAR				"Linear";
+				REEPER_CAP_ROUNDING_CONVEX				"Convex";
+				REEPER_CAP_ROUNDING_CONCAVE				"Concave";
+				REEPER_CAP_ROUNDING_HALFCIRCLE 			"Half Circle";
+				REEPER_CAP_ROUNDING_STEP				"1 Step";
+				REEPER_CAP_ROUNDING_2STEPS				"2 Steps";
+				REEPER_CAP_ROUNDING_ENGRAVED			"Engraved";
+			REEPER_CAP_STARTSTEPS						"Start Cap Steps" "Steps";
+			REEPER_CAP_ENDSTEPS							"End Cap Steps" "Steps";
+			REEPER_CAP_STARTRADIUS						"Start Cap Radius" "Radius";
+			REEPER_CAP_ENDRADIUS						"End Cap Radius" "Radius";
+			REEPER_CAP_HULLINWARD						"Hull Inwards";
+			REEPER_CAP_HOLEINWARD						"Hole Inwards";
+			REEPER_CAP_CONSTRAIN						"Constrain";
+			REEPER_CAP_CONNECT							"Create Single Object";
+			REEPER_CAP_UVWROUDING						"Rounding UVW Keep Shape";
+			REEPER_CAP_TYPE								"Type";
+				REEPER_CAP_TYPE_TRI						"Triangles";
+				REEPER_CAP_TYPE_QUAD					"Quadrangels";
+				REEPER_CAP_TYPE_NGON					"N-gons";
+			REEPER_CAP_REGULAR							"Regular Grid";
+			REEPER_CAP_REGULARWIDTH						"Regular Grid Width" "Width";
+			REEPER_CAP_PHONG							"Phong Angle";
+}

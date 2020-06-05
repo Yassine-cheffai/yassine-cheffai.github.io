@@ -1,0 +1,15 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_PREVIEW
+{
+	STR_TITLE "Preview";
+	STR_EMPTY "";
+	STR_TAB_PREVIEW_GROUP	"Preview";
+	STR_TAB_INFO_GROUP			"Info";
+	STR_TAB_ANNOTATION_GROUP	"Annotations";
+	STR_INFO_NODE_NAME		"Name:";
+	STR_INFO_NODE_TYPE		"Kind:";
+	STR_INFO_NODE_SIZE		"Size:";
+	STR_INFO_NODE_CREATED		"Created:";
+	STR_INFO_NODE_MODIFIED	"Modified:";
+}

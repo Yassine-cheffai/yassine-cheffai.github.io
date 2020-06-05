@@ -1,0 +1,18 @@
+STRINGTABLE IF_ParticleAge
+{
+	IF_ParticleAge	"PAge";
+	
+	PAGE_TYPE								"Type"; 
+	PAGE_TYPE_BORN					"Born";
+	PAGE_TYPE_DIE						"Die";
+	PAGE_TYPE_ENTERSGROUP		"Enters Group";
+	PAGE_TYPE_RELATIVE			"Relative";
+	PAGE_TYPE_ABSOLUTE			"Absolute";
+	PAGE_ABST1							"Absolute T1";
+	PAGE_ABST2							"Absolute T2";
+	PAGE_T1									"Relative T1";
+	PAGE_T2									"Relative T2";
+	IN_PAGE_PARTICLE				"Particle";
+	IN_PAGE_ATIME						"Animation Time";
+	OUT_PAGE_ON							"On";
+}

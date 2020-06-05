@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_LEVELS
+{
+	STR_TITLE "Levels";
+	STR_INPUT_LEVELS	"Input Levels:";
+	STR_OUTPUT_LEVELS	"Output Levels:";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

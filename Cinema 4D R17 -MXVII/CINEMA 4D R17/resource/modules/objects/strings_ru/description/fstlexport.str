@@ -1,0 +1,5 @@
+STRINGTABLE Fstlexport
+{
+  Fstlexport             "\u042D\u043A\u0441\u043F\u043E\u0440\u0442 STL";
+  STLEXPORTFILTER_SCALE  "\u041C\u0430\u0441\u0448\u0442\u0430\u0431";
+}

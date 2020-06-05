@@ -1,0 +1,12 @@
+STRINGTABLE OP_ObjectShape
+{
+	OP_ObjectShape					"PShape";
+		
+	OSHAPE_OBJECT						"Object";
+	OSHAPE_RADIUS						"Bounding Radius";
+	OSHAPE_RENDERINSTANCE		"Render Instance";
+
+	IN_OSHAPE_PARTICLE			"Particle";
+	IN_OSHAPE_ON						"On";
+	IN_OSHAPE_ATIME					"Animation Time";	
+}

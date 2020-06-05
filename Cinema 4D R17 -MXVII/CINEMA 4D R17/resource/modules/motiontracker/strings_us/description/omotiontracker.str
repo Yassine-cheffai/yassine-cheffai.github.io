@@ -1,0 +1,367 @@
+STRINGTABLE Omotiontracker
+{
+	Omotiontracker			"Motion Tracker Object";
+
+	PH_RDATA_FILMASPECT					"Film Aspect";
+	PH_RDATA_FILMPRESET_CUSTOM			"Custom";
+	PH_RDATA_FILMPRESET_SQUARE			"Square (1:1)";
+	PH_RDATA_FILMPRESET_STANDARD		"Standard (4:3)";
+	PH_RDATA_FILMPRESET_HDTV          "HDTV (16:9)";
+	PH_RDATA_FILMPRESET_35MMSTILL     "35mm Still (3:2)";
+	PH_RDATA_FILMPRESET_WIDESCREEN    "Widescreen (14:9)";
+	PH_RDATA_FILMPRESET_35MM          "35mm (1.85:1)";
+	PH_RDATA_FILMPRESET_PANAVISION    "Panavision (2.39:1)";
+
+	PH_FOOTAGE_FILENAME "Footage";
+	PH_FOOTAGE_RESET "X";
+	PH_FOOTAGE_RELOAD "Reload";
+
+	PH_FOOTAGE_SYS_MEMORY_AVAILABLE		"System memory available (MB)";
+
+	PH_FOOTAGE_DOWNSAMPLING_FACTOR		"Resampling";
+	PH_FOOTAGE_DOWNSAMPLED_RES_X_PIXELS	"Width (Pixels)";
+	PH_FOOTAGE_DOWNSAMPLED_RES_Y_PIXELS	"Height (Pixels)";
+
+
+	PH_FOOTAGE_VIEW_SCALE "Footage Scale";
+	PH_FOOTAGE_VIEW_OFFSET_X "Footage Offset X";
+	PH_FOOTAGE_VIEW_OFFSET_Y "Footage Offset Y";
+	PH_FOOTAGE_VIEW_FULL "Full Footage";
+	PH_FOOTAGE_USE_FOREGROUND_DISPLAY "Keep in Foreground";
+
+	PH_FOOTAGE_TRACK_FRAME_START "Frame Start";
+	PH_FOOTAGE_TRACK_FRAME_STOP "Frame Stop";
+	PH_FOOTAGE_TRACK_FRAME_OFFSET "Frame Offset";
+
+	PH_FOOTAGE_MATCH_VIEWPORT "Match View";
+	PH_FOOTAGE_MATCH_VIEW_WIDTH "Match Width";
+	PH_FOOTAGE_MATCH_VIEW_HEIGHT "Match Height";
+
+	PH_CREATE_CAMERA_MAPPING_TEXTURE_TAG "Create Camera Mapping Tag";
+	PH_CREATE_BACKGROUND_OBJECT "Create Background Object";
+
+
+	PH_GROUP_FOOTAGE "Footage";
+
+	PH_GROUP_SOLVERS "Solvers";
+	PH_GROUP_SETTINGS "Settings";
+
+
+	PH_FOOTAGE_WIDTH_PIX "Width";
+	PH_FOOTAGE_HEIGHT_PIX "Height";
+	PH_FOOTAGE_PIXEL_ASPECT "Pixel Aspect";
+
+
+
+	PH_FOOTAGE_SHOW_IMAGE "Show Image";
+
+	PH_CALIBRATE_TO_MATCH_HEIGHT "Calibrate to Height";
+
+	PH_FOOTAGE_BRIGHTNESS			"Brightness";
+	PH_FOOTAGE_ROTATION			"Rotation";
+
+
+	//================================
+	// 2D Tracking
+	PH_GROUP_2D_TRACK "2D Tracking";
+
+	//PH_2D_TRACK_SUBTAB_MODE	"SubTab Mode";
+	PH_SUBTAB_2D_TRACK_MANUAL	"Manual Tracking";
+	PH_SUBTAB_2D_TRACK_AUTO	"Automatic Tracking";
+	PH_SUBTAB_2D_TRACK_FILTER	"Filter Tracks";
+	PH_SUBTAB_2D_TRACK_DISPLAY	"Options";
+	PH_SUBTAB_2D_TRACK_SELECTION	"Selection";
+
+	//PH_GROUP_2D_TRACK_AUTO "Auto";
+	PH_2D_TRACK_AUTO_TRACK_BACKWARD	"<"; // Button
+	PH_2D_TRACK_AUTO_TRACK		"< Auto Track >"; // Button
+	PH_2D_TRACK_AUTO_TRACK_FORWARD	">"; // Button
+	PH_2D_TRACK_AUTO_CREATE_MARKERS	"Create Auto Tracks";
+	PH_2D_TRACK_AUTO_RESET			"Delete Auto Tracks";
+
+	//PH_GROUP_2D_TRACK_MANUAL "User";
+	PH_2D_TRACK_MANUAL_TRACK_BACKWARD	"<"; // Button
+	PH_2D_TRACK_MANUAL_TRACK		"< Manual Track >"; // Button
+	PH_2D_TRACK_MANUAL_TRACK_FORWARD	">"; // Button
+	PH_2D_TRACK_MANUAL_RESET		"Delete User Tracks";
+
+	PH_2D_TRACK_USER_TRACKS_GROUP "User Tracks";
+	PH_2D_TRACK_USER_TRACKS_LISTVIEW "Tracks";
+
+	PH_2D_TRACK_autoReplaceLostFeatures	"Auto Replace Lost Tracks";
+	PH_2D_TRACK_featSize			"Default Pattern Size";
+	PH_2D_TRACK_numFeatsTargetFullFrame		"Number of Tracks";
+	PH_2D_TRACK_numRegionsFullFrame	"Num Regions";
+	PH_2D_TRACK_minSpacing		"Minimum Spacing";
+	PH_2D_TRACK_maxTrack2dError	"Error Threshold";
+
+	PH_2D_TRACK_trackWindowSize		"Default Search Size";
+
+	PH_2D_TRACK_useExtrapolated2dTracking "Extrapolate Search Position";
+
+	PH_2D_TRACK_featSizeActive		"Pattern Size";
+	PH_2D_TRACK_trackWindowSizeActive	"Search Size";
+
+	PH_2D_TRACK_useExtrapolated2dTrackingActive "Extrapolate position";
+
+	PH_2D_TRACK_featNameActive "Name";
+	PH_2D_TRACK_featNameActive2 "Name";
+
+	PH_2D_TRACK_trackDirModeActive "Direction";
+	PH_2D_TRACK_DIR_MODE_UNDEFINED "---";
+	PH_2D_TRACK_DIR_MODE_FORWARD "Forward";
+	PH_2D_TRACK_DIR_MODE_REVERSE "Reverse";
+	PH_2D_TRACK_DIR_MODE_BIDIRECTIONAL "Bidirectional";
+
+	PH_2D_TRACK_USER_featSizeActive	"Pattern Size";
+	PH_2D_TRACK_USER_trackWindowSizeActive	"Search Size";
+	PH_2D_TRACK_USER_useExtrapolated2dTrackingActive "Extrapolate position";
+	PH_2D_TRACK_USER_featNameActive"Name";
+	PH_2D_TRACK_USER_trackDirModeActive "Direction";
+
+	PH_2D_TRACK_USER_featSizeActive_MULTI	"Pattern Size";
+	PH_2D_TRACK_USER_trackWindowSizeActive_MULTI	"Search Size";
+
+
+	PH_2D_TRACK_TRIM_BUTTON 			"Trim";
+	PH_2D_TRACK_UNTRIM_BUTTON 			"Untrim";
+	PH_2D_TRACK_AUTOKEYS_BUTTON			"Insert auto Key(s)";
+	PH_2D_TRACK_DELETE_KEYS_BUTTON			"Delete Key(s)";
+
+	PH_2D_TRACK_DEFAULT_FEATS	"New Tracks";
+	PH_2D_TRACK_SELECTED_FEATS   "Selected Tracks";
+
+	PH_2D_TRACK_showFeat		"Show Tracks";
+	PH_2D_TRACK_showFeatSize		"Display Pattern Box";
+	PH_2D_TRACK_showTrackWindowSize		"Display Search Box";
+	PH_2D_TRACK_showTrackTrails		"Show Trails";
+
+	PH_2D_TRACK_DISP_FEAT_MODE "Track Display";
+	PH_2D_TRACK_dispFeat_showFeatWithTrack "Show Tracks with Path";
+	PH_2D_TRACK_dispFeat_showFeat		"Show Tracks";
+	PH_2D_TRACK_dispFeat_none			"None";
+
+	PH_2D_TRACK_MAKE_SELECTED_BECOME_USER_TRACKS "Add Selection";
+
+
+	// Section labels
+	PH_2D_TRACK_STR_SETTINGS "Default Settings";
+	PH_2D_TRACK_STR_DISPLAY "Display";
+	PH_2D_TRACK_STR_FEATURE_BEHAVIOUR "Track Behaviour";
+	PH_2D_TRACK_STR_SELECTION "Selection";
+
+	//================================
+	// 2D Filtering
+	PH_GROUP_2D_TRACK_FILTER "Filter Tracks";
+
+	PH_2D_TRACK_FILTER	"Filter tracks"; // Button
+
+	PH_2D_TRACK_FILTER_minTrackLen_Active "";
+	PH_2D_TRACK_FILTER_minTrackLen "Minimum Length (Frames)";
+
+	PH_2D_TRACK_FILTER_maxError_Active "";
+	PH_2D_TRACK_FILTER_maxError "Error Threshold";
+
+	PH_2D_TRACK_FILTER_maxAccel_Active "";
+	PH_2D_TRACK_FILTER_maxAccel "Maximum Acceleration";
+
+	PH_2D_TRACK_FILTER_smartAccel_Active "";
+	PH_2D_TRACK_FILTER_smartAccel "Smart Acceleration";
+
+	PH_2D_TRACK_FILTER_deleteEntireTrackOnFail_Active "Delete entire on fail";
+
+
+	//================================
+	// 3D Reconstruction
+	PH_GROUP_3D_RECON 	"Reconstruction";
+
+	PH_SOLVE_MODE 		"Solve Mode";
+	PH_SOLVE_MODE_FULL_3D	"Full 3D Reconstruction";
+	PH_SOLVE_MODE_NODAL		"Nodal Pan";
+	PH_SOLVE_MODE_PLANAR		"Planar Track";
+
+	// Global solve settings
+	PH_FOCAL_SOLVE_MODE			"Focal Length";
+	PH_FOCAL_MODE_UNKNOWN_VARIABLE	"Unknown";
+	PH_FOCAL_MODE_UNKNOWN_FIXED	"Unknown but Constant";
+	PH_FOCAL_MODE_KNOWN_FIXED		"Known and Constant";
+
+	PH_FOCAL_KNOWN_FIXED			"Focal Length";
+	PH_CAMERAOBJECT_FOCUS_PRESET_CUSTOM		"Custom (mm)";
+	PH_CAMERAOBJECT_FOCUS_PRESET_WIDESUPER		"Super Wide (15 mm)"; // Text should not be longer because of interface
+	PH_CAMERAOBJECT_FOCUS_PRESET_WIDE			"Wide Angle (25 mm)";
+	PH_CAMERAOBJECT_FOCUS_PRESET_C4D			"Classic (36 mm)";
+	PH_CAMERAOBJECT_FOCUS_PRESET_NORMAL		"Normal Lens (50 mm)";
+	PH_CAMERAOBJECT_FOCUS_PRESET_PORTRAIT		"Portrait (80 mm)";
+	PH_CAMERAOBJECT_FOCUS_PRESET_TELE			"Tele (135 mm)";
+	PH_CAMERAOBJECT_FOCUS_PRESET_TELESUPER		"Super Tele (300 mm)";
+	
+
+
+	PH_APERTURE_KNOWN_FIXED		"Sensor Size (Film Gate)";
+ 	PH_CAMERAOBJECT_APERTURE_PRESET_CUSTOM		"Custom (mm)";
+	PH_CAMERAOBJECT_APERTURE_PRESET_8			"8 mm (4.8 mm)";
+	PH_CAMERAOBJECT_APERTURE_PRESET_16		"16 mm (9.6 mm)";
+	PH_CAMERAOBJECT_APERTURE_PRESET_35STILL		"35 mm Photo (36.0 mm)";
+	PH_CAMERAOBJECT_APERTURE_PRESET_35MOVIE		"35 mm Movie (22.0 mm)";
+	PH_CAMERAOBJECT_APERTURE_PRESET_70		"70 mm (52.5 mm)";
+	PH_CAMERAOBJECT_APERTURE_35 			"35mm Equiv. Focal Length:";
+
+	PH_CAMERAOBJECT_FOV				"Field of View (Horizontal)";
+	PH_CAMERAOBJECT_FOV_VERTICAL "Field of View (Vertical)";
+
+
+	PH_QUADRATIC_DISTORTION "Lens Distortion - Quadratic";
+	PH_CUBIC_DISTORTION "Lens Distortion - Cubic";
+	PH_PRINCIPAL_POINT_OFFSET_X "Optical Centre Offset X";
+	PH_PRINCIPAL_POINT_OFFSET_Y "Optical Centre Offset Y";
+
+	PH_LENS_DISTORT_MODE "Lens Distortion Model";
+	PH_LENS_DISTORT_MODE_DISABLED "None";
+	PH_LENS_DISTORT_MODE_EXPT "Experimental";
+	PH_LENS_DISTORT_MODE_UNKNOWN_FIXED "Unknown";
+	PH_LENS_DISTORT_MODE_KNOWN_FIXED "Known";
+
+
+	// Triplet
+	PH_3D_RECON_initTriplet_camA	"Cameras";
+	PH_3D_RECON_initTriplet_camB	"";
+	PH_3D_RECON_initTriplet_camC	"";
+
+	PH_3D_RECON_SOLVE_INITIAL			"Solve Initial";
+
+	// Extend (create subsampled)
+	PH_3D_RECON_extendFromCam		"From";
+	PH_3D_RECON_extendToCam		"To";
+	PH_3D_RECON_extendStep		"Step";
+	PH_3D_RECON_SOLVE_EXTEND		"Solve Extend";
+	
+	// Deferred (create final)
+	PH_3D_RECON_SOLVE_DEFERRED 	"Solve Deferred";
+
+	// Run full solve
+	PH_3D_RECON_SOLVE_ALL_STAGES 	"Full Solve";
+
+	PH_3D_RECON_HIERARCHICAL_SOLVE_ALL_STAGES "Run 3D Solver";
+
+	//PH_3D_RECON_SUBTAB_MODE	"SubTab Mode";
+	PH_SUBTAB_3D_RECON_RECON	"Reconstruction";
+	PH_SUBTAB_3D_RECON_DISPLAY	"Display";
+
+
+	// Section labels
+	//PH_GROUP_3D_RECON_RECON		"Reconstruction";
+	PH_3D_RECON_STR_SOLVER_SETTINGS "Solver Settings";
+	PH_3D_RECON_STR_CAMERA_SETTINGS	"Camera Settings";
+	PH_3D_RECON_STR_TRIPLET		"Initial Solve";
+	PH_3D_RECON_STR_EXTEND		"Extend Solution";
+	PH_3D_RECON_STR_DEFER			"Solve Deferred";
+
+	//PH_GROUP_3D_RECON_DISPLAY		"Display";
+	PH_3D_RECON_STR_DISPLAY_SETTINGS "Display Settings";
+	PH_3D_RECON_NULLOBJECT_DISPLAY_MODE		"3D Feature Display";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_DOT		"Dot";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_POINT		"Point";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_CIRCLE		"Circle";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_RECTANGLE	"Rectangle";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_DIAMOND	"Diamond";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_TRIANGLE	"Triangle";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_PENTAGON	"Pentagon";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_HEXAGON	"Hexagon";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_OCTAGON	"Octagon";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_STAR		"Star";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_AXIS		"Axis";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_CUBE		"Cube";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_PYRAMID	"Pyramid";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_SPHERE		"Sphere";
+		PH_3D_RECON_NULLOBJECT_DISPLAY_NONE		"None";
+	PH_3D_RECON_NULLOBJECT_RADIUS		"Radius";
+
+
+
+	//================================
+	// (Track) Selection
+	PH_GROUP_SELECTION			"Selection";
+	PH_SELECT_AUTO_TRACKS			"Select Auto Tracks";
+	PH_SELECT_USER_TRACKS			"Select User Tracks";
+	PH_SELECT_RECONSTRUCTED_TRACKS	"Select Reconstructed";
+	PH_INVERT_TRACK_SELECTION		"Invert Selection";
+
+	PH_HIDE_SELECTED_TRACKS 		"Hide Selected";
+	PH_HIDE_UNSELECTED_TRACKS		"Hide Unselected";
+	PH_UNHIDE_ALL_TRACKS 			"Unhide All";
+	PH_INVERT_TRACK_VISIBILITY		"Invert Visibility";
+
+	PH_DELETE_SELECTED_TRACKS 		"Delete Selected";
+	PH_RESTORE_DELETED_TRACKS		"Restore Deleted";
+
+	//================================
+	// Scene Calibration
+	PH_GROUP_SCENE_CALIBRATION 		"Scene Cal.";
+
+	// Scale
+	PH_SCENE_CAL_SCALE				"Scale";
+	PH_SCENE_CAL_SCALE_MODE				"Scale mode";
+	  PH_SCENE_CAL_SCALE_MODE_SCENE		"Overall scene";
+	  PH_SCENE_CAL_SCALE_MODE_TRACK_LEN		"Camera baseline";
+	  PH_SCENE_CAL_SCALE_MODE_SELECT_LEN	"Selected Features";
+	PH_SCENE_CAL_SCALE_SCENE_FRAC			"Scene fraction";
+	PH_SCENE_CAL_SCALE_SIZE				"Size";
+	PH_SCENE_CAL_SCALE_SET_SELECT			"Set selection";
+	PH_SCENE_CAL_SCALE_GET_SELECT			"Get selection";
+
+	// Orientation
+	PH_SCENE_CAL_ORIENT					"Orientation";
+	PH_SCENE_CAL_ORIENT_MODE				"Orientation mode";
+		PH_SCENE_CAL_ORIENT_MODE_CAMERA		"Camera";
+		PH_SCENE_CAL_ORIENT_MODE_SET_A		"Single Planar selection";
+		PH_SCENE_CAL_ORIENT_MODE_SET_A_AND_B	"Double selections";
+	PH_SCENE_CAL_ORIENT_FRAME_NUM				"Frame number";
+	
+	PH_SCENE_CAL_ORIENT_SET_A_SELECT			"Set selection A";
+	PH_SCENE_CAL_ORIENT_GET_A_SELECT			"Get selection A";
+	PH_SCENE_CAL_ORIENT_SET_A_AXIS			"Axis A";
+		PH_SCENE_CAL_ORIENT_SET_AXIS_X		"X";
+		PH_SCENE_CAL_ORIENT_SET_AXIS_Y		"Y";
+		PH_SCENE_CAL_ORIENT_SET_AXIS_Z		"Z";
+	PH_SCENE_CAL_ORIENT_SET_A_MODE			"Sel. A type";
+		PH_SCENE_CAL_ORIENT_SET_MODE_LINEAR		"Linear";
+		PH_SCENE_CAL_ORIENT_SET_MODE_PLANAR		"Planar";
+
+	PH_SCENE_CAL_ORIENT_SET_B_SELECT			"Set selection B";
+	PH_SCENE_CAL_ORIENT_GET_B_SELECT			"Get selection B";
+	PH_SCENE_CAL_ORIENT_SET_B_AXIS			"Axis B";
+		//PH_SCENE_CAL_ORIENT_SET_AXIS_X
+		//PH_SCENE_CAL_ORIENT_SET_AXIS_Y
+		//PH_SCENE_CAL_ORIENT_SET_AXIS_Z
+	PH_SCENE_CAL_ORIENT_SET_B_MODE			"Sel. B type";
+		//PH_SCENE_CAL_ORIENT_SET_MODE_LINEAR
+		//PH_SCENE_CAL_ORIENT_SET_MODE_PLANAR
+
+
+	//================================
+	// Common elements (visible on all tabs (nameless group)
+	PH_GROUP_EXPERIMENTAL		"Experimental";
+	PH_SHOW_GRAPH_VIEW			"Graph View";
+
+	PH_DEBUG_BUTTON_7 			"Reset tracking";
+	PH_DEBUG_BUTTON_10 			"Force Re-export";
+	PH_DEBUG_BUTTON_11 			"Cancel Task";
+	PH_DEBUG_BUTTON_12 			"Create Plane from Features";
+	PH_DEBUG_BUTTON_13 			"";
+	PH_DEBUG_BUTTON_14 			"Export Partial Recon to Scene";
+	PH_DEBUG_BUTTON_15 			"";
+	PH_DEBUG_BUTTON_16 			"Discard track data for selected";
+	PH_DEBUG_BUTTON_17 			"";
+	PH_DEBUG_BUTTON_18 			"";
+	PH_DEBUG_BUTTON_19 			"";
+
+	PH_DEBUG_SAVE_PARTIAL_RECONSTRUCTIONS "Save Partial Reconstructions";
+	PH_DEBUG_LOAD_PARTIAL_RECONSTRUCTIONS "Load Partial Reconstructions";
+
+	PH_DEBUG_3D_SOLVE_WITHOUT_DEFFERED "Solve without Deferred or BA";
+
+
+	// PHLENS
+	PH_LENS_PROFILE_FILENAME 	"Lens Profile";
+}

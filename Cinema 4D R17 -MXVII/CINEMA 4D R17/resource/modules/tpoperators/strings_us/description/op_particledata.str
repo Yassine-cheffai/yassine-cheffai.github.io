@@ -1,0 +1,21 @@
+STRINGTABLE OP_ParticleData
+{
+	OP_ParticleData	"PSet Data";
+		
+	IN_PART_POSITION		"Position";	
+	IN_PART_VELOCITY		"Velocity";
+	IN_PART_LIFE				"Life";
+	IN_PART_AGE					"Age";
+	IN_PART_SIZE				"Size";
+	IN_PART_SCALE				"Scale";
+	IN_PART_MASS				"Mass";
+	IN_PART_ALIGNMENT		"Alignment";
+	IN_PART_SPIN				"Spin";
+	IN_PART_SHAPE				"Shape";
+	IN_PART_GROUP				"Group";
+	IN_PART_DTFAC				"DT Factor";
+	IN_PART_RANDOMSEED	"Random Seed";
+	IN_PART_ON					"On";
+	IN_PART_PARTICLE		"Particle";
+	IN_PART_COLOR				"Color";
+}

@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_BROWSER
+{
+	STR_TITLE "Content Browser";
+	STR_EMPTY "";
+}

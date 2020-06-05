@@ -1,0 +1,27 @@
+STRINGTABLE pvfilter
+{
+	PVFILTER "Color Correction";
+
+	ID_PV_FILTER_RED					"Red";
+	ID_PV_FILTER_GREEN				"Green";
+	ID_PV_FILTER_BLUE					"Blue";
+	ID_PV_FILTER_SATURATION		"Saturation";
+	ID_PV_FILTER_CONTRAST			"Contrast";
+	ID_PV_FILTER_BRIGHTNESS		"Brightness";
+	ID_PV_FILTER_GAMMA				"Gamma";
+	ID_PV_FILTER_EXPOSURE			"Exposure";
+	ID_PV_FILTER_BLACKPOINT		"Black Point";
+	ID_PV_FILTER_WHITEPOINT		"White Point";
+	ID_PV_FILTER_INVERT				"Invert";
+	ID_PV_FILTER_RESET				"Reset Values";
+	ID_PV_FILTER_OTHER				"Details";
+	ID_PV_FILTER_GRAD_INTENSITY			"Grading Intensity";
+	ID_PV_FILTER_GRAD_AFFECTBG			"Affect Background";
+	ID_PV_FILTER_GRAD_SPLINE_RGB		"Curve";
+	ID_PV_FILTER_GRAD_SPLINE_GROUP	"RGB Curves";
+	ID_PV_FILTER_GRAD_SPLINE_R			"Red";
+	ID_PV_FILTER_GRAD_SPLINE_G			"Green";
+	ID_PV_FILTER_GRAD_SPLINE_B			"Blue";
+	ID_PV_FILTER_GRAD_MIN			"Curve Min";
+	ID_PV_FILTER_GRAD_MAX			"Curve Max";
+}

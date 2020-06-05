@@ -1,0 +1,12 @@
+// C4D-DialogResource
+DIALOG DLG_SEARCH
+{
+  NAME STR_SEARCH_DLG; CENTER_V; CENTER_H;
+  SCALE_H; 
+	GROUP SEARCHBOX
+	{
+		COLUMNS 1;  SCALE_H;
+	
+	}  
+}  
+ 

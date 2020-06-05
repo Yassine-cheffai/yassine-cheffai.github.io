@@ -1,0 +1,26 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+  IDS_DWG "DWG";
+
+  IDS_DWG_LOADING_ERROR       "Error reading file. The file is defective or the format version is not supported.";  
+      
+  IDS_BASEGROUP               "IGES Group";
+  IDS_BASECURVE               "IGES Curve";
+  IDS_BASESURFACE             "IGES Surface";
+  IDS_MAPPEDCURVE             "IGES Mapped Curve";
+  IDS_TRIMMEDSURFACE          "IGES Trimmed Surface";
+  IDS_NURBSCURVE              "Rational B-Spline Curve";
+  IDS_POLYNOMCURVE            "Polynomial Spline Curve";
+  IDS_LINEARCURVE             "Line";
+  IDS_CIRCULARCURVE           "Circular Curve";
+  IDS_CONICCURVE              "Conic Curve";
+  IDS_COMPOSITECURVE          "Composite Curve";
+  IDS_NURBSSURFACE            "Rational B-Spline Surface";
+  IDS_POLYNOMSURFACE          "Polynomial Spline Surface";
+  IDS_PLANARSURFACE           "Plane";
+  IDS_EXTRUDESURFACE          "Extrusion Surface";
+  IDS_ROTATESURFACE           "Rotation Surface";
+}

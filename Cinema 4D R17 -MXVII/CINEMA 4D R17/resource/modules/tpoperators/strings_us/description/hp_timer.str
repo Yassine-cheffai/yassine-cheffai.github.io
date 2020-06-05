@@ -1,0 +1,18 @@
+STRINGTABLE HP_Timer
+{
+	HP_Timer	"PTimer";
+	
+	TIM_TIME		"Time";
+	TIM_EXTEND	"Extend";
+	TIM_SINGLE	"Single";
+
+	IN_TIM_START		"Start";
+	IN_TIM_PARTICLE	"Particle";
+	IN_TIM_ATIME		"Animation Time";
+
+
+	OUT_TIM_ON			"On";
+	OUT_TIM_TIME		"Time";	
+	OUT_TIM_PERCENT	"Time In Percent";
+	OUT_TIM_PARTICLE	"Particle";
+}

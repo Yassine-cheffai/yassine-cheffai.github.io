@@ -1,0 +1,12 @@
+STRINGTABLE Oepython
+{
+	Oepython "Python Effector";
+	
+	OEPYTHON_FRAME					"Frame Dependent";
+	OEPYTHON_RESET					"Reset on Frame 0";
+	OEPYTHON_STRING					"Code";
+	OEPYTHON_OPENEDITOR				"Open Python Editor";
+	OEPYTHON_MODE					"Mode";
+	OEPYTHON_MODE_PARAMETERS		"Parameter Control";
+	OEPYTHON_MODE_FULLCONTROL		"Full Control";
+}

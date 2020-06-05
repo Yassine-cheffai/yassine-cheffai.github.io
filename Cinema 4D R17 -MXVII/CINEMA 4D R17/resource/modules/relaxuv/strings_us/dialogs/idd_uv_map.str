@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_UV_MAP
+{
+  IDS_DIALOG              "UV Mapping";
+  IDS_STATIC1             "Group";
+  IDS_STATIC2             "Group";
+  IDS_STATIC              "Group";
+  IDS_UV_MAP_GROUP_TITLE  "UV Map";
+}

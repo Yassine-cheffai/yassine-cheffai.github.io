@@ -1,0 +1,8 @@
+DIALOGSTRINGS R_MODELING_SUBDIVIDE
+{
+  T1 "Subdivide";
+  T2 "Subdivision";
+  T3 "88888888";
+  T4 "Smooth Subdivision";
+  T5 "Maximum Angle";
+}

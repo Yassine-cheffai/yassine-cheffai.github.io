@@ -1,0 +1,7 @@
+STRINGTABLE TP_ParticleGeometry
+{
+	TP_ParticleGeometry "Particle Geometry";
+
+	PGEOM_LINK					"Particle Group";
+	PGEOM_SUBGROUPS			"Sub Groups";
+}

@@ -1,0 +1,52 @@
+STRINGTABLE Tigesimport
+{
+	Tigesimport						"IGES Import Tag";
+
+	IGESIMPORT_EXPERT_MODE "Expert Mode";
+
+	IGESIMPORT_HEADER		"Header";
+
+	IGESIMPORT_PREC_SHORT	"Short Integer Prec. :";
+	IGESIMPORT_PREC_LONG	"Long Integer Prec. :";
+	IGESIMPORT_PREC_SINGLE	"Single Mantisse Prec. :";
+	IGESIMPORT_PEXP_SINGLE	"Single Exponent Prec. :";
+	IGESIMPORT_PREC_DOUBLE	"Double Mantisse Prec. :";
+	IGESIMPORT_PEXP_DOUBLE	"Double Exponent Prec. :";
+
+	IGESIMPORT_ASCII_SMAG	"(Ascii) Single Mag. :";
+	IGESIMPORT_ASCII_SSIG	"(Ascii) Single Sig. :";
+	IGESIMPORT_ASCII_DMAG	"(Ascii) Double Mag. :";
+	IGESIMPORT_ASCII_DSIG	"(Ascii) Double Sig. :";
+
+	IGESIMPORT_PRODUCT		"Product ID :";
+	IGESIMPORT_FILENAME		"File name :";
+	IGESIMPORT_SYSTEM		"System ID :";
+	IGESIMPORT_PREPROCESSOR	"Preprocessor :";
+	IGESIMPORT_RECEIVER		"Product ID (Receiver) :";
+
+	IGESIMPORT_SCALE         "Scale :";
+	IGESIMPORT_UNIT          "Unit Code :";
+	IGESIMPORT_UNITDESC      "Unit :";
+	IGESIMPORT_MAXLINEWEIGHT "Line Weight Steps :";
+	IGESIMPORT_MAXLINEWIDTH  "Max. Line width :";
+	IGESIMPORT_MINRESOLUTION "Min. Resolution :";
+	IGESIMPORT_MAXCOORDINATE "Max. Coordinate :";
+
+	IGESIMPORT_FILETIME	     "File Time :";
+	IGESIMPORT_FILEAUTHOR    "File Author :";
+	IGESIMPORT_FILEORG       "File Organization :";
+	IGESIMPORT_IGESVERSION   "IGES Version :";
+	IGESIMPORT_DRAFTSTANDARD "Drafting Standard :";
+	IGESIMPORT_MODIFIED      "Last Modified :";
+	IGESIMPORT_PROTOCOL      "App. Protocol :";
+
+	IGESIMPORT_FINISHED      "Import Finished :";
+	IGESIMPORT_SUCCESSFUL    "Import Success :";
+
+	ID_IGESIMPORT_FILEINFO   "Fileheader";
+	ID_IGESIMPORT_FILEDETAILS "Filedetails";
+
+	ID_IGESIMPORT_LOG        "Importlog";
+	IGESIMPORT_LOG           "";
+}
+	

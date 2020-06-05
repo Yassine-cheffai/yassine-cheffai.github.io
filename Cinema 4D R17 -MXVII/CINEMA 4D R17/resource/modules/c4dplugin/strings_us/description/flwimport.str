@@ -1,0 +1,8 @@
+STRINGTABLE Flwimport
+{
+	Flwimport	"LightWave 3D Import";
+	LWIMPORTFILTER_SCALE						"Scale";
+	LWIMPORTFILTER_TEXTURES					"Textures";
+	LWIMPORTFILTER_LIGHTS						"Lights";
+	LWIMPORTFILTER_SPLITOBJECTS			"Split Selections";
+}

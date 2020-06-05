@@ -1,0 +1,30 @@
+STRINGTABLE Obasecurve
+{
+	Obasecurve                "Base Curve";
+
+	BASECURVE_TYPE                "Curve Type" "Type";
+		BASECURVE_TYPE_UNKNOWN          "Unknown";
+		BASECURVE_TYPE_NURBS            "NURBS";
+		BASECURVE_TYPE_POLYNOMIAL       "Polynomial";
+		BASECURVE_TYPE_LINE             "Line";
+		BASECURVE_TYPE_CIRCULAR         "Circular";
+		BASECURVE_TYPE_CONIC            "Conic";
+		BASECURVE_TYPE_COMPOSITE        "Composite";
+	BASECURVE_OUTPUT              "Output";
+		BASECURVE_OUTPUT_LINEAR				  "Linear";
+		BASECURVE_OUTPUT_BSPLINE				"B-Spline";
+		BASECURVE_OUTPUT_BEZIER				  "Bezier";
+    BASECURVE_OUTPUT_CONVERT        "Basis-Convert";
+	BASECURVE_SUB                 "Subdivisions" "Subdivs";
+
+	BASECURVE_FLATNESS						"Dimension";
+		BASECURVE_PLANAR                "Planar";
+		BASECURVE_NONPLANAR             "Nonplanar";
+  BASECURVE_MAKENURBS           "Make NURBS";
+
+ 	BASECURVE_TESTON              "Enable";
+	BASECURVE_TESTPOINT						"Position";
+
+	ID_CURVEPROPERTIES						"Curve Properties" "Curve";
+	ID_CURVETEST                  "Test Properties" "Test";
+}

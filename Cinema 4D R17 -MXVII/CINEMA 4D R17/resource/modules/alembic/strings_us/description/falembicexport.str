@@ -1,0 +1,33 @@
+STRINGTABLE Falembicexport
+{
+	Falembicexport			"Alembic Export Settings";
+	ABCEXPORT_STR_ANIMATION		"Animation";
+	ABCEXPORT_FRAME_START		"Start Frame";
+	ABCEXPORT_FRAME_END		"End Frame";
+	ABCEXPORT_FRAME_STEP		"Frame Step";
+	ABCEXPORT_SUBFRAMES		"Subframes";
+	
+	ABCEXPORT_STR_GENERAL		"General";
+	ABCEXPORT_SCALE			"Scale";
+	ABCEXPORT_SELECTION_ONLY	"Selection Only";
+	ABCEXPORT_GLOBAL_MATRIX		"Global Coordinates";
+	ABCEXPORT_CAMERAS		"Cameras";
+	ABCEXPORT_HYPERNURBS		"Subdivision Surface";
+	ABCEXPORT_SPLINES		"Splines (Curves)";
+	ABCEXPORT_PARTICLES		"Particles";
+	ABCEXPORT_PARTICLE_GEOMETRY	"Particles (Geometry)";
+	ABCEXPORT_HAIR			"Hair (Curves)";
+	ABCEXPORT_XREFS			"XRefs";
+	ABCEXPORT_FORMAT		"File Format";
+	ABCEXPORT_FORMAT_HDF5_LEGACY	"Alembic HDF5 (Legacy)";
+	ABCEXPORT_FORMAT_OGAWA		"Alembic Ogawa";
+	
+	ABCEXPORT_STR_OPTIONS		"Optional Data";
+	ABCEXPORT_VISIBILITY		"Visibility";
+	ABCEXPORT_NORMALS		"Normals";
+	ABCEXPORT_UVS			"UVs";
+	ABCEXPORT_POLYGONSELECTIONS	"Polygon Selections";
+	ABCEXPORT_VERTEX_MAPS		"Vertex Maps";
+	ABCEXPORT_POINTS_ONLY		"Points Only (Geometry)";
+	ABCEXPORT_MERGE_CACHE		"Merge Generated";
+}

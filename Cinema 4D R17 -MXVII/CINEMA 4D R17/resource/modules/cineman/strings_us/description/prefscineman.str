@@ -1,0 +1,13 @@
+STRINGTABLE Prefscineman
+{
+	Prefscineman "CineMan";
+	PREF_CINEMAN_RENDERER			"Renderer";
+	PREF_CINEMAN_RENDERER_PRMAN		"PRMan (prman)";
+	PREF_CINEMAN_RENDERER_AIR		"Air (air)";
+	PREF_CINEMAN_RENDERER_3D		"3delight (renderdl)";
+
+	PREF_CINEMAN_DIRECTORY			"Application Directory";
+	PREF_CINEMAN_TEMP				"Temp RIB Storage";
+	PREF_CINEMAN_TEMP_PRJ			"Project Directory";
+	PREF_CINEMAN_TEMP_LCL			"Local";
+}

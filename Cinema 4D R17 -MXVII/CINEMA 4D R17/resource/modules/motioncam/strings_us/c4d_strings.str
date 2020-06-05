@@ -1,0 +1,23 @@
+STRINGTABLE
+{
+	IDS_TMOTIONCAM							"Motion Camera";
+	IDS_TMORPHCAM								"Camera Morph";
+	IDS_TCRANE									"Camera Crane";
+	IDS_CCREATEMOTIONCAM				"Motion Camera";
+	IDS_CCREATEMORPHCAM					"Camera Morph";
+	IDS_CCREATECAMERACRANE			"Camera Crane";
+
+	IDS_OP_MOTIONCAMPARENT			"Motion Camera Setup";
+	IDS_OP_MOTIONCAMPATH				"Path Spline";
+	IDS_OP_MOTIONCAMTARGET			"Target";
+	IDS_OP_MOTIONCAMCAMERA			"Motion Camera";
+	IDS_OP_MORPHPARENT					"Camera Morph Setup";
+	IDS_OP_MORPHCAMERA					"Morph Camera";
+	IDS_OP_CRANEPARENT					"Crane";
+
+	IDS_MSG_CCREATEMOTIONCAM		"Adds a new Motion Camera setup (selected objects will be used)";
+	IDS_MSG_CCREATEMORPHCAM			"Adds a new Camera Morph setup from selected cameras";
+	IDS_MSG_CCREATECAMERACRANE	"Adds a new Camera Crane setup (selected object will be used as base)";
+
+	IDS_VIS_TARGETDISTANCE			"Target Distance";
+}

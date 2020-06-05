@@ -1,0 +1,48 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	STRING_CMD_APPLY_FILTER "Applying Filter...";
+
+	STRING_CMD_EMBOSS "Stylize/Emboss (Matrix)...";
+	STRING_CMD_TEXEMBOSS "Stylize/Emboss (Texture)...";
+	STRING_CMD_DIFFERENCE "Stylize/Difference Operators...";
+	STRING_CMD_DETAILS "Stylize/Enhance Details...";
+	STRING_CMD_STRUCTURES "Stylize/Enhance Structures...";
+	STRING_CMD_TEXTUREMAP "Stylize/Texture Blend...";
+
+	STRING_CMD_SHARPEN "Sharpen/Sharpen...";
+	STRING_CMD_UNSHARP "Sharpen/Unsharp mask...";
+
+	STRING_CMD_SMOOTH "Blur/Smooth...";
+	STRING_CMD_GAUSS "Blur/Gaussian Blur...";
+	STRING_CMD_BLUR "Blur/Blur...";
+	STRING_CMD_MOTIONBLUR "Blur/Motion Blur...";
+	STRING_CMD_RADIALBLUR "Blur/Radial Blur...";
+	STRING_CMD_SELECTIVE "Blur/Selective Blur...";
+
+	STRING_CMD_NOISE "Noise/Noise...";
+	STRING_CMD_DESPECKLE "Noise/Despeckle...";
+	STRING_CMD_SPREAD "Noise/Distribute Pixels...";
+
+	STRING_CMD_FILTERLENS "Distort/Magnifying Glass...";
+	STRING_CMD_WHIRL "Distort/Whirl...";
+	STRING_CMD_WAVES "Distort/Waves...";
+
+	STRING_CMD_GAMMA "Color Correction/Gamma Correction...";
+	STRING_CMD_HSL "Color Correction/Hue, Saturation - Colorize...";
+	STRING_CMD_LEVELS "Color Correction/Levels...";
+
+	STRING_CMD_PIXELIZE "Pixelate/Mosaic...";
+	STRING_CMD_THRESHOLD "Pixelate/Threshold...";
+
+	STRING_CMD_MATRIX	"Other/Matrix...";
+	STRING_CMD_INVERT "Other/Invert";
+	STRING_CMD_DEINTERLACE "Other/Deinterlace...";		// Video
+	STRING_CMD_OILIFY "Other/Oil Painting...";
+	STRING_CMD_GLASSTILE "Other/Glass...";
+
+	STRING_CMD_SETTINGS "Bitmap Filter";
+
+}

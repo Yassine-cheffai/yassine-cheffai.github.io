@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_GL_CAPS_DIALOG
+{
+  IDS_GL_CAPS_DIALOG  "OpenGL Capabilities";
+  IDS_STATIC          "";
+}

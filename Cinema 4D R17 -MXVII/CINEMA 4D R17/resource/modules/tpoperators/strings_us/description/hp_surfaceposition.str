@@ -1,0 +1,17 @@
+STRINGTABLE HP_SurfacePosition
+{
+	HP_SurfacePosition	"PSurfacePosition";
+	
+	HP_SURFACEPOS_OBJECT				"Object";
+	HP_SURFACEPOS_TYPE					"Type";
+	HP_SURFACEPOS_TYPE_FACE			"Face";
+	HP_SURFACEPOS_TYPE_VERT			"Vertex";
+	HP_SURFACEPOS_TYPE_EDGE			"Edges";
+	HP_SURFACEPOS_SELECTION			"Selection";
+	HP_SURFACEPOS_SEED					"Random Seed";
+	HP_SURFACEPOS_PARTICLE			"Particle";
+	HP_SURFACEPOS_ATIME					"Animation Time";
+	HP_SURFACEPOS_OUT_POSITION	"Position";
+	HP_SURFACEPOS_OUT_NORMAL		"Normal";
+	HP_SURFACEPOS_OUT_ALIGNMENT	"Alignment";
+}

@@ -1,0 +1,6 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_COPYMOVE
+{
+	STR_STOP								"Stop";
+}

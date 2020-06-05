@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_NEW_PRESET
+{
+	TITLE_STR_NEW_PRESET 	"Create New Preset Library";
+	STR_NAME							"Name";
+}

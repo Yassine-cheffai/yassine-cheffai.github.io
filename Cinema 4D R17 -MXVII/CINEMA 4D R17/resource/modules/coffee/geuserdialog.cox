@@ -1,0 +1,200 @@
+class GeUserDialog : GeBaseDialog
+{
+	public:
+		GeUserDialog(pluginid);
+
+		AddCheckbox         (id,flags,initw,inith,name);
+		AddStaticText       (id,flags,initw,inith,name,borderstyle);
+		AddButton           (id,flags,initw,inith,name);
+		AddArrowButton      (id,flags,initw,inith,arrowtype);
+		AddEditText         (id,flags,initw,inith);
+		AddMultiLineEditText(id,flags,initw,inith,style);
+		AddEditNumber       (id,flags,initw,inith);
+		AddEditNumberArrows (id,flags,initw,inith);
+		AddEditSlider       (id,flags,initw,inith);
+		AddSlider           (id,flags,initw,inith);
+		AddColorField       (id,flags,initw,inith);
+		AddColorChooser     (id,flags,initw,inith,colorflags);
+		AddRadioGroupV      (id,flags,columns);
+		AddRadioGroupH      (id,flags,rows);
+		AddComboBox         (id,flags,initw,inith);
+		AddPopupButton      (id,flags,initw,inith);
+		AddUserArea         (id,flags,initw,inith);
+		AddDlgGroup         (type);
+		AddRadioButton      (id,flags,initw,inith,name);
+
+		AddSeparatorH       (initw);
+		AddSeparatorV       (inith);
+
+		LayoutFlushGroup    (id);
+		LayoutChanged       (id);
+
+		MenuFlushAll        ();								// call to create a totally new menu
+		MenuSubBegin        (string);					// create a new menugroup
+		MenuSubEnd          ();								// close a menugroup
+		MenuAddCommand      (cmdid);					// add a command to the menugroup
+		MenuAddString       (id,string);			// add a string to the menugroup
+		MenuAddSeparator    ();								// add a separator
+		MenuFinished        ();								// call when menu layout is finished 
+		MenuInitString      (id,enabled,value);
+}
+
+GeUserDialog::GeUserDialog(pluginid)
+{
+	super(pluginid);
+}
+
+GeUserDialog::LayoutFlushGroup(id)
+{
+	_AddGadget(DIALOG_FLUSHGROUP,id,"",0,0,0,0);
+}
+
+GeUserDialog::LayoutChanged(id)
+{
+	_AddGadget(DIALOG_LAYOUTCHANGED,id,"",0,0,0,0);
+}
+
+GeUserDialog::MenuSubBegin(string)
+{
+	_AddGadget(DIALOG_ADDSUBMENU,0,string,0,0,0,0);
+}
+
+GeUserDialog::MenuSubEnd()
+{
+	_AddGadget(DIALOG_ENDSUBMENU,0,"",0,0,0,0);
+}
+
+GeUserDialog::MenuAddCommand(cmdid)
+{
+	_AddGadget(DIALOG_ADDMENUCMD,cmdid,"",0,0,0,0);
+}
+
+GeUserDialog::MenuAddSeparator()
+{
+	_AddGadget(DIALOG_ADDMENUSEP,0,"",0,0,0,0);
+}
+
+GeUserDialog::MenuAddString(id,string)
+{
+	_AddGadget(DIALOG_ADDMENUSTR,id,string,0,0,0,0);
+}
+
+GeUserDialog::MenuInitString(id,enabled,value)
+{
+	_AddGadget(DIALOG_INITMENUSTR,id,"",enabled,value,0,0);
+}
+
+GeUserDialog::MenuFlushAll()
+{
+	_AddGadget(DIALOG_FLUSHMENU,0,"",0,0,0,0);
+}
+
+GeUserDialog::MenuFinished()
+{
+	_AddGadget(DIALOG_SETMENU,0,"",0,0,0,0);
+}
+
+GeUserDialog::AddCheckbox(id,flags,initw,inith,name)
+{
+	return _AddGadget(DIALOG_CHECKBOX,id,name,flags,initw,inith,0);
+}
+
+GeUserDialog::AddRadioButton(id,flags,initw,inith,name)
+{
+	return _AddGadget(DIALOG_RADIOBUTTON,id,name,flags,initw,inith,0);
+}
+
+GeUserDialog::AddStaticText(id,flags,initw,inith,name,borderstyle)
+{
+	return _AddGadget(DIALOG_STATICTEXT,id,name,flags,initw,inith,borderstyle);
+}
+
+GeUserDialog::AddButton(id,flags,initw,inith,name)
+{
+	return _AddGadget(DIALOG_BUTTON,id,name,flags,initw,inith,0);
+}
+
+GeUserDialog::AddArrowButton(id,flags,initw,inith,arrowtype)
+{
+	return _AddGadget(DIALOG_ARROWBUTTON,id,"",flags,initw,inith,arrowtype);
+}
+
+GeUserDialog::AddEditText(id,flags,initw,inith)
+{
+	return _AddGadget(DIALOG_EDITTEXT,id,"",flags,initw,inith,FALSE);
+}
+
+GeUserDialog::AddMultiLineEditText(id,flags,initw,inith,style)
+{
+	return _AddGadget(DIALOG_MULTILINEEDITTEXT,id,"",flags,initw,inith,style);
+}
+
+GeUserDialog::AddEditNumber(id,flags,initw,inith)
+{
+	return _AddGadget(DIALOG_EDITNUMBER,id,"",flags,initw,inith,0);
+}
+
+GeUserDialog::AddEditNumberArrows(id,flags,initw,inith)
+{
+	return _AddGadget(DIALOG_EDITNUMBERUD,id,"",flags,initw,inith,0);
+}
+
+GeUserDialog::AddEditSlider(id,flags,initw,inith)
+{
+	return _AddGadget(DIALOG_EDITSLIDER,id,"",flags,initw,inith,0);
+}
+
+GeUserDialog::AddSlider(id,flags,initw,inith)
+{
+	return _AddGadget(DIALOG_SLIDER,id,"",flags,initw,inith,0);
+}
+
+GeUserDialog::AddColorField(id,flags,initw,inith)
+{
+	return _AddGadget(DIALOG_COLORFIELD,id,"",flags,initw,inith,0);
+}
+
+GeUserDialog::AddColorChooser(id,flags,initw,inith,colorflags)
+{
+	return _AddGadget(DIALOG_COLORCHOOSER,id,"",flags,initw,inith,colorflags);
+}
+
+GeUserDialog::AddRadioGroupV(id,flags,columns)
+{
+	return _AddGadget(DIALOG_RADIOGROUP,id,"",flags,columns,0,0);
+}
+
+GeUserDialog::AddRadioGroupH(id,flags,rows)
+{
+	return _AddGadget(DIALOG_RADIOGROUP,id,"",flags,0,rows,0);
+}
+
+GeUserDialog::AddComboBox(id,flags,initw,inith)
+{
+	return _AddGadget(DIALOG_COMBOBOX,id,"",flags,initw,inith,0);
+}
+
+GeUserDialog::AddPopupButton(id,flags,initw,inith)
+{
+	return _AddGadget(DIALOG_POPUPBUTTON,id,"",flags,initw,inith,0);
+}
+
+GeUserDialog::AddDlgGroup(type)
+{
+	return _AddGadget(DIALOG_DLGGROUP,0,"",type,0,0,0);
+}
+
+GeUserDialog::AddUserArea(id,flags,initw,inith)
+{
+	return _AddGadget(DIALOG_USERAREA,id,"",flags,initw,inith,0);
+}
+
+GeUserDialog::AddSeparatorH(initw)
+{
+	return _AddGadget(DIALOG_SEPARATOR,0,"",BFH_FIT,initw,0,0);
+}
+
+GeUserDialog::AddSeparatorV(inith)
+{
+	return _AddGadget(DIALOG_SEPARATOR,0,"",BFV_FIT,0,inith,0);
+}

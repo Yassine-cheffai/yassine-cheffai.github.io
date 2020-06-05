@@ -1,0 +1,10 @@
+STRINGTABLE Opython
+{
+	Opython								"Python Generator";
+
+	OPYTHON_OPTIMIZE			"Optimize Cache";
+	OPYTHON_MAKEDIRTY			"Force Update";
+	OPYTHON_RESET					"Reset on Frame 0";
+	OPYTHON_OPENEDITOR 		"Open Python Editor";
+	OPYTHON_CODE					"Code";
+}

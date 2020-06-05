@@ -1,0 +1,10 @@
+STRINGTABLE VPpreviewhardware
+{
+	VPpreviewhardware	"Hardware Preview";
+	VP_PREVIEWHARDWARE_ENHANCEDOPENGL								"Enhanced OpenGL";
+	VP_PREVIEWHARDWARE_TRANSPARENCY  "Transparency";
+	VP_PREVIEWHARDWARE_SHADOW				"Shadows";
+	VP_PREVIEWHARDWARE_POSTEFFECT		"Post Effects";
+	VP_PREVIEWHARDWARE_NOISE					"Noises";
+	VP_PREVIEWHARDWARE_ANTIALIASING	"Anti-Aliasing";
+}

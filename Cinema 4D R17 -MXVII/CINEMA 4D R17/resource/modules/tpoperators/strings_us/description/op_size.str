@@ -1,0 +1,13 @@
+STRINGTABLE OP_Size
+{
+	OP_Size	"PSize";
+		
+	SIZE_SIZE			  "Size";
+	SIZE_VAR				"Variation";
+	SIZE_AGEGRAD	  "Age Gradient";	
+	SIZE_OVERAGE	  "Over Age";	
+
+	IN_SIZE_ON				"On";
+	IN_SIZE_PARTICLE	"Particle";
+	IN_SIZE_ATIME			"Animation Time";
+}

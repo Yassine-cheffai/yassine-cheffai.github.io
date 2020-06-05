@@ -1,0 +1,9 @@
+STRINGTABLE IN_Selfdynamic
+{
+	IN_Selfdynamic	"P Pass";
+	
+	SELF_LINK								"Group";
+	OUT_SELF_PARTICLE				"Particle";
+	OUT_SELF_PARTICLECOUNT	"Particle Count";
+	OUT_SELF_INDEX					"Index";
+}

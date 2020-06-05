@@ -1,0 +1,40 @@
+STRINGTABLE Ohoudinigenerator
+{
+    Ohoudinigenerator										"Houdini";
+
+    HOUDINI_PARAMETERS_GROUP						"Asset";
+
+    HOUDINI_ASSET_GENERATOR							"Asset";
+    HOUDINI_OBJECT_GENERATOR						"Object";
+
+		HOUDINI_INFOS												"Infos";
+    HOUDINI_PATH												"Path to Houdini File";
+    HOUDINI_ASSET_IDENTIFIER						"Asset Identifier";
+    HOUDINI_OBJECT_IDENTIFIER						"Object Identifier";
+		HOUDINI_ASSET_INFORMATION  					"Asset Information";
+		HOUDINI_OBJECT_INFORMATION  				"Object Information";
+
+		HOUDINI_PRIORITY										"Priority";
+		HOUDINI_PRIORITY_AUTOMATIC					"Automatic";
+		HOUDINI_PRIORITY_MANUAL							"Manual";
+
+    HOUDINI_SELECT_GENERATORS						"Select Generators";
+    HOUDINI_UPDATE_GENERATORS						"Update Generators";
+    HOUDINI_UPDATE_MATERIALS_ALL				"Update Materials";
+    HOUDINI_RESET_SIMULATION						"Reset Simulation";
+    HOUDINI_COOK_ASSET									"Cook Asset";
+
+    HOUDINI_SELECT_ASSET								"Select Asset";
+    HOUDINI_UPDATE_ASSET								"Update Asset";
+    HOUDINI_UPDATE_MATERIALS_GEN				"Update Materials";
+
+    HOUDINI_UNIT_SCALE									"Scale";
+
+		HOUDINI_STREAMING_OPTIONS						"Streaming";
+		HOUDINI_STREAMING_UPDATE_PSR				"Update PSR";
+		HOUDINI_STREAMING_UPDATE_GEOMETRY		"Update Geometry";
+		HOUDINI_STREAMING_NORMALS						"Normals";
+		HOUDINI_STREAMING_UVS								"UVs";
+		HOUDINI_STREAMING_TEXTURES					"Textures";
+		HOUDINI_STREAMING_TEXTURES_UPDATE_ON_PARAMETER_CHANGE		"Update Image File On Parameter Change";
+}

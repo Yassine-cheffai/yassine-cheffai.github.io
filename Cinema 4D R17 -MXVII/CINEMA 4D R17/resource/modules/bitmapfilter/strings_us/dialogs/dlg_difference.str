@@ -1,0 +1,23 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_DIFFERENCE
+{
+	STR_TITLE "Difference Operators";
+	STR_ANGLE	"Angle:";
+	STR_MIX	"Blend:";
+	STR_FILTERTYP "Operator:";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+
+	STR_POPUP_ID0	"Sobel horizontal";
+	STR_POPUP_ID1	"Sobel vertical";
+	STR_POPUP_ID2	"Sobel horizontal and vertical";
+	STR_POPUP_ID3	"Prewitt horizontal";
+	STR_POPUP_ID4	"Prewitt vertical";
+	STR_POPUP_ID5	"Prewitt horizontal and vertical";
+	STR_POPUP_ID6	"Roberts A";
+	STR_POPUP_ID7	"Roberts B";
+	STR_POPUP_ID8	"Roberts AB";
+
+}

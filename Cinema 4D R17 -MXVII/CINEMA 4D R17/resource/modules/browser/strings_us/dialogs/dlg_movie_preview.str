@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_MOVIE_PREVIEW
+{
+	STR_TITLE "Preview";
+	STR_EMPTY "";
+}

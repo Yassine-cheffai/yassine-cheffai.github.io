@@ -1,0 +1,85 @@
+class GeUserArea : _GeUserArea
+{
+		var dlg,uid;
+
+	public:
+		GeUserArea(id,dialog);
+
+		Message(msg);
+
+		Init();
+		GetUserWidth();
+		GetUserHeight();
+		Sized(w,h);
+		Draw(x1,y1,x2,y2);
+		InputEvent(msg);
+		CoreMessage(id,msg);
+		Timer(msg);
+
+		LayoutChanged();
+
+		FillBitmapBackground(bmp,offsetx,offsety);
+}
+
+GeUserArea::Init()  {}
+GeUserArea::GetUserWidth() { return 0; }
+GeUserArea::GetUserHeight() {return 0; }
+GeUserArea::Sized(w,h)  {}
+GeUserArea::Draw(x1,y1,x2,y2)  {}
+GeUserArea::InputEvent(msg)  {}
+GeUserArea::CoreMessage(id,msg) {}
+GeUserArea::Timer(msg) {}
+GeUserArea::FillBitmapBackground(bmp,offsetx,offsety)
+{
+	DrawBitmap(bmp,offsetx,offsety,-0x12345,-0x12345,-0x12345,-0x12345,-0x12345,-0x12345,-0x12345);
+}
+
+GeUserArea::GeUserArea(t_id,t_dialog)
+{
+	super(t_id,t_dialog);
+	dlg = t_dialog;
+	uid = t_id;
+}
+
+GeUserArea::Message(msg)
+{
+	switch (msg->GetId())
+	{
+		case BFM_CALCSIZE:
+			_SetMinSize(GetUserWidth(),GetUserHeight());
+		break;
+
+		case BFM_SIZED:
+			Sized(GetWidth(),GetHeight());
+		break;
+
+		case BFM_INITVALUES:
+			Init();
+		break;
+
+		case BFM_DRAW:
+			Draw(0,0,GetWidth()-1,GetHeight()-1);
+			return TRUE;
+		
+		case BFM_INPUT:
+			InputEvent(msg);
+		break;
+
+		case BFM_CORE_MESSAGE:
+		{
+			var id = msg->GetInt(BFM_CORE_ID);
+			return CoreMessage(id,msg);
+		}
+
+		case BFM_TIMER_MESSAGE:
+			Timer(msg);
+		break;
+	}
+}
+
+GeUserArea::LayoutChanged()
+{
+	if (dlg) dlg->LayoutChanged(uid);
+}
+
+

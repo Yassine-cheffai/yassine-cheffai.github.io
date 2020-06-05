@@ -1,0 +1,12 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_LICENSESERVER_SETUP
+{
+  IDS_DIALOG                "Setup License Server";
+  IDS_SETUP_LICSERVER_FILE  "Choose File...";
+  IDS_STATIC                "Static text";
+  IDS_STATIC1               "Group";
+  IDS_STATIC2               "Group";
+  IDS_STATIC3               "Server:";
+  IDS_STATIC4               "Port:";
+}

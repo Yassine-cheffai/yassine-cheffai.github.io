@@ -1,0 +1,14 @@
+STRINGTABLE Prefsview
+{
+	Prefsview "View";
+	PREF_VIEW_REDRAWTIME			"Redraw Limit (ms)";
+	PREF_VIEW_FULLANIMREDRAW		"Full Animation Redraw";
+	PREF_VIEW_REALTIME				"Realtime Values";
+	PREF_VIEW_MONITORASPECT			"Monitor Aspect";
+	PREF_VIEW_COLORPROFILE			"Display Color Profile";
+	
+	PREFS_VIEW_REDRAWGROUP			"Redraw";
+	PREFS_VIEW_GRIDGROUP			"Grid";
+	PREFS_VIEW_MONITORGROUP			"Monitor";
+	
+}

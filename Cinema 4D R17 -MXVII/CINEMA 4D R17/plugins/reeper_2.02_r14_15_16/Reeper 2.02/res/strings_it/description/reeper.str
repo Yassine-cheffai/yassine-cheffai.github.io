@@ -1,0 +1,91 @@
+STRINGTABLE reeper
+{
+	reeper "Reeper Object";
+
+	REEPER_GROUP_GEN			"Generale";
+		REEPER_COILS			"Spire";
+		REEPER_STRANDS			"Trefoli";
+		REEPER_RAD				"Raggio";
+		REEPER_DIS				"Distanza";	
+	
+	REEPER_GROUP_MOD			"Modalità";
+		REEPER_MODE				"Modalità";	
+			REEPER_MODE_ROPE		"Corda (n- Trefoli)";	
+			REEPER_MODE_BRAID		"Treccia (3 Trefoli)";
+			REEPER_MODE_LISSAJOUS_3	"Treccia (Lissajous/3 Trefoli)";			
+			REEPER_MODE_LISSAJOUS_5	"Treccia (Lissajous/5 Trefoli)";	
+			
+	REEPER_MESSAGE_TEXT			"Reeper ha bisogno di una spline come un oggetto figlio.";
+	
+	REEPER_GROUP_OPT		"Opzioni";		
+		REEPER_ROTA				"Rotazione";
+		REEPER_OFFSET			"Offset";
+		REEPER_FROM				"Inizio";
+		REEPER_TO				"Fine";		
+		REEPER_FORM				"Forma";
+		REEPER_MULTISHADE_MODE	"Multishade Modalità";
+	
+	REEPER_GROUP_INT				"Interpolazione";
+		REEPER_PATH_TEXT			"Path Trefoli:";	
+					
+		REEPER_INTERPOLATION				"Punti Intermedi";
+			REEPER_INTERPOLATION_NONE		"Nessuna";
+			REEPER_INTERPOLATION_NATURAL	"Naturale";
+			REEPER_INTERPOLATION_UNIFORM	"Uniforme";
+			REEPER_INTERPOLATION_ADAPTIVE	"Adattiva";
+			REEPER_INTERPOLATION_SUBDIV		"Suddivisi";
+		REEPER_SUB					"Numero";
+		REEPER_ANGLE				"Angolo";
+		REEPER_MAXIMUMLENGTH		"Lunghezza Massima";
+		
+		REEPER_RAD_TEXT				"Path Raggio:";		
+		REEPER_NSIDES				"Lati";
+				
+		
+	REEPER_GROUP_SWEEP							"Trefoli";
+			REEPER_SWEEPOBJECT_ISOPARM			"Suddivisione Isoparametri";
+			REEPER_SWEEPOBJECT_STARTGROWTH		"Inizia Crescita";
+			REEPER_SWEEPOBJECT_GROWTH			"Crescita";
+			REEPER_SWEEPOBJECT_SCALE			"Scala";
+			REEPER_SWEEPOBJECT_ROTATE			"Rotazione";
+			REEPER_SWEEPOBJECT_PARALLEL			"Movimento Parallelo";	
+			REEPER_SWEEPOBJECT_CONSTANT			"Sezione Costante";
+			REEPER_SWEEPOBJECT_BANKING			"Banking";			
+			REEPER_SWEEPOBJECT_KEEPSEGMENTS		"Mantieni Segmenti";		
+		
+		
+		REEPER_GROUP_CAPSANDROUNDING				"Tappi";
+			ID_NURBS_U								"Direzione U";
+			ID_NURBS_V								"Direzione V";
+
+			REEPER_CAP_START						"Tappo Inizio" "Inizio";
+			REEPER_CAP_END							"Tappo Fine" "Fine";
+				REEPER_CAPTYPE_NOCAP					"Nessuno";
+				REEPER_CAPTYPE_CAP						"Tappo";
+				REEPER_CAPTYPE_ROUNDING					"Smussatura";
+				REEPER_CAPTYPE_ROUNDINGANDCAP			"Smussatura Tappo";
+			REEPER_CAP_ROUNDING						"Tipo Smussatura";
+				REEPER_CAP_ROUNDING_LINEAR				"Lineare";
+				REEPER_CAP_ROUNDING_CONVEX				"Convesso";
+				REEPER_CAP_ROUNDING_CONCAVE				"Concavo";
+				REEPER_CAP_ROUNDING_HALFCIRCLE 			"Mezzo Cerchio";
+				REEPER_CAP_ROUNDING_STEP				"1 Passo";
+				REEPER_CAP_ROUNDING_2STEPS				"2 Passi";
+				REEPER_CAP_ROUNDING_ENGRAVED			"Incisa";
+			REEPER_CAP_STARTSTEPS					"Inizio Passi Tappo"   "Passi";
+			REEPER_CAP_ENDSTEPS						"Fine Passi Tappo"   "Passi";
+			REEPER_CAP_STARTRADIUS					"Raggio Tappo Iniziale"   "Raggio";
+			REEPER_CAP_ENDRADIUS					"Raggio Tappo Finale"   "Raggio";
+			REEPER_CAP_HULLINWARD					"Svasa All'Interno";
+			REEPER_CAP_HOLEINWARD					"Fora All'Interno";
+			REEPER_CAP_CONSTRAIN					"Constringi";
+			REEPER_CAP_CONNECT						"Crea Singolo Oggetto";
+			REEPER_CAP_UVWROUDING					"Arrotonda UVW Mantenendo Forma";
+			REEPER_CAP_TYPE							"Tipo";
+				REEPER_CAP_TYPE_TRI						"Triangoli";
+				REEPER_CAP_TYPE_QUAD					"Quadrangoli";
+				REEPER_CAP_TYPE_NGON					"N-angoli";
+			REEPER_CAP_REGULAR						"Griglia Regolare";
+			REEPER_CAP_REGULARWIDTH					"Larghezza";
+			REEPER_CAP_PHONG						"Angolo Phong";
+}

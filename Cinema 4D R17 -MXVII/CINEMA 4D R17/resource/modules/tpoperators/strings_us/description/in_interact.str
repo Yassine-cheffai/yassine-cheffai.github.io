@@ -1,0 +1,22 @@
+STRINGTABLE IN_Interact
+{
+	IN_Interact	"P Pass AB";
+	
+	INT_GROUPA		"GroupA";
+	INT_GROUPB		"GroupB";
+	INT_DISTANCE	"Distance";
+	INT_DTYPE     "Distance Type";
+
+	INTERACT_DTYPE_NONE			"None";
+	INTERACT_DTYPE_INSIDE		"Inside";
+	INTERACT_DTYPE_OUTSIDE	"Outside";
+		
+	OUT_INTERACT_PARTICLE_A				"ParticleA";
+	OUT_INTERACT_PARTICLE_B				"ParticleB";
+	OUT_INTERACT_PARTICLECOUNT_A	"Particle Count A";
+	OUT_INTERACT_PARTICLECOUNT_B	"Particle Count B";
+	OUT_INTERACT_POSITION_A				"Position A";
+	OUT_INTERACT_POSITION_B				"Position B";
+	OUT_INTERACT_VECTOR_AB				"Vector AB";
+	OUT_INTERACT_DISTANCE_AB			"Distance AB";
+}

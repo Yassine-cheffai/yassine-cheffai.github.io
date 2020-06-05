@@ -1,0 +1,11 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+  IDS_DWG "DWG (*.dwg)";
+
+  IDS_DWG_LOADING_ERROR       "Error reading file. The file is defective or the format version is not supported.";
+  
+  IDS_DWG_UNSUPPORTED_ENTITIES_WARNING      "Warning: The file contains unsupported entities which weren't imported.";  
+}

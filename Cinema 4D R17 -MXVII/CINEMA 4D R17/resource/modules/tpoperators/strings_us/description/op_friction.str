@@ -1,0 +1,13 @@
+STRINGTABLE OP_Friction
+{
+	OP_Friction	"PFriction";
+		
+	FRIC_FRIC					"Friction";
+	FRIC_SPINFRIC			"Spin Friction";
+	FRIC_SIZEDEP			"Size Dependence";
+	FRIC_MASSDEP			"Mass Dependence";
+
+	IN_FRIC_PARTICLE	"Particle";
+	IN_FRIC_ON				"On";
+	IN_FRIC_ATIME			"Animation Time";	
+}

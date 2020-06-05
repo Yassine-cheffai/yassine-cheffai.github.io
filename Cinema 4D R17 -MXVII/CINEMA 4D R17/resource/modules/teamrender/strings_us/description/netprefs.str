@@ -1,0 +1,31 @@
+STRINGTABLE Netprefs
+{
+	Netprefs "Team Render";
+	
+	PREF_NAME "Computer Name";
+	PREF_SHARE "Share Machine over Network";
+	PREF_THREADCUSTOM "Custom Number of Render Threads";
+	PREF_RENDERTHREADS "";
+	PREF_SECURITYTOKEN "Security Token";
+	PREF_SERVICEPORTNUMBER "Port";
+	PREF_SERVICEREPOSITORYPATH "Repository Path";
+	PREF_USEBONJOUR "Announce Service Via Bonjour";
+	PREF_USEENCRYPTION "Encrypt Connections";
+	PREF_FETCHASSETSALWAYSFROMSERVER "Fetch Assets Always from Server";
+	PREF_HANDLEWARNINGASERROR "Handle Warning As Error";
+	PREF_ABORTRENDERINGONCLIENTERROR "Abort Rendering on Client Error";
+	PREF_PEERTOPEERASSETDISTRIBUTION "Peer-To-Peer Asset Distribution";
+	PREF_ASSETCHUNKSIZE "Asset Chunk Size (in MB)";
+	PREF_REQUESTONDEMAND "Clients Get Assets on Demand";
+	PREF_EXCLUDECLIENTONLOADINGERROR "Exclude Client On Loading Error";
+	PREF_ENABLERENDERINGTIMEOUT "Rendering Timeout (in Seconds)";
+	PREF_ENABLETEAMRENDER "Enable Team Render";
+	PREF_WEBSERVERPORT "Webserver Port";
+	PREF_TEAMRENDERGROUP "";
+	PREF_SEP_LOCAL "Local Settings";
+	PREF_SEP_CLIENT "Client Settings";
+	PREF_SEP_PATHS "Paths";
+	PREF_WAKEONLANFOROFFLINEMACHINES "Wake-On-Lan for Offline Machines";
+	PREF_KEEPB3DFILESAFTERASSEMBLING "Keep B3D files after assembling";
+	PREF_USERMANAGEMENTENABLED "Enable User Management";
+}

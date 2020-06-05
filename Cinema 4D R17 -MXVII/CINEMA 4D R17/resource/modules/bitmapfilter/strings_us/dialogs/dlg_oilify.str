@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_OILIFY
+{
+	STR_TITLE "Oil Painting";
+	STR_OILIFY_MASK_SIZE	"Size:";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

@@ -1,0 +1,18 @@
+STRINGTABLE Osds
+{
+  Osds                      "Subdivision Surface";
+
+	SDSOBJECT_TYPE            "Type";
+		SDSOBJECT_TYPE_CM       "Catmull-Clark";
+		SDSOBJECT_TYPE_CM_N     "Catmull-Clark (N-Gons)";
+
+	SDSOBJECT_R12_COMPATIBILITY "R12 Compatibility";
+	SDSOBJECT_SUBEDITOR_CM    "Subdivision Editor";
+	SDSOBJECT_SUBRAY_CM       "Subdivision Renderer";
+	SDSOBJECT_SUBEDITOR_R7    "Subdivision Editor";
+	SDSOBJECT_SUBRAY_R7       "Subdivision Renderer";
+  SDSOBJECT_SUBDIVIDE_UV    "Subdivide UVs";
+    SDSOBJECT_SUBDIVIDE_UV_STANDARD   "Standard";
+    SDSOBJECT_SUBDIVIDE_UV_BOUNDARY   "Boundary";
+    SDSOBJECT_SUBDIVIDE_UV_EDGE       "Edge";
+}

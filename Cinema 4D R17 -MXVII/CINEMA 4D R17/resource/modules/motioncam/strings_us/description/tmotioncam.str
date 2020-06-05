@@ -1,0 +1,199 @@
+STRINGTABLE Tmotioncam
+{
+	Tmotioncam														"Motion Camera";
+
+	TMOTIONCAM_RIG_HEIGHT									"Rig: Height" "Height";
+	TMOTIONCAM_RIG_PARALLAX								"Rig: Parallax" "Parallax";
+
+	TMOTIONCAM_AUTOBANKING								"Automatic Banking";
+	TMOTIONCAM_AUTOBANKING_ENABLED				"Auto. Banking: Enabled" "Enable";
+	TMOTIONCAM_AUTOBANKING_INTENSITY			"Auto. Banking: Intensity" "Intensity";
+	TMOTIONCAM_AUTOBANKING_DAMPEN					"Auto. Banking: Dampen" "Dampen";
+
+	TMOTIONCAM_SPLINE											"Splines";
+	TMOTIONCAM_SPLINE_ENABLED							"Splines: Enabled" "Enable";
+	TMOTIONCAM_SPLINE_A										"Splines: Path Spline A" "Path Spline A";
+	TMOTIONCAM_SPLINE_B										"Splines: Path Spline B" "Path Spline B";
+	TMOTIONCAM_SPLINE_A_RAIL							"Splines: Rail Spline A" "Rail Spline A";
+	TMOTIONCAM_SPLINE_B_RAIL							"Splines: Rail Spline B" "Rail Spline B";
+	TMOTIONCAM_SPLINE_POS_A								"Splines: Cam Pos A" "Camera Position A";
+	TMOTIONCAM_SPLINE_POS_B								"Splines: Cam Pos B" "Camera Position B";
+	TMOTIONCAM_SPLINE_POS_BLEND						"Splines: Blend A <-> B" "Blend A <-> B";
+	TMOTIONCAM_SPLINE_TANGENTIAL					"Splines: Tangential " "Tangential";
+	TMOTIONCAM_SPLINE_POS_A_SPLINE				"Splines: Cam Pos A Curve" "Cam Pos A Curve";
+	TMOTIONCAM_SPLINE_POS_B_SPLINE				"Splines: Cam Pos B Curve" "Cam Pos B Curve";
+	TMOTIONCAM_SPLINE_POS_BLEND_SPLINE		"Splines: Cam Pos Blend Curve" "Cam Pos Blend Curve";
+	TMOTIONCAM_SPLINE_INTENSITY						"Splines: Intensity" "Intensity";
+
+	TMOTIONCAM_SPLINE_AUTO_A_ENABLED			"Splines: Auto. Anim A Enabled" "Automatic";
+	TMOTIONCAM_SPLINE_AUTO_A_START				"Splines: Auto. Anim A Start" "Start";
+	TMOTIONCAM_SPLINE_AUTO_A_END					"Splines: Auto. Anim A End" "End";
+	TMOTIONCAM_SPLINE_AUTO_B_ENABLED			"Splines: Auto. Anim B Enabled" "Automatic";
+	TMOTIONCAM_SPLINE_AUTO_B_START				"Splines: Auto. Anim B Start" "Start";
+	TMOTIONCAM_SPLINE_AUTO_B_END					"Splines: Auto. Anim B End" "End";
+	TMOTIONCAM_SPLINE_AUTO_BLEND_ENABLED	"Splines: Auto. Anim Blend Enabled" "Automatic";
+	TMOTIONCAM_SPLINE_AUTO_BLEND_START		"Splines: Auto. Anim Blend Start" "Start";
+	TMOTIONCAM_SPLINE_AUTO_BLEND_END			"Splines: Auto. Anim Blend End" "End";
+
+	TMOTIONCAM_TARGET											"Targets";
+	TMOTIONCAM_TARGET_ENABLED							"Targets: Enabled" "Enable";
+	TMOTIONCAM_TARGET_A1									"Targets: Target A1" "Target A1";
+	TMOTIONCAM_TARGET_A2									"Targets: Target A2" "Target A2";
+	TMOTIONCAM_TARGET_B1									"Targets: Target B1" "Target B1";
+	TMOTIONCAM_TARGET_B2									"Targets: Target B2" "Target B2";
+	TMOTIONCAM_TARGET_BLEND_A							"Targets: Target Pos A1 <-> A2" "Target Pos A1 <-> A2";
+	TMOTIONCAM_TARGET_BLEND_B							"Targets: Target Pos B1 <-> B2" "Target Pos B1 <-> B2";
+	TMOTIONCAM_TARGET_BLEND_AB						"Targets: Target Pos A <-> B" "Target Pos A <-> B";
+	TMOTIONCAM_TARGET_INTENSITY						"Targets: Intensity" "Intensity";
+	TMOTIONCAM_TARGET_UPVECTOR						"Targets: Up Vector" "Up Vector";
+	TMOTIONCAM_TARGET_BLEND_A_SPLINE			"Targets: Blend A Curve" "Blend A Curve";
+	TMOTIONCAM_TARGET_BLEND_B_SPLINE			"Targets: Blend B Curve" "Blend B Curve";
+	TMOTIONCAM_TARGET_BLEND_AB_SPLINE			"Targets: Blend AB Curve" "Blend AB Curve";
+	TMOTIONCAM_TARGET_INTENSITY_SPLINE		"Targets: Intensity Curve" "Intensity Curve";
+	TMOTIONCAM_TARGET_COMPENSATE_PARALLAX	"Compensate Aberration";
+
+	TMOTIONCAM_TARGET_SPLINE_A1_POS				"Targets: Target A1 Pos" "Target A1 Pos";
+	TMOTIONCAM_TARGET_SPLINE_A2_POS				"Targets: Target A2 Pos" "Target A2 Pos";
+	TMOTIONCAM_TARGET_SPLINE_B1_POS				"Targets: Target B1 Pos" "Target B1 Pos";
+	TMOTIONCAM_TARGET_SPLINE_B2_POS				"Targets: Target B2 Pos" "Target B2 Pos";
+	TMOTIONCAM_TARGET_SPLINE_UPVECTOR_POS	"Targets: Target UpVector Pos" "Target UpVector Pos";
+
+	TMOTIONCAM_ROT_MANUAL									"Manual Rotation";
+	TMOTIONCAM_ROT_MANUAL_HEAD						"Manual Head Rotation" "Head";
+	TMOTIONCAM_ROT_MANUAL_CAM							"Manual Camera Rotation" "Camera";
+
+	TMOTIONCAM_FOOT_DYN										"Foot Dynamics";
+	TMOTIONCAM_FOOT_DYN_ENABLED						"Foot Dyn: Enabled" "Enable";
+	TMOTIONCAM_FOOT_DYN_DAMP_POS					"Foot Dyn: Damp Pos" "Damp Pos";
+	TMOTIONCAM_FOOT_DYN_DAMP_ROT					"Foot Dyn: Damp Rot" "Damp Rot";
+	TMOTIONCAM_FOOT_DYN_INERTIA_POS				"Foot Dyn: Inertia Pos" "Inertia Pos";
+	TMOTIONCAM_FOOT_DYN_INERTIA_ROT				"Foot Dyn: Inertia Rot" "Inertia Rot";
+	TMOTIONCAM_FOOT_DYN_MODE							"Foot Dyn: Mode" "Mode";
+
+	TMOTIONCAM_DYN_MODE_DAMPEN						"Dampen";
+	TMOTIONCAM_DYN_MODE_SPRING						"Spring";
+
+	TMOTIONCAM_HEAD_DYN										"Head Dynamics";
+	TMOTIONCAM_HEAD_DYN_ENABLED						"Head Dyn: Enabled" "Enable";
+	TMOTIONCAM_HEAD_DYN_DAMP_POS					"Head Dyn: Damp Pos" "Damp Pos";
+	TMOTIONCAM_HEAD_DYN_DAMP_ROT					"Head Dyn: Damp Rot" "Damp Rot";
+	TMOTIONCAM_HEAD_DYN_INERTIA_POS				"Head Dyn: Inertia Pos" "Inertia Pos";
+	TMOTIONCAM_HEAD_DYN_INERTIA_ROT				"Head Dyn: Inertia Rot" "Inertia Rot";
+	TMOTIONCAM_HEAD_DYN_MODE							"Head Dyn: Mode" "Mode";
+
+	TMOTIONCAM_FOCUS_DYN									"Focus Dynamics";
+	TMOTIONCAM_FOCUS_DYN_ENABLED					"Focus Dyn: Enabled" "Enable";
+	TMOTIONCAM_FOCUS_DYN_MODE							"Focus Dyn: Mode" "Mode";
+	TMOTIONCAM_FOCUS_DYN_DAMP							"Focus Dyn: Damp" "Damp";
+	TMOTIONCAM_FOCUS_DYN_INERTIA					"Focus Dyn: Inertia" "Inertia";
+
+	TMOTIONCAM_CAM_DYN										"Hands Dynamics";
+	TMOTIONCAM_CAM_DYN_ENABLED						"Hands Dyn: Enabled" "Enable";
+	TMOTIONCAM_CAM_DYN_DAMP_POS						"Hands Dyn: Damp Pos" "Damp Pos";
+	TMOTIONCAM_CAM_DYN_DAMP_ROT						"Hands Dyn: Damp Rot" "Damp Rot";
+	TMOTIONCAM_CAM_DYN_INERTIA_POS				"Hands Dyn: Inertia Pos" "Inertia Pos";
+	TMOTIONCAM_CAM_DYN_INERTIA_ROT				"Hands Dyn:Inertia Rot" "Inertia Rot";
+	TMOTIONCAM_CAM_DYN_MODE								"Hands Dyn: Mode" "Mode";
+
+	TMOTIONCAM_VIS												"Visualization";
+	TMOTIONCAM_VIS_CAM										"Camera";
+	TMOTIONCAM_VIS_CAM_ENABLED						"Vis: Use Custom Camera Color" "Use Custom Color";
+	TMOTIONCAM_VIS_CAM_COL								"Vis: Camera Color" "Color";
+	TMOTIONCAM_VIS_RIG										"Vis: Rig" "Rig";
+	TMOTIONCAM_VIS_RIG_ENABLED						"Vis: Draw Rig" "Draw Rig";
+	TMOTIONCAM_VIS_RIG_COL								"Vis: Rig Color" "Color";
+	TMOTIONCAM_VIS_RIG_MODE								"Vis: Rig Mode" "Mode";
+	TMOTIONCAM_VIS_RIG_MODE_SIMPLE				"Simple";
+	TMOTIONCAM_VIS_RIG_MODE_FIGURE				"Figure";
+	TMOTIONCAM_VIS_TARGET									"Vis: Targets" "Targets";
+	TMOTIONCAM_VIS_TARGET_ENABLED					"Vis: Draw Marker" "Draw Marker";
+	TMOTIONCAM_VIS_TARGET_DRAWDISTTEXT		"Vis: Draw Target Distance" "Draw Target Distance";
+	TMOTIONCAM_VIS_TARGET_DRAWABERRATION	"Vis: Draw Aberration" "Draw Aberration";
+	TMOTIONCAM_VIS_TARGET_COLOR						"Vis: Target Color" "Color";
+	TMOTIONCAM_VIS_TARGET_RADIUS					"Vis: Marker Radius" "Marker Radius";
+	TMOTIONCAM_VIS_TARGET_2D							"Vis: Draw as 2D" "Draw as 2D";
+	TMOTIONCAM_VIS_TARGET_DRAWSINGLETARGETS	"Vis: Draw Single Targets" "Draw Single Targets";
+
+	TMOTIONCAM_FOCUS											"Focus";
+	TMOTIONCAM_FOCUS_ENABLED							"Focus: Enable Focus Control" "Enable Focus Control";
+	TMOTIONCAM_FOCUS_AUTO_ENABLED					"Focus: Enable Auto Focus" "Enable Auto Focus";
+	TMOTIONCAM_FOCUS_DISTANCE							"Target";
+	TMOTIONCAM_FOCUS_DISTANCE_DIST				"Focus: Target Distance" "Distance";
+	TMOTIONCAM_FOCUS_DISTANCE_OFFSET			"Focus: Offset" "Offset";
+	TMOTIONCAM_FOCUS_FOCALLENGTH					"Focus: Focal Length" "Focal Length";
+	TMOTIONCAM_FOCUS_APERTURE							"Focus: Sensor Size" "Sensor Size";
+
+	TMOTIONCAM_FOCUS_DEPTH								"Depth";
+	TMOTIONCAM_FOCUS_DEPTH_ENABLED				"Focus: Enable Depth Control" "Enable Depth Control";
+	TMOTIONCAM_FOCUS_DEPTH_AREA						"Focus: Focus Area" "Focus Area";
+	TMOTIONCAM_FOCUS_DEPTH_SOFT						"Focus: Blur Area" "Blur Area";
+	TMOTIONCAM_FOCUS_DEPTH_MODE						"Focus: Depth Mode" "Mode";
+		TMOTIONCAM_FOCUS_DEPTH_MODE_STANDARD	"Standard";
+		TMOTIONCAM_FOCUS_DEPTH_MODE_FORPOST		"For Post";
+
+	TMOTIONCAM_FOCUS_VERTIGO							"Dolly Zoom";
+	TMOTIONCAM_FOCUS_VERTIGO_INTENSITY		"Dolly Zoom: Intensity" "Intensity";
+
+	TMOTIONCAM_NMOTION										"Motion";
+	TMOTIONCAM_NMOTION_HEAD								"Head Rotation";
+	TMOTIONCAM_NMOTION_HEAD_ROT_INTENSITY	"Motion: Head Rot: Intensity" "Intensity";
+	TMOTIONCAM_NMOTION_HEAD_ROT_MAX				"Motion: Head Rot: Max" "Max";
+	TMOTIONCAM_NMOTION_HEAD_ROT_FREQ			"Motion: Head Rot: Frequency" "Frequency";
+	TMOTIONCAM_NMOTION_HEAD_ROT_OCT				"Motion: Head Rot: Octaves" "Octaves";
+	TMOTIONCAM_NMOTION_HEAD_ROT_DESYNC		"Motion: Head Rot: DeSync" "DeSync";
+	TMOTIONCAM_NMOTION_HEAD_ROT_OFFSET		"Motion: Head Rot: Offset" "Offset";
+
+	TMOTIONCAM_NMOTION_CAM								"Camera";
+	TMOTIONCAM_NMOTION_CAM_ROT						"Camera Rotation";
+	TMOTIONCAM_NMOTION_CAM_ROT_INTENSITY	"Motion: Cam Rot: Intensity" "Intensity";
+	TMOTIONCAM_NMOTION_CAM_ROT_MAX				"Motion: Cam Rot: Max" "Max";
+	TMOTIONCAM_NMOTION_CAM_ROT_FREQ				"Motion: Cam Rot: Frequency" "Frequency";
+	TMOTIONCAM_NMOTION_CAM_ROT_OCT				"Motion: Cam Rot: Octaves" "Octaves";
+	TMOTIONCAM_NMOTION_CAM_ROT_DESYNC			"Motion: Cam Rot: DeSync" "DeSync";
+	TMOTIONCAM_NMOTION_CAM_ROT_OFFSET			"Motion: Cam Rot: Offset" "Offset";
+
+	TMOTIONCAM_NMOTION_CAM_POS						"Camera Position";
+	TMOTIONCAM_NMOTION_CAM_POS_INTENSITY	"Motion: Cam Pos: Intensity" "Intensity";
+	TMOTIONCAM_NMOTION_CAM_POS_MAX				"Motion: Cam Pos: Max" "Max";
+	TMOTIONCAM_NMOTION_CAM_POS_FREQ				"Motion: Cam Pos: Frequency" "Frequency";
+	TMOTIONCAM_NMOTION_CAM_POS_OCT				"Motion: Cam Pos: Octaves" "Octaves";
+	TMOTIONCAM_NMOTION_CAM_POS_DESYNC			"Motion: Cam Pos: DeSync" "DeSync";
+	TMOTIONCAM_NMOTION_CAM_POS_OFFSET			"Motion: Cam Pos: Offset" "Offset";
+
+	TMOTIONCAM_NMOTION_FOOT								"Footsteps";
+	TMOTIONCAM_NMOTION_FOOT_INTENSITY			"Footsteps: Intensity" "Intensity";
+	TMOTIONCAM_NMOTION_FOOT_SCALE					"Footsteps: Scale" "Scale";
+	TMOTIONCAM_NMOTION_FOOT_FREQ					"Footsteps: Frequency" "Frequency";
+
+	TMOTIONCAM_NMOTION_PRESET							"Preset";
+	TMOTIONCAM_NMOTION_PRESET_CUSTOM			"(Custom)";
+	TMOTIONCAM_NMOTION_PRESET_QUIET				"Calm";
+	TMOTIONCAM_NMOTION_PRESET_STEADYCAM_1	"SteadyCam 1";
+	TMOTIONCAM_NMOTION_PRESET_STEADYCAM_2	"SteadyCam 2";
+	TMOTIONCAM_NMOTION_PRESET_DOGMA				"Dogma Cam";
+	TMOTIONCAM_NMOTION_PRESET_EGO					"Ego";
+
+	TMOTIONCAM_BASE												"Base";
+	TMOTIONCAM_BASE_LINK									"Base: Link" "Link";
+	TMOTIONCAM_BASE_INHERITPARAMS					"Base: Inherit Camera Parameters" "Inherit Camera Parameters";
+	TMOTIONCAM_BASE_OVERRIDE_RIGHEIGHT		"Base: Override Rig Dimensions" "Override Rig Dimensions";
+
+	TMOTIONCAM_FOLLOW											"Chase Object";
+	TMOTIONCAM_FOLLOW_ENABLED							"Chase: Enabled" "Enable";
+	TMOTIONCAM_FOLLOW_LINK								"Chase: Link" "Link";
+	TMOTIONCAM_FOLLOW_MAXDISTANCE					"Chase: Max. Distance" "Max. Distance";
+	TMOTIONCAM_FOLLOW_MINDISTANCE					"Chase: Min. Distance" "Min. Distance";
+
+	TMOTIONCAM_DYNAMICS										"Dynamics";
+	TMOTIONCAM_RIG												"Rig";
+	TMOTIONCAM_ANIMATION									"Animation";
+
+	TMOTIONCAM_EXPORT											"Export";
+	TMOTIONCAM_EXPORT_TARGETPOS_LINK			"Target Pos: Link";
+	TMOTIONCAM_EXPORT_TARGETPOS_VECTOR		"Target Pos: Vector";
+	TMOTIONCAM_EXPORT_FOOTPOS_LINK				"Foot: Link";
+	TMOTIONCAM_EXPORT_FOOTPOS_VECTOR			"Foot: Pos Vector";
+	TMOTIONCAM_EXPORT_HEADPOS_LINK				"Head: Link";
+	TMOTIONCAM_EXPORT_HEADPOS_VECTOR			"Head: Pos Vector";
+	TMOTIONCAM_EXPORT_SPEED								"Speed (Units/sec)";
+}

@@ -1,0 +1,14 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_MATRIX
+{
+	STR_TITLE "Matrix";
+	STR_WIDTH "Width:";
+	STR_HEIGHT "Height:";
+	STR_ANGLE	"Angle:";
+	STR_MIX	"Blend:";
+	STR_SCALE_MATRIX "Scale Matrix";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

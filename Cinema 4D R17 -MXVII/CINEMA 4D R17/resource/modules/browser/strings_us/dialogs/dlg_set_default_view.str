@@ -1,0 +1,7 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_SET_DEFAULT_VIEW
+{
+	TITLE_SET_DEFAULT_VIEW 			"Reset to Default View Settings";
+	STR_RECURSIVE_DEFAULT_VIEW	"Include Sub-Folders";
+}

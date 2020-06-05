@@ -1,0 +1,9 @@
+STRINGTABLE tpython
+{
+	Tpython								"Python Tag";
+
+	TPYTHON_CODE					"Code";
+	TPYTHON_FRAME					"Frame Dependent";
+	TPYTHON_RESET					"Reset on frame 0";
+	TPYTHON_OPENEDITOR		"Open Python Editor";
+}

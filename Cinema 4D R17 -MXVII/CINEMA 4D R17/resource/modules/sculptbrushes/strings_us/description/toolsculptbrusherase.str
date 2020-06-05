@@ -1,0 +1,6 @@
+STRINGTABLE ToolSculptBrushErase
+{
+	ToolSculptBrushErase		"Sculpt Brush Erase Tool";
+
+	MDATA_SCULPTBRUSH_ERASE_MASKED "Erase Masked";
+}

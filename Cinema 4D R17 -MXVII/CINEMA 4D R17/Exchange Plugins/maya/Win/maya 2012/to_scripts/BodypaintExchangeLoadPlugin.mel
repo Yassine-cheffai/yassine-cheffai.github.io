@@ -1,0 +1,10 @@
+
+// (C) 2003 MAXON
+
+global proc BodypaintExchangeLoadPlugin()
+{
+	loadPlugin -qt BodypaintExchange;
+	menu -l "BodyPaint3D" -p "MayaWindow" -allowOptionBoxes true pluginsMenu;
+	menuItem -l "Send to BodyPaint" -c "BodypaintExchangeUI 1";
+	menuItem -c "BodypaintExchangeUI 0" -ob true;
+}

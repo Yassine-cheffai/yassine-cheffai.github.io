@@ -1,0 +1,67 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	// DIALOG
+	IDS_TEXMAN			"Texture Manager...";
+
+	// MENU
+	IDS_TEXMAN_MENU_EDIT		"Edit";
+	IDS_TEXMAN_SELECTALL		"Select All";
+	IDS_TEXMAN_DESELECTALL		"Deselect All";
+	IDS_TEXMAN_SELECTALLMISSING	"Select Missing Textures";
+	IDS_TEXMAN_SELECTALL_ACTIVE	"Select Textures of Active Materials";
+	IDS_TEXMAN_SHOWSELECTED		"Show in Attribute Manager";
+	IDS_TEXMAN_INVERTSELECTION	"Invert Selection";
+	IDS_TEXMAN_TOOL_TOLOCAL		"Localize Filenames";
+	IDS_TEXMAN_TOOL_TOGLOBAL	"Globalize Filenames";
+	IDS_TEXMAN_RELINK_TEXTURES	"Relink Textures...";
+	IDS_TEXMAN_RELINK_SEARCH_TXT	"Press 'Esc' key to break! Searching for textures in directory";
+	IDS_TEXMAN_RELINK_FILESELECT	"Select Folder To Search For Relinking Textures";
+	IDS_TEXMAN_REPLACE_TEXTURE	"Replace Texture(s) with...";
+	IDS_TEXMAN_REPLACE_FILESELECT	"Select texture to replace";
+	IDS_TEXMAN_CLEAR_TEXTURES			"Clear Textures";
+
+	IDS_TEXMAN_MENU_VIEW		"View";
+	IDS_TEXMAN_SEARCHBAR		"Search Bar";
+	IDS_TEXMAN_STATUS		"Status";
+	IDS_TEXMAN_TEXTURE		"Texture";
+	IDS_TEXMAN_CURRENTPATH		"Suggested Path";
+	IDS_TEXMAN_GLOBALPATH		"Real Path";
+	IDS_TEXMAN_NEWPATH		"New File Path";
+	IDS_TEXMAN_MATERIALS		"Materials";
+	IDS_TEXMAN_CHANNEL		"Channel";
+	IDS_TEXMAN_LAYER		"Layer";
+	IDS_TEXMAN_UNKNOWN		"???";
+	IDS_TEXMAN_NO_BITMAP		"(No Bitmap)";
+
+	// COMMANDS / TREEVIEW
+	IDS_TEXMAN_FILTER		"Filter";
+	IDS_TEXMAN_FILTER_MODE_0	"Texture";
+	IDS_TEXMAN_FILTER_MODE_1	"Suggested Path";
+	IDS_TEXMAN_FILTER_MODE_2	"Real Path";
+	IDS_TEXMAN_FILTER_MODE_3	"Materials";
+	IDS_TEXMAN_FILTER_MODE_4	"Channels";
+	IDS_TEXMAN_FILTER_MODE_5	"Layer";
+	IDS_TEXMAN_FILTER_MODE_6	"Missing";
+
+	IDS_TEXMAN_REPLACEINALL		"Full Path";
+	IDS_TEXMAN_REPLACEINDIRECTORY	"Directory";
+	IDS_TEXMAN_REPLACEINFILENAME	"Filename";
+
+	IDS_TEXMAN_REPLACE_LABEL	"Replace";
+	IDS_TEXMAN_WITH_LABEL		"With";
+	IDS_TEXMAN_REPLACE_CMD		"Replace";
+
+	IDS_TEXMAN_NOLAYER		"No Layer";
+
+	IDS_TEXMAN_INFO_TEXTURES	"Textures";
+	IDS_TEXMAN_INFO_MISSING		"Missing";
+	IDS_TEXMAN_INFO_SELECTED	"Selected";
+	IDS_TEXMAN_INFO_ERROR		"Error";
+
+	IDS_TEXMAN_POP_SHOW_IN_FINDEREXPLORER	"Show File in Explorer/Finder";
+	IDS_TEXMAN_POP_OPEN_IN_FINDEREXPLORER	"Open File in Explorer/Finder";
+	IDS_TEXMAN_POP_OPEN_IN_PICTUREVIEWER	"Open File in Picture Viewer";
+}

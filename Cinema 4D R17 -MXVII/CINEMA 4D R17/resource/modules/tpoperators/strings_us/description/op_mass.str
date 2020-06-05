@@ -1,0 +1,13 @@
+STRINGTABLE OP_Mass
+{
+	OP_Mass	"PMass";
+		
+	MASS_MASS				"Mass";
+	MASS_VAR				"Variation";
+	MASS_AGEGRAD	  "Age Gradient";	
+	MASS_OVERAGE	  "Over Age";	
+
+	IN_MASS_PARTICLE	"Particle";
+	IN_MASS_ON				"On";
+	IN_MASS_ATIME			"Animation Time";	
+}

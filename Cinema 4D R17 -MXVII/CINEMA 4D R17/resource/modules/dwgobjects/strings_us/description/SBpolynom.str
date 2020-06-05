@@ -1,0 +1,12 @@
+STRINGTABLE SBpolynom
+{
+	SBpolynom               "Polynomial Spline Surface" "Polynom Surface";
+
+	POLYNOMSURFACE_UCLOSED      "Closed U";
+	POLYNOMSURFACE_VCLOSED      "Closed V";
+	POLYNOMSURFACE_UDEGREE      "Degree U";
+	POLYNOMSURFACE_VDEGREE      "Degree V";
+	POLYNOMSURFACE_UPOINTCOUNT  "Points U";
+	POLYNOMSURFACE_VPOINTCOUNT  "Points V";
+}
+

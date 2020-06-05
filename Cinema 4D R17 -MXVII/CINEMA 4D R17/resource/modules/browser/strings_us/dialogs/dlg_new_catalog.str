@@ -1,0 +1,10 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_NEW_CATALOG
+{
+	TITLE_STR_NEW_CATALOG 	"Create New Catalog";
+	STR_NAME								"Name";
+	STR_BASE_FOLDER					"Base Folder";
+	STR_CATALOG_BROWSE			"Browse...";
+	
+}

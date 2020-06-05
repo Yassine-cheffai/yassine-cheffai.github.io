@@ -1,0 +1,27 @@
+STRINGTABLE OP_MotionInheritance
+{
+	OP_MotionInheritance	"PMotionInheritance";
+		
+	MINH_OBJECT						"Object";
+	MINH_INHERI						"Inheritance";
+	MINH_VAR							"Variation";
+	MINH_ROTINHERI				"Rotation Inheri.";
+	MINH_ROTVAR						"Variation";
+	MINH_DIRVAR						"Direction Var.";
+	MINH_DTYPE						"Type";
+	MINH_DIST							"Radius";
+	MINH_CAXIS						"Cylinder Axis";
+	MINH_CAXIS_X					"X";
+	MINH_CAXIS_Y					"Y";
+	MINH_CAXIS_Z					"Z";
+	MINH_CHEIGHT					"Cylinder Height";
+	MINH_CGRAD						"Cylinder Gradient";
+	MINH_DGRAD						"Distance Gradient";
+	MINH_SGRAD						"Scale Gradient";
+	MINH_DTYPE_NONE				"None";
+	MINH_DTYPE_SPHERE			"Sphere";
+	MINH_DTYPE_CYLINDER		"Cylinder";
+	IN_MINH_PARTICLE			"Particle";
+	IN_MINH_ON						"On";
+	IN_MINH_ATIME					"Animation Time";	
+}

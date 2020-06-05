@@ -1,0 +1,65 @@
+class GeModalDialog : GeDialog
+{
+	private:
+		var dlg_result;
+
+	public:
+		GeModalDialog();
+
+		Message(msg);
+		Open(xpos,ypos);
+
+		GetResult();
+}
+
+GeModalDialog::GetResult()
+{
+	return dlg_result;
+}
+
+GeModalDialog::Message(msg)
+{
+	switch (msg->GetId())
+	{
+		case BFM_CHECKCLOSE:
+			if (dlg_result && _AddGadget(DIALOG_CHECKNUMBERS,0,"",0,0,0,0))
+			{
+				dlg_result = FALSE;
+				return TRUE;
+			}
+			return FALSE;
+
+		case BFM_ASKCLOSE:
+			if (AskClose()) return TRUE;
+			break;
+
+		case BFM_ACTION:
+		{
+			var id = msg->GetInt(BFM_ACTION_ID);
+			var res = Command(id,msg);
+
+			if (id == IDC_OK || id == IDC_CANCEL)
+			{
+				dlg_result = (id==IDC_OK);
+				Close();
+			}
+			return res;
+		}
+		break;
+	}
+	return super::Message(msg);
+}
+
+GeModalDialog::GeModalDialog()
+{
+	super(0);
+	dlg_result = FALSE;
+}
+
+GeModalDialog::Open(xpos,ypos)
+{
+	dlg_result = FALSE;
+	super::Open(FALSE,xpos,ypos);
+	return dlg_result;
+}
+

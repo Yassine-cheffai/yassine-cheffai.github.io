@@ -1,0 +1,17 @@
+STRINGTABLE HP_VolumePosition
+{
+	HP_VolumePosition	"PVolumePosition";
+	
+	HP_VOLUMEPOS_OBJECT					"Object";
+	HP_VOLUMEPOS_TYPE						"Type";
+	HP_VOLUMEPOS_TYPE_INSIDE		"Inside";
+	HP_VOLUMEPOS_TYPE_OUTSIDE		"Outside";
+	HP_VOLUMEPOS_DEPTH					"Depth";
+	HP_VOLUMEPOS_SELECTION			"Selection";
+	HP_VOLUMEPOS_SEED						"Random Seed";
+	HP_VOLUMEPOS_PARTICLE				"Particle";
+	HP_VOLUMEPOS_ATIME					"Animation Time";
+	HP_VOLUMEPOS_OUT_POSITION		"Position";
+	HP_VOLUMEPOS_OUT_NORMAL			"Normal";
+	HP_VOLUMEPOS_OUT_ALIGNMENT	"Alignment";
+}

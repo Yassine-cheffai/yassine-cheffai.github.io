@@ -1,0 +1,8 @@
+DIALOGSTRINGS OPTINDIALOG
+{
+	IDS_TITLE "MAXON User Participation Program";
+	IDS_RADIO_PARTICIPATE "I'll participate";
+	IDS_RADIO_NOT_PARTICIPATE "I don't want to participate"; 
+	IDS_BUTTON_OK "OK";
+	IDS_BUTTON_REMIND_LATER "Remind me later"; 
+}

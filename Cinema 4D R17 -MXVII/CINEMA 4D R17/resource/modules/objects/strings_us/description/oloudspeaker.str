@@ -1,0 +1,21 @@
+STRINGTABLE Oloudspeaker
+{
+	Oloudspeaker						"Loudspeaker Object";
+	LMOBJECT_SHOW						"Show Cone and Falloff";
+	
+	CONE_GROUP							"Cone";
+	LMOBJECT_INNERCONE			"Inner Cone";
+	LMOBJECT_OUTERCONE			"Outer Cone";
+	LMOBJECT_INNERANGLE			"Inner Angle";
+	LMOBJECT_OUTERANGLE			"Outer Angle";
+	
+	FALLOFF_GROUP						"Falloff";
+	LMOBJECT_FALLOFF				"Falloff";
+		LMOBJECT_FALLOFF_NONE						"None";
+		LMOBJECT_FALLOFF_LINEAR					"Linear";
+		LMOBJECT_FALLOFF_INVERSE				"Inverse";
+		LMOBJECT_FALLOFF_INVERSESQUARE	"Inverse Square";
+		LMOBJECT_FALLOFF_INVERSECUBIC		"Inverse Cubic";
+	LMOBJECT_INNERDIST			"Inner Distance";
+	LMOBJECT_OUTERDIST			"Outer Distance";
+}

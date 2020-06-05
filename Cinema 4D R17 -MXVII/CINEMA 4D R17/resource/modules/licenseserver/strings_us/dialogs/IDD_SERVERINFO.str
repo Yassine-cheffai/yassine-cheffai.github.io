@@ -1,0 +1,13 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_SERVERINFO
+{
+  IDS_DIALOG   "Server Info";
+  IDS_STATIC   "Group";
+  IDS_STATIC1  "Name/Company";
+  IDS_STATIC2  "Street";
+  IDS_STATIC3  "City";
+  IDS_STATIC4  "Country";
+  IDS_STATIC5  "Additional Information";
+  IDS_STATIC6  "Group";
+}

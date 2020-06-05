@@ -1,0 +1,43 @@
+STRINGTABLE OP_Storm
+{
+	OP_Storm	"PStorm";
+		
+	ST_BTYPE						"Birth Type";
+	ST_BTYPE_COUNT			"Count";
+	ST_BTYPE_RATE				"Rate";
+	ST_BTYPE_SHOT				"Shot";
+	ST_COUNT						"Count";
+	ST_RATE							"Rate";
+	ST_SHOT							"Shot";
+	ST_LIFE							"Life";
+	ST_LIFEVAR					"Life Variation";
+	ST_SPEED						"Speed";
+	ST_SPEEDVAR					"Speed Variation";
+	ST_SIZE							"Size";
+	ST_SIZEVAR					"Size Variation";
+	ST_XANGLE						"X Fov";
+	ST_XSIZE						"X Size";
+	ST_YANGLE						"Y Fov";
+	ST_YSIZE						"Y Size";
+	ST_SEED							"Random Seed";
+	ST_DIST							"Distance";
+	ST_DISTVAR					"Distance Variation";
+	ST_SPIN							"Spin";
+	ST_SPINVAR					"Spin Variation";
+	ST_SPINTYPE					"Spin Type";
+	ST_SPINTYPE_RANDOM	"Random";
+	ST_SPINTYPE_USER		"Axis";
+	ST_SPINAXIS					"Spin Axis";
+	ST_TYPE							"Type";
+	ST_TYPE_RECTANGLE		"Rectangle";
+	ST_TYPE_CIRCLE			"Circle";
+	
+	IN_ST_ON							"On";
+	IN_ST_ATIME 					"Animation Time";
+	IN_ST_POSITION				"Emitter Position";
+	IN_ST_ALIGNMENT				"Emitter Alignment";
+	IN_ST_VELOCITY		 		"Emitter Velocity";
+	OUT_ST_PARTICLE				"Particle Birth";
+	OUT_ST_PARTICLECOUNT	"Birth Count";
+	OUT_ST_PARTICLENUM		"Birth Num";	
+}

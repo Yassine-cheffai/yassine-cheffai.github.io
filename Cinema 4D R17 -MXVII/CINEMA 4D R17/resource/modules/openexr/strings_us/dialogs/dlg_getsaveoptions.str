@@ -1,0 +1,19 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_GETSAVEOPTIONS
+{
+	STR_OPENEXRSAVEOPTIONS "OpenEXR Options";
+	COMPRESSION_TYPE_TEXT		"Compression";
+  NO_COMPRESSION_TEXT			"None";
+  RLE_COMPRESSION_TEXT		"Run length encoding";
+  ZIPS_COMPRESSION_TEXT		"Zip, one scan line at a time";
+  ZIP_COMPRESSION_TEXT		"Zip, in blocks of 16 scan lines";
+  PIZ_COMPRESSION_TEXT		"Piz-based wavelet";
+	PXR24_COMPRESSION_TEXT	"Lossy 24-bit float, Zip";
+	B44_COMPRESSION_TEXT		"Lossy 16-bit float, 4-by-4 pixel [B44]";
+	B44A_COMPRESSION_TEXT		"Lossy 16-bit float, 4-by-4 pixel (flat fields) [B44A]";
+  RLE_HF_COMPRESSION_TEXT		"Lossy 16-bit float, Run length encoding";
+  ZIPS_HF_COMPRESSION_TEXT	"Lossy 16-bit float, Zip, one scan line at a time";
+  ZIP_HF_COMPRESSION_TEXT		"Lossy 16-bit float, Zip, in blocks of 16 scan lines";
+  PIZ_HF_COMPRESSION_TEXT		"Lossy 16-bit float, Piz-based wavelet";
+}

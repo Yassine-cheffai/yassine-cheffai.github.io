@@ -1,0 +1,12 @@
+STRINGTABLE Tspooldummy
+{
+	Tspooldummy					"Start External Render";
+
+	SPOOLDUMMY_DISPLAYPRESET			"Display Preset";
+		SPOOLDUMMY_DISPLAYPRESET_FILE		"File";
+		SPOOLDUMMY_DISPLAYPRESET_FRAMEBUFFER	"Framebuffer";
+		SPOOLDUMMY_DISPLAYPRESET_CUSTOM		"Custom";
+	SPOOLDUMMY_DISPLAY				"Display";
+	SPOOLDUMMY_EXPORT				"Export";
+	SPOOLDUMMY_EXPORTSTART				"Export & Start";
+}

@@ -1,0 +1,35 @@
+STRINGTABLE Tphconstraintmask
+{
+	Tphconstraintmask			"Mask Constraint";
+
+	// Mask
+	PH_SCENE_CAL_MASK			"Mask";
+
+	PH_SCENE_CAL_MASK_ADDSUB_MODE		"Tracking"; // Masked Region
+		PH_SCENE_CAL_MASK_ADDSUB_MODE_ADD	"Include In Mask"; // Included
+		PH_SCENE_CAL_MASK_ADDSUB_MODE_SUB	"Exclude From Mask"; // Excluded
+
+	PH_SCENE_CAL_MASK_FIRST_FRAME			"Active From";
+	PH_SCENE_CAL_MASK_LAST_FRAME			"Active To";
+
+	PH_SCENE_CAL_MASK_SET_SELECT	"Set Selection";
+	PH_SCENE_CAL_MASK_FORCE_UPDATE	"Update 2D Tracking Result";
+	PH_SCENE_CAL_MASK_GET_SELECT	"Get Selection";
+
+	PH_SCENE_CAL_MASK_CREATE_SCENE_PLANE	"Create Mask Object";
+
+	PH_SCENE_CAL_MASK_AXIS		"Axis";
+		PH_SCENE_CAL_MASK_AXIS_NONE	"None";
+		PH_SCENE_CAL_MASK_AXIS_X	"X";
+		PH_SCENE_CAL_MASK_AXIS_Y	"Y";
+		PH_SCENE_CAL_MASK_AXIS_Z	"Z";
+
+	PH_SCENE_CAL_MASK_INTERPRET_MODE		"Interpret as";
+		PH_SCENE_CAL_MASK_INTERPRET_MODE_LINEAR	"Linear";
+		PH_SCENE_CAL_MASK_INTERPRET_MODE_MASK "Mask";
+
+	PH_SCENE_CAL_MASK_DISPLAY  "Display";
+	PH_SCENE_CAL_MASK_DISPLAY_MASK  "Display Mask";
+	PH_SCENE_CAL_MASK_DISPLAY_COLOUR  "Mask Color";
+
+}

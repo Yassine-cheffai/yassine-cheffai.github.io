@@ -1,0 +1,29 @@
+// This library adds some convenience functions to COFFEE
+// (C) MAXON Computer GmbH 2000
+
+GetActiveDocument()
+{
+	var doc = GetFirstDocument(); if (!doc) return NULL;
+
+	if (doc->GetBit(2)) return doc; // first element is already the active one
+
+	return doc->SearchNext(2);
+}
+
+GetActiveObject(doc)
+{
+	var op = doc->GetFirstObject(); if (!op) return NULL;
+
+	if (op->GetBit(2)) return op; // first element is already the active one
+
+	return op->SearchNext(2);
+}
+
+GetActiveTag(op)
+{
+	var tag = op->GetFirstTag(); if (!tag) return NULL;
+
+	if (tag->GetBit(2)) return tag; // first element is already the active one
+
+	return tag->SearchNext(2);
+}

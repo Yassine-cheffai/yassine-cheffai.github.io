@@ -1,0 +1,7 @@
+STRINGTABLE Xbase
+{
+	Xbase				 		 		"Shader";
+	ID_SHADERPROPERTIES "Shader Properties" "Shader";
+	SHADER_MIPOFFSET 		"Blur Offset";
+	SHADER_MIPSCALE 		"Blur Scale";
+}

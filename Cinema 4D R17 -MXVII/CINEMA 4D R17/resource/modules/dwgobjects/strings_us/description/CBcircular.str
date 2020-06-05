@@ -1,0 +1,8 @@
+STRINGTABLE CBcircular
+{
+	CBcircular              "Circular Curve" "Circular";
+
+	CIRCULARCURVE_CENTER        "Center Point" "Center";
+	CIRCULARCURVE_P1            "Start Point" "Start";
+	CIRCULARCURVE_P2            "End Point" "End";
+}

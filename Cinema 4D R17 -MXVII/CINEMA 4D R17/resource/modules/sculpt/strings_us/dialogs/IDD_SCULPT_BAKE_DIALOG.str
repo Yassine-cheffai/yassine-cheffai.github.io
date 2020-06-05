@@ -1,0 +1,9 @@
+//C4D-DialogResource
+
+DIALOGSTRINGS IDD_SCULPT_BAKE_DIALOG
+{
+  IDS_SCULPT_BAKE_DIALOG	"Bake Sculpt Object";
+  IDS_STATIC				"Group";
+  IDS_BAKE_OBJECT_FILENAME_EDIT "Path Name";
+}
+

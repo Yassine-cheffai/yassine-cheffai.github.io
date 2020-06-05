@@ -1,0 +1,13 @@
+##	* REEPER CHANGELOG *	##
+
+Version	2.01
+------------
+# added - display Version number under "General"
+# fixed - check if input spline changed
+
+
+Version	2.02
+------------
+# added Multishade Mode (usefull for Mographs Multishader)
+# added Form Spline GUI
+# added R16 SweepNurbsCaps options

@@ -1,0 +1,22 @@
+STRINGRESOURCE MACHINEINFO
+{
+	COMPUTERNAME				"Computer Name";
+	USERNAME						"User Name";
+	OSVERSION						"OS Version";
+	PROCESSORTYPE				"Processor Type";
+	PROCESSORNAME				"Processor Name";
+	PROCESSORFEATURES		"Processor Features";
+	NUMBEROFPROCESSORS	"Number of Processors";
+	SUPPORTAVX					"Supports AVX";
+	SUPPORTSSE					"Supports SSE";
+	SUPPORTSSE2					"Supports SSE2";
+	SUPPORTSSE3					"Supports SSE3";
+	SUPPORTSSE41				"Supports SSE4.1";
+	SUPPORTSSE42				"Supports SSE4.2";
+	SUPPORTFMA					"Supports FMA";
+	SUPPORTAES					"Supports AES";
+	SUPPORTPCLMULQDQ			"Supports PCLMULQDQ";
+	SUPPORTAVX2					"Supports AVX2";
+	TESTENUM						"Test Enum";
+	TESTVECTOR					"Test Väctör";
+};

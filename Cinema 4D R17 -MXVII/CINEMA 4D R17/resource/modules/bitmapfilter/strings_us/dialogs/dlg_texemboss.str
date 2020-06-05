@@ -1,0 +1,14 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_TEXEMBOSS
+{
+	STR_TITLE "Emboss (Texture)";
+	STR_AZIMUTH	"Azimuth:";
+	STR_ELEVATION	"Elevation:";
+	STR_DEPTH	"Depth:";
+	STR_USE_TEXTURE "Texture:";
+	STR_PRENAME "Please Select Texture";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}

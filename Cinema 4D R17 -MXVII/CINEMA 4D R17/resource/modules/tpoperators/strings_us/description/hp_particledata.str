@@ -1,0 +1,21 @@
+STRINGTABLE HP_ParticleData
+{
+	HP_ParticleData	"PGet Data";
+	
+	OUT_PART_POSITION		"Position";
+	OUT_PART_VELOCITY		"Velocity";
+	OUT_PART_AGE				"Age";
+	OUT_PART_LIFE				"Life";
+	OUT_PART_SIZE				"Size";
+	OUT_PART_SCALE			"Scale";
+	OUT_PART_MASS				"Mass";
+	OUT_PART_ALIGNMENT	"Alignment";
+	OUT_PART_SPIN				"Spin";
+	OUT_PART_SHAPE			"Shape";
+	OUT_PART_GROUP			"Group";
+	OUT_PART_DTFAC			"DT Factor";
+	OUT_PART_RANDOMSEED	"Random Seed";
+	OUT_PART_COLOR			"Color";
+	
+	IN_HPPART_PARTICLE	"Particle";
+}

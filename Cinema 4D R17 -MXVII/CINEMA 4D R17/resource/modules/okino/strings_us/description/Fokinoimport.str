@@ -1,0 +1,18 @@
+// C4D-DialogResource
+
+STRINGTABLE Fokinoimport
+{
+	Fokinoimport "Okino Import Settings";
+
+	OKINO_STR_OPTIONS	"General Okino Import Options";
+	OKINOIMPORT_STR_OPTIONS	"Import Options";
+	OKINOEXPORT_STR_OPTIONS	"Export Options";
+
+	OKINOSHOW_SETTINGS			"Show Option Dialog Upon Import";
+	OKINOSHOW_EXPORT_SETTINGS		"Show Option Dialog Upon Export";
+	OKINOCLEAR_TEMP	"Delete intermediate files from CD-ROM import when closing Cinema 4D";
+	OKINO_KEEP_IN_MEM "Keep Okino Polytrans resident in memory";
+	OKINOIMPORT_FILTER_LIST	"Select Okino Importers ...";
+	OKINOINTERMEDIATE_LWS_OPTIONS	"Select Intermediate File Import Options ...";
+	OKINOINTERMEDIATE_FBX_OPTIONS	"Select Intermediate File Export Options ...";
+}

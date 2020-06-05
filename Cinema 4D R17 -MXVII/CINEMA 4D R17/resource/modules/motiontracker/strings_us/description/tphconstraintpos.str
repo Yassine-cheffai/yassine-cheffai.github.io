@@ -1,0 +1,20 @@
+STRINGTABLE Tphconstraintpos
+{
+	Tphconstraintpos			"Position Constraint";
+
+	// Position
+	PH_SCENE_CAL_POS				"Position";
+	PH_SCENE_CAL_POS_MODE			"Mode";
+	  PH_SCENE_CAL_POS_MODE_CAMERA_TO_POS	"Camera to Position";
+	  PH_SCENE_CAL_POS_MODE_SELECT_TO_POS	"Feature to Position";
+	PH_SCENE_CAL_POS_FRAME_NUM			"Frame";
+	PH_SCENE_CAL_POS_SET_SELECT		"Set Selection";
+	PH_SCENE_CAL_POS_FORCE_EXPORT		"Update Calibration";
+	PH_SCENE_CAL_POS_GET_SELECT		"Get Selection";
+	PH_SCENE_CAL_POS_X_COORD			"P.X";
+	PH_SCENE_CAL_POS_Y_COORD			"P.Y";
+	PH_SCENE_CAL_POS_Z_COORD			"P.Z";
+
+	PH_SCENE_CAL_POS_TARGETS		"Target";
+	PH_SCENE_CAL_POS_TARGET_0 			"Target";
+}

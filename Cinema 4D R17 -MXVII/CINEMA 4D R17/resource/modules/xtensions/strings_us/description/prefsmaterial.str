@@ -1,0 +1,13 @@
+STRINGTABLE Prefsmaterial
+{
+	Prefsmaterial			"Material Manager";
+	PREF_MM_SIZE			"Default Size";
+		PREF_MM_SIZE_SMALL	"Small";
+		PREF_MM_SIZE_MED	"Medium";
+		PREF_MM_SIZE_LARGE	"Large";
+		PREF_MM_SIZE_HUGE	"Huge";
+	PREF_MM_SHSCENE			"Shader Default Project";
+	PREF_MM_MATSCENE					"Material Default Project";
+	PREF_MM_FRATE						"Frame Rate (FPS)";
+	PREF_MM_PREV						"Preview Length (sec)";
+}

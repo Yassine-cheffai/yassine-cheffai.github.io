@@ -1,0 +1,9 @@
+STRINGTABLE ToolSculptBrushAmplify
+{
+	ToolSculptBrushAmplify	"Sculpt Brush Amplify Tool";
+
+	MDATA_SCULPTBRUSH_AMPLIFY_MODE				"Amplify Mode";
+	MDATA_SCULPTBRUSH_AMPLIFY_MODE_BOTH			"All";
+	MDATA_SCULPTBRUSH_AMPLIFY_MODE_CREVICE		"Crevice";
+	MDATA_SCULPTBRUSH_AMPLIFY_MODE_RIDGE		"Ridge";
+}

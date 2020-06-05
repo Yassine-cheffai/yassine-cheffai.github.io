@@ -1,0 +1,23 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_SPACEMOUSE
+{
+  DLGS_ENABLED        "Enabled";
+  DLGS_REDUCE_ANGLES  "Keep angles small";
+  DLGS_TAB_NAVIGATE   "Navigate";
+  DLGS_TAB_FLY        "Fly";
+  DLGS_TAB_MOVE       "Move";
+  DLGS_MOVE           "Translation";
+  DLGS_MOVE_INV       "<->";
+  DLGS_MOVE_X         "X";
+  DLGS_MOVE_Y         "Y";
+  DLGS_MOVE_Z         "Z";
+  DLGS_ROT            "Rotation";
+  DLGS_ROT_INV        "<->";
+  DLGS_ROT_H          "H";
+  DLGS_ROT_P          "P";
+  DLGS_ROT_B          "B";
+  DLGS_CAM            "Cam";
+  DLGS_AXIS           "Axis";
+  DLGS_WORLD          "World";
+}

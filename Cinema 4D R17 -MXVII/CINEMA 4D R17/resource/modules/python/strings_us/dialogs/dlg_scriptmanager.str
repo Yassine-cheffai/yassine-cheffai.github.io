@@ -1,0 +1,8 @@
+DIALOGSTRINGS DLG_SCRIPTMANAGER
+{
+	T1															"Script Manager (Python)";
+
+	SCRIPTMANAGER_BTN_EXECUTE				"Execute";
+	SCRIPTMANAGER_BTN_RENDERICON		"Render Icon";
+	SCRIPTMANAGER_BTN_CREATESCRIPT	"Create Script";
+}

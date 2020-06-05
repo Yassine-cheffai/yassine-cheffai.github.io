@@ -1,0 +1,43 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	GV_STATUS_STRING "Status";
+
+	IDS_THINKING_NAMEVERS			"Thinking Particles 1.0";
+	IDS_THINKING_NAME					"Thinking Particles";
+	IDS_THINKING_HELP					"Thinking Particles";
+	IDS_THINKINGCOMMAND_NAME  "Thinking Particles Settings...";
+	IDS_THINKINGCOMMAND_HELP	"Thinking Particles Settings";
+	IDS_THINKING_PREREMOVE_PGROUP "The Particle Group is currently in use.|Do you really want to remove it? (Changes cannot be undone)";
+
+	IDS_PGROUP_NAME         "Particle Group";
+	IDS_PGROUP_ALL	        "All";
+	IDS_PGROUP_GROUP        "Group";
+	IDS_PGROUP_SETTINGS     "Settings...";
+	IDS_PGROUP_ADD	        "Add";
+	IDS_PGROUP_REMOVE       "Remove";
+	IDS_TP_PARTICLEGEOMETRY_NAME				"Particle Geometry";
+	IDS_TP_PARTICLEGEOMETRY_DESCRIPTION "TP_ParticleGeometry";
+	
+	IDS_TP_VALUE_TYPE_PARTICLE	"TP Particle";
+	IDS_TP_DATA_TYPE_PARTICLE	"TP Particle";
+	IDS_TP_VALUE_TYPE_SHAPE 	"TP Shape";
+	IDS_TP_DATA_TYPE_SHAPE		"TP Shape";
+	IDS_TP_VALUE_TYPE_GROUP		"TP Group";
+	IDS_TP_DATA_TYPE_GROUP		"TP Group";
+	IDS_TP_VALUE_TYPE_SPIN		"TP Spin";
+	IDS_TP_DATA_TYPE_SPIN		"TP Spin";
+
+	// View Types
+	IDS_VIEWTYPE_NONE			"None";
+	IDS_VIEWTYPE_FLAKES			"Flakes";
+	IDS_VIEWTYPE_DOTS			"Dots";
+	IDS_VIEWTYPE_TICKS			"Ticks";
+	IDS_VIEWTYPE_DROPS			"Drops";
+	IDS_VIEWTYPE_BOX			"Box";
+	IDS_VIEWTYPE_GLOBAL			"Global";
+
+	IDS_TPNAME "Thinking Particles";
+}

@@ -1,0 +1,35 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDC_SERIALSERVERMANAGER
+{
+  IDS_BUTTON          "Test - Receive Serial";
+  IDS_BUTTON1         "Add Serials";
+  IDS_BUTTON2         "Add Group";
+  IDS_BUTTON3         "Show/Set Server Info";
+  IDS_CHILD_ELEMENT1  "";
+  IDS_DIALOG          "Serial Number Server Manager";
+  IDS_GROUP1          "----";
+  IDS_GROUP2          "Group";
+  IDS_GROUP3          "MachineID";
+  IDS_GROUP4          "IP Address";
+  IDS_GROUP5          "Computer/User";
+  IDS_GROUP6          "Computer";
+  IDS_GROUP7          "User";
+  IDS_STATIC          "Group";
+  IDS_STATIC1         "Serials";
+  IDS_STATIC10        "Group";
+  IDS_STATIC11        "";
+  IDS_STATIC12        "Group";
+  IDS_STATIC13        "";
+  IDS_STATIC14        "Group";
+  IDS_STATIC15        "";
+  IDS_STATIC16        "Group By";
+  IDS_STATIC2         "Client List";
+  IDS_STATIC3         "Group";
+  IDS_STATIC4         "Serial Details";
+  IDS_STATIC5         "Settings";
+  IDS_STATIC6         "Group";
+  IDS_STATIC7         "";
+  IDS_STATIC8         "Group";
+  IDS_STATIC9         "Groups";
+}

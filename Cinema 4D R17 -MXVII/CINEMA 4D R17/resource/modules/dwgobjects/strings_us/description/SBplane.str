@@ -1,0 +1,17 @@
+STRINGTABLE SBplane
+{
+	SBplane               "Plane";
+
+  PLANESURFACE_TYPE          "Plane Type" "Type";
+	  PLANESURFACE_BOUNDED         "Bounded";
+	  PLANESURFACE_UNBOUNDED       "Unbounded";
+
+	PLANESURFACE_DISPLAY_POS   "Display Position" "Position";
+	PLANESURFACE_DISPLAY_SIZE  "Display Size" "Size";
+	PLANESURFACE_A             "Coefficient A" "A";
+	PLANESURFACE_B             "Coefficient B" "B";
+	PLANESURFACE_C             "Coefficient C" "C";
+	PLANESURFACE_D             "Coefficient D" "D";
+
+  PLANESURFACE_LIMIT         "Infinity Limit" "Limit";
+}

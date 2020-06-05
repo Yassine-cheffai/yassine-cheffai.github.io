@@ -1,0 +1,91 @@
+STRINGTABLE reeper
+{
+	reeper "Reeper Object";
+
+	REEPER_GROUP_GEN			"Allgemein";
+		REEPER_COILS			"Schl\u00e4ge";
+		REEPER_STRANDS			"Kardeele";
+		REEPER_RAD				"Radius";
+		REEPER_DIS				"Abstand";	
+	
+	REEPER_GROUP_MOD			"Modus";
+		REEPER_MODE				"Modus";	
+			REEPER_MODE_ROPE		"Geschlagenes Seil (Beliebige Kardeelen)";	
+			REEPER_MODE_BRAID		"Geflochtenes Seil (3 Kardeelen)";
+			REEPER_MODE_LISSAJOUS_3	"Geflochtenes Seil (Lissajous/3 Kardeelen)";			
+			REEPER_MODE_LISSAJOUS_5	"Geflochtenes Seil (Lissajous/5 Kardeelen)";	
+			
+	REEPER_MESSAGE_TEXT			"Reeper braucht einen Spline als Kind-Objekt.";
+	
+	REEPER_GROUP_OPT		"Optionen";		
+		REEPER_ROTA				"Rotation";
+		REEPER_OFFSET			"Offset";
+		REEPER_FROM				"Start";
+		REEPER_TO				"Ende";		
+		REEPER_FORM				"Form";
+		REEPER_MULTISHADE_MODE	"Multishade Mode";
+	
+	REEPER_GROUP_INT				"Interpolation";
+		REEPER_PATH_TEXT			"Kardeele-Pfad:";	
+					
+		REEPER_INTERPOLATION				"Zwischenpunkte";
+			REEPER_INTERPOLATION_NONE		"Keine";
+			REEPER_INTERPOLATION_NATURAL	"Nat\u00fcrlich";
+			REEPER_INTERPOLATION_UNIFORM	"Gleichm\u00e4\u00dfig";
+			REEPER_INTERPOLATION_ADAPTIVE	"Angepasst";
+			REEPER_INTERPOLATION_SUBDIV		"Unterteilt";
+		REEPER_SUB					"Anzahl";
+		REEPER_ANGLE				"Winkel";
+		REEPER_MAXIMUMLENGTH		"Maximale L\u00e4nge";
+		
+		REEPER_RAD_TEXT				"Radius-Pfad:";		
+		REEPER_NSIDES				"Seiten";
+				
+		
+	REEPER_GROUP_SWEEP							"Kardeelen";
+			REEPER_SWEEPOBJECT_ISOPARM			"Isobaten";
+			REEPER_SWEEPOBJECT_STARTGROWTH		"Wachstum Start";
+			REEPER_SWEEPOBJECT_GROWTH			"Wachstum Ende";
+			REEPER_SWEEPOBJECT_SCALE			"Skalierung";
+			REEPER_SWEEPOBJECT_ROTATE			"Rotation";
+			REEPER_SWEEPOBJECT_PARALLEL			"Parallele Verschiebung";	
+			REEPER_SWEEPOBJECT_CONSTANT			"Konstante Querschnitte";
+			REEPER_SWEEPOBJECT_BANKING			"Banking";			
+			REEPER_SWEEPOBJECT_KEEPSEGMENTS		"Segmente beibehalten";		
+		
+		
+		REEPER_GROUP_CAPSANDROUNDING				"Deckfl\u00e4chen";
+			ID_NURBS_U								"U Richtung";
+			ID_NURBS_V								"V Richtung";
+
+			REEPER_CAP_START						"Deckfl\u00e4che Start" "Start";
+			REEPER_CAP_END							"Deckfl\u00e4che Ende"	"Ende";
+				REEPER_CAPTYPE_NOCAP					"Keine";
+				REEPER_CAPTYPE_CAP						"Deckfl\u00e4chen";
+				REEPER_CAPTYPE_ROUNDING					"Rundung";
+				REEPER_CAPTYPE_ROUNDINGANDCAP			"Deckfl\u00e4chen und Rundung";
+			REEPER_CAP_ROUNDING						"Rundungstyp";
+				REEPER_CAP_ROUNDING_LINEAR				"Linear";
+				REEPER_CAP_ROUNDING_CONVEX				"Konvex";
+				REEPER_CAP_ROUNDING_CONCAVE				"Konkave";
+				REEPER_CAP_ROUNDING_HALFCIRCLE 			"Halbkreis";
+				REEPER_CAP_ROUNDING_STEP				"1 Stufe";
+				REEPER_CAP_ROUNDING_2STEPS				"2 Stufen";
+				REEPER_CAP_ROUNDING_ENGRAVED			"Eingelassen";
+			REEPER_CAP_STARTSTEPS					"Start-Stufe Deckfl\u00e4che" "Start-Stufe";
+			REEPER_CAP_ENDSTEPS						"End-Stufe Deckfl\u00e4che"	"End-Stufe";
+			REEPER_CAP_STARTRADIUS					"Start-Radius Deckfl\u00e4che"	"Start-Radius";
+			REEPER_CAP_ENDRADIUS					"End-Radius Deckfl\u00e4che"	"End-Radius";
+			REEPER_CAP_HULLINWARD					"H\u00fclle nach innen";
+			REEPER_CAP_HOLEINWARD					"Loch nach innen";
+			REEPER_CAP_CONSTRAIN					"Kontur beibehalten";
+			REEPER_CAP_CONNECT						"Einziges Objekt erstellen";
+			REEPER_CAP_UVWROUDING					"Rundung: UVW-Form erhalten";
+			REEPER_CAP_TYPE							"Typ";
+				REEPER_CAP_TYPE_TRI						"Dreiecke";
+				REEPER_CAP_TYPE_QUAD					"Vierecke";
+				REEPER_CAP_TYPE_NGON					"N-Gons";
+			REEPER_CAP_REGULAR						"Regelm\u00e4\u00dfige Unterteilung";
+			REEPER_CAP_REGULARWIDTH					"Regelm\u00e4\u00dfige Unterteilungsgr\u00f6\u00dfe"	"Weite";
+			REEPER_CAP_PHONG						"Phong-Winkel";
+}

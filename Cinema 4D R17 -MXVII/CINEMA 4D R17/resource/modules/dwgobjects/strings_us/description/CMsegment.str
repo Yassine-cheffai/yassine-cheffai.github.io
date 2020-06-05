@@ -1,0 +1,8 @@
+STRINGTABLE CMsegment
+{
+	CMsegment            "Mapped Curve Segment";
+
+	SEGMENTMAPPEDCURVE_REVERSED		"Reversed";
+	SEGMENTMAPPEDCURVE_ORIGIN			"Original Curve" "Origin";
+}
+

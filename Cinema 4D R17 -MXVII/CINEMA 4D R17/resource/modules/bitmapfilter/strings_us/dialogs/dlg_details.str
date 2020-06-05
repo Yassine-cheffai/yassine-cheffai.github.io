@@ -1,0 +1,19 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_DETAILS
+{
+	STR_TITLE "Enhance Details";
+	STR_MIX	"Blend:";
+	STR_FILTERTYP "Filter Type:";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+
+	STR_POPUP_ID0	"Enhance Details (light)";
+	STR_POPUP_ID1	"Enhance Details (medium)";
+	STR_POPUP_ID2	"Enhance Details (strong)";
+	STR_POPUP_ID3	"Reduce to Details (light)";
+	STR_POPUP_ID4	"Reduce to Details (medium)";
+	STR_POPUP_ID5	"Reduce to Details (strong)";
+
+}

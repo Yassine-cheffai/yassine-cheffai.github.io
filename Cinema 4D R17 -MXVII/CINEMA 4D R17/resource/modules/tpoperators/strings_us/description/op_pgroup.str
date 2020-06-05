@@ -1,0 +1,8 @@
+STRINGTABLE OP_PGroup
+{
+	OP_PGroup	"PGroup";
+		
+	IN_PG_LINK				"PGroup";
+	IN_PG_ON					"On";
+	IN_PG_PARTICLE		"Particle";
+}

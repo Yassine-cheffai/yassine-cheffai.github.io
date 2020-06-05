@@ -1,0 +1,25 @@
+DIALOGSTRINGS rm_basic
+{
+	RM_BASIC "Basic";
+
+	IDS_MESSAGE "Message:";
+	IDS_NAME	"File:";
+	IDS_QUEUE	"Added to Queue:";
+	IDS_START	"Render started on:";
+	IDS_RTIME	"Render Time:";
+	IDS_ETIME	"Estimated Time:";
+	IDS_LFRAME	"Last Frame:";
+	IDS_EMPTY	"";
+	
+	IDS_RES "Resolution";
+	
+	IDS_LOGPATH "Log:";
+	IDS_RENDER "Render Settings";
+	IDS_CAMERA	"Camera";
+	IDS_MPATH  "Multi-Pass Image:";
+	IDS_OPATH	"Image:";
+	IDS_WARNING "Warning: Files will be overwritten if they already exist.";
+	
+	IDS_JOB "Jobs:";
+	
+}

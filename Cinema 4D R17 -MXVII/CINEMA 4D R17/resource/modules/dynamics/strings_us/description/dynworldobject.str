@@ -1,0 +1,42 @@
+STRINGTABLE DynWorldObject
+{
+	name "Dynamics";
+
+	WORLD_ENABLED "Enabled";
+	WORLD_SCALE "Scale";
+	WORLD_TIMESCALE "Time Scale";
+	WORLD_DISABLE_DURING_LEAP "Disable on Skip Frame";
+
+	WORLD_SUBSTEPS "Steps per Frame";
+	WORLD_ITERATIONS "Maximum Solver Iterations per Step";
+	WORLD_ERROR_THRESHOLD "Error Threshold";
+
+	WORLD_DENSITY "Density";
+	WORLD_GRAVITY "Gravity";
+	WORLD_AIR_DENSITY "Air Density";
+
+	WORLD_MARGIN "Collision Margin";
+	
+	WORLD_VISUALIZE "Enable";
+	WORLD_VISUALIZE_SHAPES "Collision Shapes";
+	WORLD_VISUALIZE_AABBS "Bounding Boxes";
+	WORLD_VISUALIZE_CONTACT_POINTS "Contact Points";
+	WORLD_VISUALIZE_CONSTRAINTS "Connectors";
+
+	WORLD_CONTACT_RESTITUTION_LIFETIME "Restitution Lifetime for Resting Contact";
+
+	WORLD_SEED "Random Seed";
+
+	WORLD_CACHE_USE "Use Cached Data";
+	WORLD_CACHE_DISABLE_BAKED_OBJECTS "Disable Cached Objects for Simulation";
+	WORLD_CACHE_BAKE "Bake";
+	WORLD_CACHE_CLEAR "Clear Cache";
+	WORLD_CACHE_USE_TIME "Use";
+	WORLD_CACHE_TIME "Playback Time";
+	WORLD_CACHE_MEMORY "Memory";
+
+	WORLD_GROUP_DYNAMICS "General";
+	WORLD_GROUP_EXPERT "Expert";
+	WORLD_GROUP_VISUALIZATION "Visualization";
+	WORLD_GROUP_CACHE "Cache";
+}

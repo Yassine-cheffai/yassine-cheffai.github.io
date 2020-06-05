@@ -1,0 +1,32 @@
+// Global StringResource
+
+STRINGTABLE
+{
+	IDS_RIGID_BODY_TAG "Dynamics Body";
+	IDS_WORLD_HOOK "Dynamics";
+	IDS_SPRING_OBJECT "Spring";
+	IDS_MOTOR_OBJECT "Motor";
+	IDS_CONSTRAINT_OBJECT "Connector";
+	IDS_FORCE_OBJECT "Force";
+
+	IDS_COLLISION_NODE "Dynamics Collision";
+	IDS_DYNAMICS_BODY_NODE "Dynamics Body State";
+	IDS_DYNAMICS_PROXIMITY_NODE "Dynamics Proximity";
+	IDS_DYNAMICS_SPRING_NODE "Dynamics Spring State";
+	IDS_DYNAMICS_CONSTRAINT_NODE "Dynamics Connector State";
+
+	IDS_BAKE_DIALOG "Baking Dynamics Simulation";
+
+	IDS_BULLET_EXPORT "Bullet (*.bullet)";
+
+	IDS_RIGID_BODY_CMD "Rigid Body";
+	IDS_RIGID_BODY_CMD_HELP "Turn selected object(s) into a rigid body";
+	IDS_SOFT_BODY_CMD "Soft Body";
+	IDS_SOFT_BODY_CMD_HELP "Turn selected object(s) into a soft body";
+	IDS_COLLIDER_CMD "Collider Body";
+	IDS_COLLIDER_CMD_HELP "Turn selected object(s) into a collider body";
+	IDS_GHOST_CMD "Ghost Body";
+	IDS_GHOST_CMD_HELP "Turn selected object(s) into a ghost collider body";
+
+	IDS_NO_DYNAMICS_MSG "The project doesn't contain any Dynamics bodies, so nothing could be exported.";
+}

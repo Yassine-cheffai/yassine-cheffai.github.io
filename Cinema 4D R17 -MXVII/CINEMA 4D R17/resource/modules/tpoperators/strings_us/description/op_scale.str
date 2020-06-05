@@ -1,0 +1,16 @@
+STRINGTABLE OP_Scale
+{
+	OP_Scale	"PScale";
+		
+	SCALE_SCALE			"Scale";
+	SCALE_VAR				"Variation";
+	SCALE_AGEGRAD	  "Scale Gradient";	
+	SCALE_OVERAGE	  "Over Age";	
+	SCALE_XSCALE    "X Scale";
+	SCALE_YSCALE	  "Y Scale";
+	SCALE_ZSCALE    "Z Scale";
+
+	IN_SCALE_ON					"On";
+	IN_SCALE_PARTICLE		"Particle";
+	IN_SCALE_ATIME			"Animation Time";
+}

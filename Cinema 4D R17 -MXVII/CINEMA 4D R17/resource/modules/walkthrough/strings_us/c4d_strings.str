@@ -1,0 +1,16 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_VWTOOL			"Virtual Walkthrough";
+	IDS_COTOOL			"Collision Orbit";
+	IDS_CTPTAG			"Collision Cache";
+	IDS_CTPOBJECTTAG		"Collision Detection";
+	IDS_MESSAGEHELPER		"Message Helper";
+	IDS_SCENEHOOKHELPER		"Scenehook Helper";
+	IDS_TARGET			".Target";
+	IDS_H				"H:";
+	IDS_P				"P:";
+	IDS_B				"B:";
+}

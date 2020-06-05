@@ -1,0 +1,6 @@
+STRINGTABLE BPlayerfilterbrco
+{
+	BPlayerfilterbrco							"Brigthness/Contrast";
+	ID_PAINTLAYERFILTERBRCO_BRIGHTNESS	"Brightness";
+	ID_PAINTLAYERFILTERBRCO_CONTRAST		"Contrast";
+}

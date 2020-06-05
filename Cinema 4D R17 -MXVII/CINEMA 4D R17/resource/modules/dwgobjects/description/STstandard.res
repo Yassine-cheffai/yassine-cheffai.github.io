@@ -1,0 +1,10 @@
+CONTAINER STstandard
+{
+	NAME STstandard;
+	INCLUDE Otrimmedsurface;
+
+	GROUP ID_TRIMMEDSURFACEPROPERTIES
+	{
+	  BOOL TRIMMEDSURFACE_OUTER {}
+	}
+}

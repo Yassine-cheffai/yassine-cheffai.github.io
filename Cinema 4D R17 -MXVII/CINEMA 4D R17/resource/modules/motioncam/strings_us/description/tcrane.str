@@ -1,0 +1,35 @@
+STRINGTABLE Tcrane
+{
+	Tcrane																"Camera Crane";
+
+	TCRANE_VISUALIZATION									"Visualization";
+	TCRANE_VISUALIZATION_ENABLED					"Enabled";
+	TCRANE_VISUALIZATION_COLOR						"Color";
+	TCRANE_VISUALIZATION_COLOR_T					"Target Color";
+
+	TCRANE_BASE														"Base";
+	TCRANE_BASE_LINK											"Link";
+	TCRANE_BASE_LINK_RAIL									"Rail Spline";
+	TCRANE_BASE_LINK_TANGENTIAL						"Tangential";
+	TCRANE_BASE_HEIGHT										"Base Height" "Height";
+	TCRANE_BASE_HEADING										"Base Heading" "Heading";
+	TCRANE_BASE_LINK_POS									"Base Pos" "Pos";
+
+	TCRANE_ARM														"Arm";
+	TCRANE_ARM_LENGTH											"Arm Length" "Length";
+	TCRANE_ARM_PITCH											"Arm Pitch" "Pitch";
+	TCRANE_ARM_TARGETLINK									"Arm Target" "Target";
+
+	TCRANE_HEAD														"Head";
+	TCRANE_HEAD_A_HEIGHT									"Head Height" "Height";
+	TCRANE_HEAD_A_HEADING									"Head Heading" "Heading";
+	TCRANE_HEAD_B_LENGTH									"Head Width" "Width";
+	TCRANE_HEAD_TARGETLINK								"Head Target" "Target";
+
+	TCRANE_CAM														"Camera";
+	TCRANE_CAM_PITCH											"Camera Pitch" "Pitch";
+	TCRANE_CAM_BANKING										"Camera Banking" "Banking";
+	TCRANE_CAM_PARALLAX										"Camera Offset" "Offset";
+	TCRANE_CAM_COMPENSATE_PITCH						"Compensate Pitch";
+	TCRANE_CAM_COMPENSATE_HEADING					"Compensate Heading";
+}

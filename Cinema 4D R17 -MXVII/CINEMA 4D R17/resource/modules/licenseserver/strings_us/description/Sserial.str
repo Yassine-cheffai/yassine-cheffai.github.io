@@ -1,0 +1,9 @@
+STRINGTABLE Sserial
+{
+	Sserial	"Serial Package";
+	SSERIAL_NAME "Name";
+	SSERIAL_BLOCKED "Blocked";
+	SSERIAL_BLOCK "Block";
+	SSERIAL_VERSION "Version";
+	SSERIAL_LICENSES "Licenses";
+}

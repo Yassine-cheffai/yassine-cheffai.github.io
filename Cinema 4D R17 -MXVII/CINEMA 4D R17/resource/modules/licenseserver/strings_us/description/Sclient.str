@@ -1,0 +1,19 @@
+STRINGTABLE Sclient
+{
+	Sclient "Client";
+	SCLIENT_MACHINEID "Machine";
+	SCLIENT_IPADDRESS "IP Address";
+	SCLIENT_COMPUTER "Computer";
+	SCLIENT_USER "User";
+	SCLIENT_SERIALPACKAGE "Serial Package";
+	SCLIENT_VERSION "Version";
+	SCLIENT_LASTLOGIN "Last Login";
+	SCLIENT_LASTSEEN "Last Seen";
+	SCLIENT_VALIDUNTIL "Valid Until";
+	SCLIENT_BLOCKED "Blocked";
+	SCLIENT_CONNECTIONS "MagicEntries";
+	SCLIENT_LOGINS "Logins";
+	SCLIENT_TIMEDIFF "Client Time Diff";
+	SCLIENT_GROUP "Group";
+	SCLIENT_NOTES "Notes";
+}

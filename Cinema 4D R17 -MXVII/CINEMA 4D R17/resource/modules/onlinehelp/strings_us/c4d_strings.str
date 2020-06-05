@@ -1,0 +1,40 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	// change from here to customize
+	STR_HALVAR_REFERENCE_NAME	"Show Help...";
+	STR_HALVAR_TUTORIAL_NAME	"Show Tutorials...";
+	STR_HALVAR_NAME						"Help...";
+	STR_HALVAR_WINDOW_TITLE		"Help";
+	STR_HALVAR_REFERENCE_DESCRIPTION	"Open Reference Documentation";
+	STR_HALVAR_TUTORIAL_DESCRIPTION	"Open Tutorials";
+
+	STR_HALVAR_TROUBLESHOOTING_NAME					"Show Troubleshooting...";
+	STR_HALVAR_TROUBLESHOOTING_DESCRIPTION	"Open Troubleshooting for Team Render";
+
+	STR_HALVAR_BACK						"Back";
+	STR_HALVAR_FORWARD				"Forward";
+	STR_HALVAR_HOME						"Home";
+	STR_HALVAR_PREVIOUS_PAGE	"Previous Page";
+	STR_HALVAR_NEXT_PAGE			"Next Page";
+	STR_HALVAR_SEARCH					"Search:";
+	STR_HALVAR_DETAILS				"Details:";
+	STR_HALVAR_REFRESH				"Refresh";
+	STR_HALVAR_STOP						"Stop";
+
+	STR_HALVAR_LOCAL_SEARCH		"Search Page";
+	STR_HALVAR_SEARCH_ALL			"Search All";
+
+	STR_HALVAR_INDEX_GROUP		"Content";
+	STR_HALVAR_RESULTS_GROUP	"Search Results";
+	
+	HALVAR_BOOKMARKS_MENU			"Bookmarks";
+	HALVAR_BOOKMARKS_ADD			"Add Bookmark";
+	HALVAR_BOOKMARKS_MANAGE		"Manage Bookmarks...";
+
+	STR_HALVAR_BOOKMARKS_TITLE	"Help Bookmarks";
+	STR_HALVAR_BOOKMARK				"Bookmark";
+	STR_HALVAR_RENAME					"Rename";
+}

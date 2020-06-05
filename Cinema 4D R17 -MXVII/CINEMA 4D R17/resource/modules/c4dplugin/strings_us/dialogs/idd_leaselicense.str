@@ -1,0 +1,18 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_LEASELICENSE
+{
+  IDS_DIALOG    "Lease License";
+  IDS_STATIC    "Group";
+  IDS_STATIC1   "xxxx";
+  IDS_STATIC10  "";
+  IDS_STATIC11  "Static text";
+  IDS_STATIC2   "xxx days";
+  IDS_STATIC3   "Request Lease Time for";
+  IDS_STATIC4   "Static text";
+  IDS_STATIC5   "Static text";
+  IDS_STATIC6   "Group";
+  IDS_STATIC7   "Group";
+  IDS_STATIC8   "xxxx";
+  IDS_STATIC9   "";
+}

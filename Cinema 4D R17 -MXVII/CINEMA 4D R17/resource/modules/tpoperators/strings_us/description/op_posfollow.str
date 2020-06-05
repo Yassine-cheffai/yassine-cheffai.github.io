@@ -1,0 +1,15 @@
+STRINGTABLE OP_PosFollow
+{
+	OP_PosFollow	"PPositionFollow";
+		
+	PFO_CONSTSPEED		"Constant Speed";
+	PFO_SPRINGSPEED		"Spring Speed";
+	PFO_TYPE					"Type";
+	PFO_TYPE_CONST 	  "Constant Speed";
+	PFO_TYPE_SPRING	  "Spring";
+	PFO_POSITION			"Follow Position";
+
+	IN_PFO_ON					"On";
+	IN_PFO_PARTICLE		"Particle";
+	IN_PFO_ATIME			"Animation Time";
+}

@@ -1,0 +1,11 @@
+STRINGTABLE Tpolygonselection
+{
+	Tpolygonselection "Polygon Selection Tag";
+
+	POLYGONSELECTIONTAG_COMMAND1 "Restore Selection";
+	POLYGONSELECTIONTAG_COMMAND2 "Select and Hide Others";
+	POLYGONSELECTIONTAG_COMMAND3 "Select Polygons";
+	POLYGONSELECTIONTAG_COMMAND4 "Deselect Polygons";
+	POLYGONSELECTIONTAG_COMMAND5 "Hide Polygons";
+	POLYGONSELECTIONTAG_COMMAND6 "Unhide Polygons";
+}

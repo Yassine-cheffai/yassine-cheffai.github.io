@@ -1,0 +1,80 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_MORPHTAG							"Morph";
+	IDS_MORPH_TARGET					"Morph Target";
+	IDS_MORPH_BASE						"Base Morph";
+	IDS_MORPH_ACTIVE					"Active Morph";
+	IDS_DRIVERTAG							"Driver";
+	IDS_TENSIONTAG						"Tension";
+	IDS_MORPHDEFORMER_OBJECT	"Morph Deformer";
+	IDS_SHRINKWRAP_OBJECT			"Shrink Wrap";
+	IDS_DATATYPE_MOPPHLIST		"Morph List";
+	IDS_IMPORTMORPHMESH				"Import geometry as new relative targets?";
+	  
+	IDS_MORPH_TAGNAME					" Morphs";
+	IDS_MORPH_SAVEMORPHS			"Save Morphs";
+	IDS_MORPH_SAVEMORPH				"Save Morph ";
+	
+	IDS_MORPH_BRUSH						"Morph Brush";
+
+	IDS_TENSION_FOLDS					"Folds";
+	IDS_TENSION_STRETCH				"Stretch";
+	  
+  IDS_VPFILMGRAIN						"Film Grain";
+  IDS_DEPTHSHADER						"Depth Shader";
+  
+  IDS_TRANMAP_MORPHS				"Morphs";
+  IDS_TRANMAP_VMAP					"Vertex Maps";
+  IDS_TRANMAP_POLYSELECTION	"Selections Polygons";
+  IDS_TRANMAP_EDGESELECTION	"Selections Edges";
+  IDS_TRANMAP_VERTSELECTION	"Selections Points";
+  IDS_TRANMAP_UVW						"UVs";
+  IDS_TRANMAP_TEXTURETAG		"Texture Tags";
+  IDS_TRANMAP_BONES					"Joint Weights";
+  
+  IDS_VMAPMANAGER						"VAMP...";	//Vertexmap Attribute Management Processor
+
+	IDS_VM_TRANSFERING				"Transfering - ";
+	IDS_VM_UVSMOOTHING				"UV - Smoothing Pass";
+
+	IDS_BASELIST_FLIPX				"Flip X";
+	IDS_BASELIST_FLIPY				"Flip Y";
+	IDS_BASELIST_FLIPZ				"Flip Z";
+
+
+// Visual Selector
+	IDS_VISUAL_SELECTOR		"Visual Selector...";
+	IDS_VS_TAG				"Visual Selector";
+	IDS_VS_OPTIONS			"Options";
+	IDS_VS_UPDATE_MANAGER	"Update Manager";
+	IDS_VS_FORCE_ACTIONS	"Force Actions";
+	IDS_VS_ACTIVATE_CAMERAS	"Activate Cameras";
+	IDS_VS_GRID_ACTIVE		"Snap to Grid";
+
+	IDS_VS_NO_TAGS			"No Tags";
+	IDS_VS_FRAME_ACTIVE		"Frame Selected";
+	IDS_VS_TAG_EDIT			"Edit Tag";
+	IDS_VS_TAB_TAG			"Tag";
+	IDS_VS_TAB_IMAGE		"Image";
+	IDS_CURRENT_TAG			"Current Tag";
+	
+
+// icon selector
+	IDS_ICON_SELECTOR		"Visual Icon Selector";
+	IDS_VS_CHOOSE_ICON		"Choose An Icon";
+	IDS_VS_CHOOSE_COLOR		"Color";
+
+//muscle objects
+	IDS_MUSCLE_OBJECT		"Muscle Object";
+	IDS_MUSCLE_DEFORMER		"Muscle Deformer";
+
+
+
+
+
+
+
+}

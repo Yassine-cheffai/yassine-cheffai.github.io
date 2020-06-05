@@ -1,0 +1,22 @@
+STRINGTABLE OP_Spin
+{
+	OP_Spin	"PSpin";
+		
+	SPIN_INTENS							"Evaltime";
+	SPIN_TIME								"Time";
+	SPIN_TIMEVAR						"Variation";
+	SPIN_PHASE							"Phase";
+	SPIN_PHASEVAR						"Variation";
+	SPIN_FRIC								"Friction";
+	SPIN_SIZEDEP						"Size Dependence";
+	SPIN_SPEEDDEP						"Speed Dependence";
+	SPIN_AXISTYPE						"Axis Type";
+	SPIN_AXIS								"Axis";
+	SPIN_AXISVAR						"Variation";
+	SPIN_AXISTYPE_RANDOM		"Random";
+	SPIN_AXISTYPE_TRAVEL		"Direction Of Travel";
+	SPIN_AXISTYPE_USER			"User Defined";
+	IN_SPIN_ON							"On";
+	IN_SPIN_PARTICLE				"Particle";
+	IN_SPIN_ATIME						"Animation Time";
+}

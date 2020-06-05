@@ -1,0 +1,14 @@
+STRINGTABLE CBline
+{
+	CBline              "Line";
+
+  LINECURVE_TYPE          "Line Type" "Type";
+	  LINECURVE_BOUNDED         "Bounded";
+	  LINECURVE_SEMIBOUNDED     "Semibounded";
+	  LINECURVE_UNBOUNDED       "Unbounded";
+
+	LINECURVE_P1            "Start Point" "Start";
+	LINECURVE_P2            "End Point" "End";
+
+  LINECURVE_LIMIT         "Infinity Limit" "Limit";
+}

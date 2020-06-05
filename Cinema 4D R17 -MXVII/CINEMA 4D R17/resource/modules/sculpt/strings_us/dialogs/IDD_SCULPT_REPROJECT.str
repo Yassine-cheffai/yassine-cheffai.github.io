@@ -1,0 +1,9 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_SCULPT_REPROJECT
+{
+	IDS_DIALOG				"Project Mesh";
+	IDS_SCULPT_REPROJECT_PROJECT	"Project";
+	IDS_SCULPT_REPROJECT_SUBDLEVEL	"Subdivision Level";
+	IDS_SCULPT_REPROJECT_POLYESTIMATE "Estimated Final Polygon Count";
+}

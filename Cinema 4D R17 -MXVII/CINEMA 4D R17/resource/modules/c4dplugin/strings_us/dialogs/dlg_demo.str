@@ -1,0 +1,6 @@
+DIALOGSTRINGS DLG_DEMO
+{
+	IDS_DIALOG   "Information";
+  IDS_BUTTONT1 "Close This Dialog";
+	IDS_BUTTON   "Enter Activation Code...";
+}

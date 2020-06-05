@@ -1,0 +1,45 @@
+STRINGTABLE ToolCO
+{
+	ToolCO						"Collision Orbit Tool";
+
+	/////
+	CO_OPTIONS				"Options";
+	CO_OPTIONS_HELP				"Quick Help";
+	CO_RECORD				"Record Movement";
+	CO_RECORD_WRITE_SPLINE			"Write Recorded Movement Into Splines";
+	CO_RECORD_WRITE_CAMERA			"Write Recorded Movement Into Camera";
+	CO_HUD_DISPLAY				"HUD Display";
+	
+	/////
+	CO_SCALE_RANGE				"Project Size Range";
+	CO_DISTANCE				"Distance";
+	CO_SPEED				"Speed Ratio";
+	CO_SMOOTHING				"Smoothing";
+	CO_LOCK_PITCH				"Lock Pitch Angle";
+	CO_LIMIT_360				"Limit Orbit to 360 Degrees";
+	CO_COLLISIONS_BB			"Use Bounding Boxes for Collision Detection";
+
+	/////
+	CO_RECORD_PROGRESS			"Movement Progress";
+	CO_RECORD_INTERVAL			"Frame Interval";
+	CO_RECORD_RESET				"Reset Recorded Movement";
+	CO_RECORD_START				"Start Recording";
+	CO_RECORD_STOP				"Stop Recording";
+	CO_RECORD_CREATE_SPLINE			"Create the Spline";
+	CO_WRITE_CAMERA_INTERVAL		"Frame Interval";
+	CO_WRITE_CAMERA_TIME			"Time Adjustment";
+	CO_WRITE_CAMERA_CREATE			"Create the Camera";
+
+	/////
+	CO_DISPLAY_CENTER			"Center Square Cursor";
+	CO_DISPLAY_COLLISIONS			"Collisions Flag";
+	CO_DISPLAY_RECORDING			"Recording Flag";
+	CO_DISPLAY_HPB				"Camera Heading and Pitch";
+
+	/////
+	CO_SCALE_01				"0.1 - 100";
+	CO_SCALE_1				"1 - 1000";
+	CO_SCALE_10				"10 - 10000";
+	CO_SCALE_100				"100 - 100000";
+	CO_SCALE_1000				"1000 - 1000000";
+}

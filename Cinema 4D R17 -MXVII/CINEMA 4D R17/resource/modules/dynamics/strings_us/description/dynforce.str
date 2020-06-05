@@ -1,0 +1,18 @@
+STRINGTABLE DynForce
+{
+	name "Force";
+
+	FORCE_STRENGTH "Strength";
+	FORCE_DAMPING "Damping";
+	FORCE_RESPECT_MASS "Respect Mass";
+
+	FORCE_FALLOFF "Falloff";
+	FORCE_FALLOFF_LINEAR "Linear";
+	FORCE_FALLOFF_INV "Inverse";
+	FORCE_FALLOFF_INV_SQR "Inverse Square";
+	FORCE_FALLOFF_INV_CUBIC "Inverse Cubic";
+	FORCE_FALLOFF_STEP "Step";
+
+	FORCE_INNER_DISTANCE "Inner Distance";
+	FORCE_OUTER_DISTANCE "Outer Distance";
+}

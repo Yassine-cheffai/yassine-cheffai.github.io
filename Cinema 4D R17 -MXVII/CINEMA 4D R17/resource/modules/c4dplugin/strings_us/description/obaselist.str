@@ -1,0 +1,7 @@
+STRINGTABLE Obaselist
+{
+	Obaselist		 			"Basic Properties" "Basic";
+	ID_BASELIST_NAME	"Name";
+	ID_LAYER_LINK     "Layer";
+
+}

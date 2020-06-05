@@ -1,0 +1,10 @@
+STRINGTABLE TLMarker
+{
+	TLMarker				"Timeline Marker";
+	TLMARKER_TIME		"Time";
+	TLMARKER_LENGTH		"Length";
+	TLMARKER_TEXT		"Note";
+	TLMARKER_TASK		"Task";
+	TLMARKER_DONE		"Done";
+	TLMARKER_COLOR		"Color";
+}

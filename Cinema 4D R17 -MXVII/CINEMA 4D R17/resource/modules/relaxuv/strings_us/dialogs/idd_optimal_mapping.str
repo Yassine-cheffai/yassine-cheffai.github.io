@@ -1,0 +1,47 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS IDD_OPTIMAL_MAPPING
+{
+  IDS_CHECK1                         "2D";
+  IDS_CHECK                          "2D";
+  IDS_OPT_MAP_OPTIMALCUBIC           "Optimal (Cubic)";
+  IDS_OPT_MAP_MIN_DIST1              "Maximum Area Factor";
+  IDS_OPT_MAP_MIN_DIST2              "Maximum Area Factor";
+  IDS_OPT_MAP_MIN_DIST               "Maximum Distortion";
+  IDS_OPT_MAP_OK_BTN                 "  Apply  ";
+  IDS_OPT_MAP_OPTIMAL                "Optimal (Angle)";
+  IDS_OPT_MAP_PRESERVE_ORIENTATION1  "Preserve Orientation";
+  IDS_OPT_MAP_PRESERVE_ORIENTATION2  "Preserve Orientation";
+  IDS_OPT_MAP_PRESERVE_ORIENTATION3  "Preserve Orientation";
+  IDS_OPT_MAP_PRESERVE_ORIENTATION   "Preserve Orientation";
+  IDS_OPT_MAP_REALIGN_STRETCHTOFIT   "Stretch to Fit";
+  IDS_OPT_MAP_SPACING1               "Spacing";
+  IDS_OPT_MAP_SPACING2               "Spacing";
+  IDS_OPT_MAP_SPACING                "Spacing";
+  IDS_OPT_MAP_STRETCH_TO_FIT1        "Stretch to Fit";
+  IDS_OPT_MAP_STRETCH_TO_FIT2        "Stretch to Fit";
+  IDS_OPT_MAP_STRETCH_TO_FIT         "Stretch to Fit";
+  IDS_OPT_MAP_EQUALIZEAREA           "Equalize Island Size";
+  IDS_OPT_MAP_TITLE                  "Optimal Mapping";
+  IDS_RADIO3                         "Radio button";
+  IDS_RADIO4                         "Realign";
+  IDS_STATIC10                       "Group";
+  IDS_STATIC11                       "Group";
+  IDS_STATIC12                       "Group";
+  IDS_STATIC13                       "";
+  IDS_STATIC14                       "Realign";
+  IDS_STATIC15                       "Group";
+  IDS_STATIC16                       "Group";
+  IDS_STATIC17                       "Group";
+  IDS_STATIC18                       "Relaxation Steps";
+  IDS_STATIC19                       "Relaxation Steps";
+  IDS_STATIC1                        "Static text";
+  IDS_STATIC2                        "Group";
+  IDS_STATIC3                        "Group";
+  IDS_STATIC4                        "Group";
+  IDS_STATIC5                        "Group";
+  IDS_STATIC6                        "Optimal (Angle)";
+  IDS_STATIC7                        "Group";
+  IDS_STATIC8                        "Optimal (Cubic)";
+  IDS_STATIC9                        "Group";
+}

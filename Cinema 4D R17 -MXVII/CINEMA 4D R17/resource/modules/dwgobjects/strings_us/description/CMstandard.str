@@ -1,0 +1,8 @@
+STRINGTABLE CMstandard
+{
+	CMstandard            "Standard Mapped Curve" "Mapped Curve";
+
+	MAPPEDCURVE_SEGMENTED			"Segmented";
+	MAPPEDCURVE_SURFACE       "Surface";
+	MAPPEDCURVE_ORIGIN				"Original Curve" "Origin";
+}

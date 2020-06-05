@@ -1,0 +1,696 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_CYCLE_INITIAL    "Initial";
+	IDS_CYCLE_ANIMATION  "Animation";
+	IDS_CYCLE_EXPRESSION "Expression";
+	IDS_CYCLE_DYNAMICS   "Dynamics (R11.5)";
+	IDS_CYCLE_GENERATORS "Generators";
+	IDS_REVERSE          "Camera Dependent";
+	IDS_TURBOSQUID       "TurboSquid";
+	IDS_TURBOSQUID_HELP  "Opens the Turbo Squid website";
+	IDS_TURBOSQUID_WEB   "http://turbosquid.cinema4d.com";
+	IDS_FONT_BUTTON      "Font...";
+	IDS_FONT_POSTSCRIPT  "Postscript";
+	IDS_FONT_TTF         "True Type Font";
+	IDS_NOW              "Now";
+	IDS_TODAY            "Today";
+	IDS_TIME_FORMAT			"HH : MM : SS";
+	IDS_TIME_FORMAT_NOSEC	"HH : MM";
+	IDS_DATE_FORMAT			"M / D / YYYY";
+	IDS_JANUARY          "January";
+	IDS_FEBRUARY         "February";
+	IDS_MARCH            "March";
+	IDS_APRIL            "April";
+	IDS_MAY              "May";
+	IDS_JUNE             "June";
+	IDS_JULY             "July";
+	IDS_AUGUST           "August";
+	IDS_SEPTEMBER        "September";
+	IDS_OCTOBER          "October";
+	IDS_NOVEMBER         "November";
+	IDS_DECEMBER         "December";
+	IDS_MONDAY           "M";
+	IDS_TUESDAY          "T";
+	IDS_WEDNESDAY        "W";
+	IDS_THURSDAY         "T";
+	IDS_FRIDAY           "F";
+	IDS_SATURDAY         "S";
+	IDS_SUNDAY           "S";
+	IDS_TIME							"Time";
+	IDS_DATE							"Date";
+
+	IDS_SELECT_OBJECT    "Select Element";
+	IDS_GRADIENT_CUBIC_KNOT   "Cubic Knots";
+	IDS_GRADIENT_CUBIC_BIAS   "Cubic Bias";
+	IDS_GRADIENT_SMOOTH_KNOT  "Smooth Knot";
+	IDS_GRADIENT_LINEAR_KNOT  "Linear Knot";
+	IDS_GRADIENT_LINEAR       "Linear";
+	IDS_GRADIENT_EXP_UP       "Exponent Up";
+	IDS_GRADIENT_EXP_DOWN     "Exponent Down";
+	IDS_GRADIENT_NONE         "None";
+	IDS_GRADIENT_INT          "Intensity";
+	IDS_GRADIENT_CLAMP				"Clamp";
+	IDS_GRADIENT_POS          "Pos";
+	IDS_GRADIENT_EDIT_ALPHA   "Edit Alpha";
+	IDS_GRADIENT_DISPLAY_RESULT "Display Result";
+	IDS_GRADIENT_INVERT_KNOTS "Invert knots";
+	IDS_GRADIENT_DOUBLE_KNOTS "Double knots";
+	IDS_GRADIENT_RESET        "Reset";
+	IDS_GRADIENT_DISTRIBUTE_KNOTS	"Distribute knots";
+
+	IDS_GRADIENTGUI_BROWSERPRESET								"Gradient Preset";
+	IDS_GRADIENTGUI_BROWSERPRESET_NOCLICK				"This preset type can't be opened from the Content Browser,|please use the 'Load Preset' button in the Gradient.";
+
+  IDS_SPLINE_X_POS					"X";
+  IDS_SPLINE_Y_POS					"Y";
+	IDS_SPLINE_X_TANGENT_LEFT	"Xtl";
+	IDS_SPLINE_X_TANGENT_RIGHT "Xtr";
+	IDS_SPLINE_Y_TANGENT_LEFT	"Ytl";
+	IDS_SPLINE_Y_TANGENT_RIGHT	"Ytr";
+  IDS_SPLINE_DEFAULT_XMIN     "X min";
+  IDS_SPLINE_DEFAULT_YMIN     "Y min";
+  IDS_SPLINE_DEFAULT_XMAX     "X max";
+  IDS_SPLINE_DEFAULT_YMAX     "Y max";
+  IDS_SPLINE_DEFAULT_X        "X";
+  IDS_SPLINE_DEFAULT_Y        "Y";
+  IDS_SPLINE_POSITION		  "Point";
+  IDS_SPLINE_LOCK			  "Lock";		
+  IDS_SPLINE_LEFT_TANGENT			"Left";
+  IDS_SPLINE_RIGHT_TANGENT		"Right";
+  IDS_SPLINE_TANGENT			"Tangent";
+  IDS_SPLINE_DELTA						"d";
+  IDS_SPLINE_BREAK						"Break Tangent";
+  IDS_SPLINE_KEEPVANGLE			"Keep Visual Angle";
+  IDS_SPLINE_INTERPOLATION		"Interpolation";
+  IDS_SPLINE_INTERPOLATION_BEZIER		"Spline";
+  IDS_SPLINE_INTERPOLATION_CUBIC		"Cubic";
+  IDS_SPLINE_INTERPOLATION_LINEAR		"Linear";
+  IDS_SPLINE_LOCK_A					"Lock Angle";
+  IDS_SPLINE_LOCK_L					"Lock Length";
+  IDS_SPLINE_LOCK_FLOATING			"Lock";
+  IDS_SPLINE_COMPATIBILITY			"Compatibility mode - Read only";
+  IDS_SPLINE_COMPATIBILITY2			"Convert with CTRL and Click";
+
+	IDS_SPLINE_BROWSERPRESET						"Spline Preset";
+	IDS_SPLINE_BROWSERPRESET_NOCLICK		"This preset type can't be opened from the Content Browser,|please use the 'Load Preset' button in the Spline Interface.";
+
+	IDS_BROWSERPRESET_SAVE					"Save Preset...";
+	IDS_BROWSERPRESET_OPEN					"Load Preset...";
+	IDS_BROWSERPRESET_PRESETEXISTS	"A # with the name # already exists, do you want to overwrite it?";
+
+	IDS_SHORT_WEST                "W";
+	IDS_SHORT_EAST                "E";
+	IDS_SHORT_NORTH               "N";
+	IDS_SHORT_SOUTH               "S";
+	IDS_LONGITUDE_LATITUDE        "Latitude/Longitude";
+	IDS_BITMAPBOOL								"Bitmap Bool";
+
+	IDS_COLOR_T10 "Background";
+	IDS_COLOR_T11 "Film Format";
+	IDS_COLOR_T12 "Horizon";
+	IDS_COLOR_T13 "Major Grid";
+	IDS_COLOR_T14 "Spline Start";
+	IDS_COLOR_T15 "Spline End";
+	IDS_COLOR_T16 "Camera";
+	IDS_COLOR_T17 "Particle Emitter";
+	IDS_COLOR_T18 "Particle Modifier";
+	IDS_COLOR_T20 "Deformer";
+	IDS_COLOR_T21 "Active Points";
+	IDS_COLOR_T22 "Inactive Points";
+	IDS_COLOR_T23 "Tangent";
+	IDS_COLOR_T24 "Active Edges";
+	IDS_COLOR_T25 "Inactive Edges";
+	IDS_COLOR_T26 "Texture";
+	IDS_COLOR_T27 "Texture Axis";
+	IDS_COLOR_T28 "Bounding Box";
+	IDS_COLOR_T29 "Animation Path";
+	IDS_COLOR_T30 "X Axis";
+	IDS_COLOR_T31 "Y Axis";
+	IDS_COLOR_T32 "Z Axis";
+	IDS_COLOR_T33 "World X Axis";
+	IDS_COLOR_T34 "World Y Axis";
+	IDS_COLOR_T35 "World Z Axis";
+	IDS_COLOR_T36 "Layer 1";
+	IDS_COLOR_T37 "Layer 2";
+	IDS_COLOR_T38 "Layer 3";
+	IDS_COLOR_T39 "Layer 4";
+	IDS_COLOR_T40 "Layer 5";
+	IDS_COLOR_T41 "Layer 6";
+	IDS_COLOR_T42 "Layer 7";
+	IDS_COLOR_T43 "Layer 8";
+	IDS_COLOR_T47 "Color";
+	IDS_COLOR_T48 "Grid";
+	IDS_COLOR_T49 "Selected Axis";
+	IDS_COLOR_T50 "Vertex Map 0%";
+	IDS_COLOR_T51 "Vertex Map 100%";
+	IDS_COLOR_S38 "UV Mesh - Grayed";
+	IDS_COLOR_S39 "UV Mesh - Active Polygons";
+	IDS_COLOR_S40 "UV Mesh - Inactive Polygons";
+	IDS_COLOR_S41 "UV Mesh - Active Points";
+	IDS_COLOR_S42 "UV Mesh - Inactive Points";
+	IDS_COLOR_T52 "Normals";
+	IDS_COLOR_T53 "Bounding Box (Child)";
+	IDS_COLOR_T54 "Activation - Polygons";
+	IDS_COLOR_T55 "Activation - Polygons (Child)";
+	IDS_COLOR_T57 "Shaded Wire";
+	IDS_COLOR_T56 "Selection Preview";
+	IDS_COLOR_T58 "Axis Bands";
+	IDS_COLOR_T59 "N-gon Lines";
+	IDS_COLOR_T60 "Front Facing Tinting";
+	IDS_COLOR_T61 "Back Facing Tinting";
+	IDS_COLOR_T62 "Min Soft Selection";
+	IDS_COLOR_T63 "Max Soft Selection";
+	IDS_COLOR_T64 "Min SDS Weight";
+	IDS_COLOR_T65 "Zero SDS Weight";
+	IDS_COLOR_T66 "Max SDS Weight";
+	IDS_COLOR_T67 "Interactive Render Region";
+	IDS_COLOR_T68 "Object Highlight";
+	IDS_COLOR_T69 "Selected Object";
+	IDS_COLOR_T70 "Background - Gradient 1";
+	IDS_COLOR_T71 "Background - Gradient 2";
+	IDS_COLOR_T72 "Brush Resize Preview";
+	IDS_COLOR_T73 "B-Spline Hull";
+	IDS_COLOR_T74 "Tool Handles";
+	IDS_COLOR_T75 "Tool Handles Active";
+	IDS_COLOR_T76 "Tool Handles Highlight";
+	IDS_COLOR_T77 "Secondary Tool Handles";
+	IDS_COLOR_T78 "Secondary Tool Handles Active";
+	IDS_COLOR_T79 "Secondary Tool Handles Highlight";
+	IDS_COLOR_T80 "Tool Selection";
+	IDS_COLOR_T81 "Base Grid";
+
+	IDS_REMOVE          "Remove";
+	IDS_REMOVE_ALL      "Remove All";
+	IDS_RESET           "Reset";
+	IDS_SELECT_ALL      "Select All";
+
+	IDS_LINEAR          "Linear";
+	IDS_SQUARE          "Square";
+	IDS_CUBIC           "Cubic";
+	IDS_ROOT            "Root";
+	IDS_INVERS          "Inverse";
+	IDS_SIN             "Sin";
+	IDS_ABSCOS          "|Cos|";
+  IDS_USER						"Custom...";
+  IDS_SPLINESUBMENU		"Spline Presets";
+  IDS_FRAMESEL				"Frame Selected";
+  IDS_FRAMEALL				"Frame All";
+  IDS_SPLINE_OPENWINDOW	"Show in separate Window...";
+  IDS_SPLINE_TITLE	"Spline Window";
+  IDS_FRAMEMINMAX	"Frame Min/Max";
+  
+  IDS_ZERO_X		"Zero X (Tangent)";
+  IDS_ZERO_Y		"Zero Y (Tangent)";
+  IDS_SNAP			"Enable Snap";
+  IDS_WARP			"Rolling Curve";
+  
+  IDS_MINMAX		"Min/Max Lines";
+  IDS_MOVECURVE		"Move Curves";
+  IDS_SPLINETYPES	"Point Types";
+  IDS_SOFT			"Soft";
+  IDS_EASEIN		"Ease In";
+  IDS_EASEOUT		"Ease Out";
+  IDS_EASEEASE		"Ease Ease";
+  IDS_ZERO			"Zero Angle/Length";
+  IDS_UNIFY			"Unify";
+
+	IDS_MAXIMUM         "Set to Maximum";
+	IDS_MINIMUN         "Set to Minimum";
+
+	IDS_FLIP            "Flip";
+	IDS_MIRROR          "Mirror";
+  IDS_LINK_TANGENTS		"Link End Tangents";
+  IDS_LINK_POSITIONS	"Link End Positions";
+
+  IDS_DEFAULT_POINTS  "Reset Points";
+  IDS_TENSION           "Tension";
+
+	IDS_LINK_CLEAR			"Clear";
+	IDS_LINK_FIND				"Show in Manager";
+	IDS_LINK_SELECT_OBJECT	"Select";
+
+	IDS_DAY             "Day";
+
+	IDS_USERDATA_NAME												"Data";
+	IDS_SEPARATOR														"Separator";
+	IDS_UNIT_REAL														"Real";
+	IDS_UNIT_PERCENT												"Percent";
+	IDS_UNIT_DEGREE													"Degree";
+	IDS_UNIT_METER													"Meter";
+
+	IDS_AM_SELECTMODES											"Select Modes";
+	IDS_AM_ALLOW														"Allow these modes (CTRL for single select):";
+	IDS_AM_ALL															"Select All";
+	IDS_AM_MODE															"Mode";
+	IDS_AM_LOCK															"Lock Element";
+	IDS_AM_LOCKMODE													"Lock Mode";
+	IDS_AM_COMMAND_LOCK											"New Attribute Manager...";
+	IDS_AM_CONFIGURE												"Configure Modes...";
+	IDS_AM_USERDATA_SUBMENU									"User Data";
+	IDS_AM_USERDATA_ADD											"Add User Data...";
+	IDS_AM_USERDATA_MANAGE									"Manage User Data ...";
+	IDS_AM_TITLE														"Attributes";
+	IDS_AM_MODE_DOCUMENT										"Project";
+	IDS_AM_MODE_OBJECTS											"Object";
+	IDS_AM_MODE_TAG													"Tag";
+	IDS_AM_MODE_MATERIAL										"Material";
+	IDS_AM_MODE_SHADER											"Shader";
+	IDS_AM_MODE_NODES												"Node";
+	IDS_AM_MODE_TIMELINE										"Timeline";
+	IDS_AM_MODE_FCURVE											"F-Curve";
+	IDS_AM_COMMAND													"Attribute Manager...";
+
+	IDS_DISPLAYDRIVER_HARDWARE_GLSL "OpenGL Shading (Extended)";
+	IDS_GENERALSETTINGS	"Preferences...";
+	IDS_GENERALSETTINGS_TITLE	"Preferences";
+	IDS_PREFS_MAC				"System";
+	IDS_PREFS_LINUX			"System";
+	IDS_PREFS_BODYPAINT	"BodyPaint 3D";
+	IDS_PREFS_DOCUMENT	"Project";
+	IDS_PREFS_AUTOSAVE	"Auto-Save";
+	IDS_PREFS_MATPREVIEW  "Material Manager";
+	IDS_PREFS_UNITS			"Units";
+	IDS_PREFS_VIEWPORT	"View";
+	IDS_PREFS_HARDWARE	"OpenGL";
+	IDS_PREFS_COLORS		"View Colors";
+	IDS_PREFS_TEXTURES	"Texture Paths";
+	IDS_PREFS_MOUSE		"Input Devices";
+	IDS_PREFS_NAVIGATION		"Navigation";
+	IDS_PREFS_FILES		"Files";
+	IDS_PREFS_MEMORY	"Memory";
+	IDS_PREFS_COMMUNICATION	"Communication";
+	IDS_PREFS_THEME		"Theme";
+	IDS_PREFS_OPENGL	"OpenGL";
+	IDS_PREFS_VIEW		"View";
+	IDS_PREFS_CINEMAN	"CineMan";
+	IDS_PREFS_BP		"BodyPaint 3D";
+	IDS_PREFS_TEXPATHS	"Texture Paths";
+	IDS_PREFS_BROWSER	"Content Browser";
+	IDS_PREFS_MATMANAGER "Material Preview";
+	IDS_PREFS_PROMAN	"Projection Man";
+	IDS_PREFS_IMPORTEXPORT "Import/Export";
+	IDS_PREFS_SCHEMETOP	"Scheme Colors";
+	IDS_PREFS_COLOR		"Editor Colors";
+	IDS_PREFS_RENDERER	"Renderer";
+	IDS_PREFS_FILTER		"Import/Export";
+	IDS_PREFS_OPENFOLDER "Open Preferences Folder...";
+	IDS_IMPORT					"Import";
+	IDS_EXPORT					"Export";
+	IDS_DATATYPE_BITMAP		"Bitmap Button";
+	IDS_DATATYPE_VECTOR2D	"2D Vector Field";
+	IDS_DATATYPE_DATETIME	"Date/Time";
+	IDS_DATATYPE_DESCPROPERTY "Description Property";
+	IDS_DATATYPE_FONT "Font";
+	IDS_DATATYPE_GRADIENT "Gradient";
+	IDS_DATATYPE_INEXCLUDE "In-/Exclusion";
+	IDS_DATATYPE_LINK "Link";
+	IDS_DATATYPE_TREEVIEW "Tree View";
+	IDS_DATATYPE_PRIORITY "Priority";
+	IDS_DATATYPE_QUICKTAB	"Quick Tab";
+	IDS_DATATYPE_HYPERLINK "HyperLink";
+	IDS_DATATYPE_SPLINE "Spline";
+	IDS_GRADIENT_INTERPOLATION "Interpolation";
+	IDS_DATATYPE_MATPREVIEW   "Material Preview";
+
+	IDS_EDITUSERDATA "Edit User Data";
+
+	IDS_GRADIENT_POSITION "Position";
+	IDS_GRADIENT_COLOR "Color";
+	IDS_GRADIENT_BIAS "Bias";
+	IDS_GRADIENT_BRIGHTNESS "Intensity";
+
+	IDS_AM_EDIT "Edit";
+
+	IDS_MATPREVIEW_ANIMATE      "Animate";
+	IDS_MATPREVIEW_OPEN_NONMODAL	"Open Window...";
+	IDS_MATPREVIEW_DEFAULT      "Default";
+	IDS_MATPREVIEW_FLAT2D       "Flat (2D)";
+	IDS_MATPREVIEW_SPHERE       "Sphere";
+	IDS_MATPREVIEW_CUBE         "Cube";
+	IDS_MATPREVIEW_ROUND_CUBE   "Rounded Cube";
+	IDS_MATPREVIEW_PLANE        "Plane";
+	IDS_MATPREVIEW_CYLINDER     "Cylinder";
+	IDS_MATPREVIEW_TORUS        "Torus";
+	IDS_MATPREVIEW_PLANE_BACK   "Plane Backlight";
+	IDS_MATPREVIEW_2TORUS       "Double Torus";
+	IDS_MATPREVIEW_KNOT         "Knot";
+	IDS_MATPREVIEW_MULTIPLE_OBJECTS   "Multiple Objects";
+	IDS_MATPREVIEW_SIZE         "Size";
+	IDS_MATPREVIEW_SIZE_DEFAULT "Default";
+	IDS_MATPREVIEW_SIZE_SMALL   "Small";
+	IDS_MATPREVIEW_SIZE_MEDUIM  "Medium";
+	IDS_MATPREVIEW_SIZE_BIG     "Large";
+	IDS_MATPREVIEW_SIZE_LARGE   "Huge";
+	IDS_MATPREVIEW_BITMAP       "Bitmap";
+	IDS_MATPREVIEW_AUTO_UPDATE  "Auto";
+	IDS_MATPREVIEW_UPDATE       "Update";
+	IDS_MATPREVIEW_RESOLUTION   "Resolution";
+	IDS_MATPREVIEW_BIT          "Bit";
+	IDS_MATPREVIEW_RESET_ROTATION "Reset Rotation";
+	IDS_MATPREVIEW_SCENE_SETUP  "Project Settings...";
+
+	IDS_DATATYPE_TEXBOX					"Shader";
+	IDS_TEXBOX_NOBITMAP					"(No Bitmap)";
+	IDS_TEXBOX_IMAGE						"Image...";
+
+	IDS_MAT_ASSIGN_SHOW_IN_MANAGER  "Show in Manager";
+	IDS_MAT_ASSIGN_DELETE_TAG       "Delete Tag";
+	IDS_MAT_ASSIGN_SELECT_OBJECT    "Select Object";
+	IDS_MAT_ASSIGN_SELECT_TAG       "Select Tag";
+
+	IDS_QUICKLIGHTMANAGER_CMD			"Default Light...";
+	IDS_QUICKLIGHTMANAGER_DLG			"Default Light";
+
+	IDS_TEXGROUP_SAMPLING					"Sampling";
+	IDS_TEXGROUP_SAMPLING_NONE		"None";
+	IDS_TEXGROUP_SAMPLING_CIRCLE	"Circle";
+	IDS_TEXGROUP_SAMPLING_SQUARE	"Square";
+	IDS_TEXGROUP_SAMPLING_ALIAS		"Alias";
+	IDS_TEXGROUP_SAMPLING_MIP			"MIP";
+	IDS_TEXGROUP_SAMPLING_SAT			"SAT";
+
+	IDS_TEXGROUP_OFFSET						"Blur Offset";
+	IDS_TEXGROUP_SCALE						"Blur Scale";
+
+	IDS_BUYCREATIVE								"BuyCreative.com";
+	IDS_BUYCREATIVE_WEB						"http://buycreative.cinema4d.com";
+	IDS_BUYCREATIVE_HELP					"Opens the BuyCreative website";
+
+	IDS_MATERIALEDITOR						"Material Editor";
+	IDS_PAGENAME									"# Page";
+
+	IDS_DIGIMATION								"Model Bank";
+	IDS_DIGIMATION_WEB						"http://modelbank.cinema4d.com";
+	IDS_DIGIMATION_HELP						"Opens the Model Bank website";
+
+	IDS_NAME_COFFEE								"C.O.F.F.E.E.";
+	IDS_NAME_PYTHON								"Python";
+
+	IDS_CONSOLE										"Console";
+	IDS_CONSOLE_HELP							"Opens the console";
+	IDS_CONSOLE_COPYLINE					"Copy Line";
+	IDS_CONSOLE_COPYALL						"Copy All";
+	IDS_CONSOLE_AUTOSCROLL				"Auto Scroll";
+	IDS_CONSOLE_FILE							"File";
+	IDS_CONSOLE_PLUGINS						"Plugins";
+	IDS_CONSOLE_RESTORE						"Command Line...";
+	IDS_CONSOLE_RESTORE_HELP			"Opens the Command Line Interface";
+	IDS_CONSOLE_CLEAR							"Clear Console";
+	IDS_CONSOLE_CLEAR_HELP				"Clear the console view.";
+	
+	IDS_SCRIPTMANAGER							"Script Manager";
+	IDS_SCRIPTMANAGER_HELP				"Opens the Script Manager";
+	IDS_SCRIPTMANAGER_SAVE				"Save";
+	IDS_SCRIPTMANAGER_SAVETITLE		"Save #";
+	
+	IDS_SCRIPTS										"Scripts";
+	IDS_SHOWMORESCRIPTS 					"Show More Scripts";
+
+	IDS_SCRIPTMANAGER_VALCHANGED	"The script '#' has been changed.|Do you want to reload it?";
+	IDS_SCRIPTMANAGER_VALDELETED	"The script '#' has been deleted.|Do you want to resave it?";
+	IDS_SCRIPTMANAGER_VALREADONLY	"The file '#' was changed to read-only.";
+	
+	IDS_SCRIPTFAILED							"Script '#' failed";
+	IDS_SCRIPTEXISTS							"A script with that name either already exists|or cannot be created due to illegal file characters|Please choose a different name!";
+	IDS_SCRIPTUNTITLED						"untitled";
+	IDS_SCRIPTCHANGE							"Do you want to save the changes to your|script $"#$"|before closing it?";
+	IDS_SCRIPTDELETE							"Do you really want to delete this script?";
+
+	IDS_SCRIPTEXTENSION_SCRIPTFOLDER	"Script Folder...";
+	IDS_SCRIPTEXTENSION_RUNSCRIPT			"Run Script...";
+	IDS_SCRIPTEXTENSION_UNKNOWNFILE		"Unknown script file.";
+
+	IDS_OHNETITEL									"Untitled";
+
+	IDS_EXPRESSION_CLICKCOMPILE	 	"Click on compile to test the script";
+	IDS_EXPRESSION_NOERROR				"No Errors!";
+	
+	IDS_CSMENU_FILE								"File";
+	IDS_CSMENU_IMPORT							"Import...";
+	IDS_CSMENU_IMPORT_DESC				"Import Script";
+	IDS_CSMENU_DUPLICATE					"Duplicate...";
+	IDS_CSMENU_DUPLICATE_DESC			"Duplicate a Script";
+	IDS_CSMENU_NEW_DESC						"Create New Script";
+	IDS_CSMENU_OPEN_DESC					"Open Script";
+	IDS_CSMENU_SAVE_DESC					"Save Script";
+	IDS_CSMENU_SAVEAS_DESC				"Save Scripts As";
+	IDS_CSMENU_SAVEALL_DESC				"Save All Scripts";
+	IDS_CSMENU_LOADIMAGE					"Load Icon...";
+	IDS_CSMENU_RENDERIMAGE				"Render Icon";
+	IDS_CSMENU_DELETE							"Delete...";
+	IDS_CSMENU_DELETE_DESC				"Delete A Script";
+
+	IDS_CSMENU_UNDO_DESC				"Undo typing";
+	IDS_CSMENU_REDO_DESC				"Redo typing";
+	IDS_CSMENU_CUT_DESC					"Cut selected text";
+	IDS_CSMENU_COPY_DESC				"Copy selected text";
+	IDS_CSMENU_PASTE_DESC				"Paste text from clipboard";
+	IDS_CSMENU_SELECTALL_DESC			"Select all text";
+	IDS_CSMENU_SELECTNONE_DESC			"Deselect all text";
+	IDS_CSMENU_TEXTDELETE_DESC			"Delete selected text";
+
+	IDS_ADDTODEFAULTLIBRARY	"Set As Default...";
+	IDS_ADDTOLIBCHECK "This will set the current object as the default type.|Do you want to proceed?";
+
+	IDS_RGBDISPLAY "RGB (# Bit)";
+	IDS_GRAYDISPLAY "Grayscale (# Bit)";
+
+	IDS_INSTALL_LANGUAGE					"Install Language/Documentation...";
+	IDS_SELECT_LANGUAGE_FILE			"Select Language File";
+	IDS_RESTARTSETTINGS "Language, Font and System changes|will take effect the next time|you start CINEMA 4D!";
+	IDS_SELECT_LANG4D							"Please select a .lang4d file";
+	IDS_NO_VALID_LANGUAGE					"This is not a valid language file";
+	IDS_ERROR_INSTALL_LANG        "There was an error extracting the language file. Its version might not match the current CINEMA 4D version or there is not enough space on the disk.";
+	IDS_CANT_COPY_FILE						"Cannot copy file #.|The installer will try to overwrite all files if you choose Retry.";
+
+	IDS_USERDATA_ADD							"Add Data";
+	IDS_USERDATA_ADD_GROUP				"Add Group";
+	IDS_USERDATA_REMOVE						"Remove";
+	IDS_USERDATA_MANAGETITLE			"Manage User Data";
+	IDS_SHOW_GL_CAPS							"Show OpenGL Capabilities";
+	IDS_OGL_CAPS_HEADER_NAME			"Name";
+	IDS_OGL_CAPS_HEADER_AVAILABLE	"Available";
+	IDS_OGL_CAPS_HEADER_REQUIRED	"Required";
+	IDS_OGL_CAPS_RENDERER					"Renderer";
+	IDS_OGL_CAPS_VENDOR						"Vendor";
+	IDS_OGL_CAPS_VERSION					"Version";
+	IDS_OGL_CAPS_GLSL_VERSION			"GLSL Version";
+	IDS_OGL_CAPS_2DTEXTURE_SIZE			"2D Texture Size";
+	IDS_OGL_CAPS_3DTEXTURE_SIZE			"3D Texture Size";
+	IDS_OGL_CAPS_VP_PROGRAM_LENGTH	"Vertex Program Length";
+	IDS_OGL_CAPS_FP_PROGRAM_LENGTH	"Fragment Program Length";
+	IDS_OGL_CAPS_TEXTURE_INDIRECTIONS "Max. Texture Indirections";
+	IDS_OGL_CAPS_MAX_TEXCOORD			"Max. Texcoord";
+	IDS_OGL_CAPS_MAX_TEXUNITS_VERTEX			"Max. VP Texture Image Units";
+	IDS_OGL_CAPS_MAX_TEXUNITS_FRAGMENT		"Max. FP Texture Image Units";
+	IDS_OGL_CAPS_MAX_TEXUNITS_GEOMETRY		"Max. GP Texture Image Units";
+	IDS_OGL_CAPS_HAS_FRAMEBUFFER	"Framebuffer Support";
+	IDS_OGL_CAPS_HAS_FRAMEBUFFER_MULTISAMPLE "Multisample FBO (max. Samples)";
+	IDS_OGL_CAPS_HAS_VERTEXBUFFER	"Vertexbuffer Support";
+	IDS_OGL_CAPS_HAS_MULTITEXTURE	"Multitexture Support";
+	IDS_OGL_CAPS_FLOATINGPOINTTEXTURE	"Floating Point Texture";
+	IDS_OGL_CAPS_NONPOWEROF2TEXTURE		"Non-Power-Of-Two Texture";
+	IDS_OGL_CAPS_DEPTHTEXTURE			"Depth Texture Read";
+	IDS_OGL_CAPS_RENDER_TO_FP			"Render to FP texture";
+	IDS_OGL_CAPS_CG_TOOLKIT				"Cg Toolkit";
+	IDS_OGL_CAPS_CG_PROFILES			"Latest Cg Profiles";
+	IDS_OGL_CAPS_AA_MODES					"Anti-alias Modes";
+	IDS_OGL_CAPS_FBO_Z_DEPTH			"Framebuffer Z depth";
+	IDS_OGL_CAPS_MAX_ELEMENTS			"Max. Draw Elements";
+	IDS_OGL_CAPS_STEREO_BUFFER		"Stereoscopic Buffer";
+	IDS_YES												"Yes";
+	IDS_NO												"No";
+	IDS_EXT_OGL_SUPPORT						"Your graphics card has all necessary extensions for Enhanced OpenGL";
+	IDS_NO_EXT_OGL_SUPPORT				"Your graphics card does not support all necessary extensions for Enhanced OpenGL";
+	IDS_NONE											"None";
+	IDS_UNLIMITED									"unlimited";
+	IDS_NO_ANTIALIAS							"None";
+
+	IDS_INFOMANAGER_NAME					"Project Info";
+	IDS_INFOMANAGER_MODE					"Project Info";
+	IDS_INFOMANAGER_OBJECTS				"Objects Selection";
+	IDS_INFOMANAGER_SELECTION			"Selection";
+	IDS_INFOMANAGER_STRUCT				"Structure";
+	IDS_INFOMANAGER_TEXTURES			"Textures";
+
+	IDS_LAYER_REMOVE							"Remove from Layer";
+	IDS_LAYER_NEWLAYER						"Add to New Layer";
+	IDS_LAYER_ADD									"Add to Layer";
+	IDS_TEX_REPLACE								"Do you want replace this texture in the whole project?||Old: #||New: #";
+	IDS_TEX_REPLACE_CNT						"Texture was replaced # times";
+	IDS_TEX_TEXTURE								"Texture";
+	IDS_TEX_SUGGESTEDPATH					"Suggested Path";
+	IDS_TEX_REALPATH							"Real Path";
+
+	IDS_CMGR_ID 	"ID";
+	IDS_CMGR_QU1	"The following commands already have a conflicting shortcut assigned:||#||Do you want to remove those assignments?";
+	IDS_CMGR_SEP_ICON 	"Icon Separator";
+	IDS_CMGR_SEP_GROUP 	"Group Separator";
+	IDS_CMGR_SEPFILL 	"Fill Space";
+	IDS_CMGR_TIT 	"Customize Commands...";
+	IDS_CMGR_EDP 	"Edit Palettes";
+	IDS_CMGR_NEWP "New Palette...";
+	IDS_CMGR_NFIL "Name Filter";
+	IDS_CMGR_SFIL "Shortcut Filter";
+	IDS_CMGR_SCUT "Shortcut";
+	IDS_CMGR_OPTIONMODE "Options Mode";
+	IDS_CMGR_RSTT "Restrict to";
+	IDS_CMGR_ASSN "Assign";
+	IDS_CMGR_ADD  "Add";
+	IDS_CMGR_DEL  "Delete";
+	IDS_CMGR_EXE  "Execute";
+	IDS_CMGR_TAB1 "Name";
+	IDS_CMGR_TAB2 "Plugin";
+	IDS_CMGR_TAB3 "Shortcut";
+	IDS_CMGR_TAB4 "Type";
+	IDS_CMGR_TAB5 "Information";
+	IDS_CMGR_TY1  "Tool";
+	IDS_CMGR_TY2  "Object";
+	IDS_CMGR_TY3  "Script";
+	IDS_CMGR_TY4  "Command";
+	IDS_CMGR_TY5  "Hotkey";
+	IDS_CMGR_REC  "(None)";
+	IDS_CMGR_TOOLHOTKEY "Tool Overwrite";
+	
+	IDS_AM_NF "<< NOT FOUND >>";
+	IDS_SCRIPTLOG "Script Log";
+
+	IDS_CANTASSIGNMULTISHORTCUT "Multi-Shortcut assignments to hotkeys are not possible";
+
+	IDS_AUTOSAVE_SUCCESS "Auto Save of # successful";
+	IDS_AUTOSAVE_ERROR2 "Error creating Backup of #";
+	IDS_AUTOSAVE_ERROR1 "Error creating Backup Directory #";
+	IDS_AUTOSAVE_BACKUPNAME "backup"; // name of the backupdirectory on HD!
+
+	IDS_SELECT_OBJECTS "Select Object(s)";
+	IDS_SELECT_MATERIALS "Select Material(s)";
+	IDS_SELECT_TAGS "Select Tags(s)";
+
+	IDS_AM_COPY "(Copy)";
+	IDS_AM_PROPERTIES "Properties";
+	IDS_AM_DETAILS "Details";
+	IDS_AM_EXAMPLE "Example";
+	IDS_AM_NAME1 "Name";
+	IDS_AM_NAME2 "Short Name";
+	IDS_AM_TYPE	"Type";
+	IDS_AM_DEFOPEN "Default Open";
+	IDS_AM_DATATYPE "Data Type";
+	IDS_AM_INTERFACE "Interface";
+	IDS_AM_UNIT "Unit";
+	IDS_AM_CYCLEOPTION "Cycle Option";
+	IDS_AM_STEP "Step";
+	IDS_AM_LIMITMIN "Limit Min";
+	IDS_AM_MIN "Min";
+	IDS_AM_SLIDERMIN "Slider Min";
+	IDS_AM_LIMITMAX "Limit Max";
+	IDS_AM_MAX "Max";
+	IDS_AM_SLIDERMAX "Slider Max";
+	IDS_AM_GROUP "Group";
+	IDS_AM_SEP "<<Separator>>";
+	IDS_AM_USERDEF "User Data (Default)";
+
+	IDS_COLORPICKER_NAME	"Color Picker";
+	IDS_CHOOSE_SCREEN_COLOR "Choose Screen Color";
+
+	IDS_UDMANAGER_ID					"ID";
+	IDS_UDMANAGER_TITLE				"Title Bar";
+	IDS_UDMANAGER_SCALEH			"Scale Height";
+	IDS_UDMANAGER_COLUMNS			"Columns";
+	IDS_UDMANAGER_SEPARATOR		"Separator Line";
+	IDS_UDMANAGER_ANIM				"Animatable";
+	IDS_UDMANAGER_SYNTAX			"Syntax:";
+	IDS_UDMANAGER_SEP					"Separator:";
+	IDS_UDMANAGER_DEFAULT			"Default Value";
+	IDS_UDMANAGER_NEW					"<<New>>";
+
+	IDS_MULTIPASS_ADDIMAGELAYER    "Add Image Layers";
+	IDS_MULTIPASS_ADDMATERIAL      "Add Material Layers";
+	IDS_MULTIPASS_ADDALL           "Add All";
+	IDS_MULTIPASS_REMOVESELECTED   "Remove";
+	IDS_MULTIPASS_REMOVEALL        "Remove All";
+	IDS_MULTIPASS_BLEND            "Blend Channel";
+	IDS_MULTIPASS_OBJECT           "Object Buffer";
+
+	IDS_AOM_COPY	"Copy";
+	IDS_AOM_PASTE	"Paste";
+	IDS_AOM_PASTEINTERFACE "Paste User Data Interface...";
+	IDS_CUSTOMCHANNELS "Custom Channels";
+	
+	IDS_VPMENU_REMOVE "Remove";
+	IDS_VPMENU_COPY "Copy";
+	IDS_VPMENU_PASTE "Paste";
+	IDS_VPMENU_LOADPRESET "Load Preset";
+	IDS_VPMENU_SAVEPRESET "Save Preset...";
+	
+	IDS_RMMENU_NEW "New";
+	IDS_RMMENU_NEWCHILD "New Child";
+	IDS_RMMENU_REMOVE "Remove";
+	IDS_RMMENU_SETACTIVE "Set Active";
+	IDS_RMMENU_APPLY "Apply Difference Preset";
+	IDS_RMMENU_SAVEDIFF "Save Difference Preset...";
+	IDS_RMMENU_LOADPRESET "Load Preset";
+	IDS_RMMENU_SAVEPRESET "Save Preset...";
+	
+	IDS_RENDERSETTING_NAME "Render Setting";
+	IDS_USERLIB_NAME "Render Settings";
+	IDS_USERLIB_PFNAME "Post Effects";
+	
+	IDS_RM_GENERAL	"General";
+	IDS_RM_OUTPUT   "Output";
+	IDS_RM_SAVE			"Save";
+	IDS_RM_MULTIPASS "Multi-Pass";
+	IDS_RM_ANTIALIASING	"Anti-Aliasing";
+	IDS_RM_OPTIONS			"Options";
+	IDS_RM_STEREO		"Stereoscopic";
+	IDS_RM_NET				"Team Render";
+
+	IDS_RSDIALOG	"Render Settings";
+	IDS_RSDIALOG_CMD	"Edit Render Settings...";
+	IDS_RSDLG_EFFECT "Effect...";
+	IDS_RSDLG_MULTI  "Multi-Pass...";
+	IDS_RSDLG_RS     "Render Setting...";
+
+	IDS_INHERITPARENT "Inherit Parent Behavior";
+
+	IDS_RELOADALLTEXTURES				"Reload All Textures";
+	IDS_RELOADALLTEXTURES_HELP	"Reload All Textures";
+	
+	IDS_PICKSESSION_HELP "Starts a pick session";
+	IDS_OPENGL_WARNING		"WARNING||Changing any OpenGL options may dramatically impact the stability of your system! If you experience crashes hold down CTRL + SHIFT during the next application start until the splash screen disappears. This will reset shading to Software Mode.||A lot of OpenGL crashes only happen after a longer time of use. Therefore, be extremely careful and consult the context-sensitive help system for which options to use.||The most critical option is 'Anti-Aliasing'. Be extremely careful when enabling this option.";
+	IDS_OPENGL_WARNING_OUTDATED_DRIVER "WARNING||Your graphics driver seems to be outdated. This is a frequent reason for random crashes and unexpected behaviour. Please update to the latest WHQL driver.||";
+
+	IDS_STOPSESSION "Stop Pick Session";
+	IDS_STARTSESSION "Start Pick Session";
+
+	IDS_PREFS_PROFILE "The chosen custom Color Profile may lead to slow performance in Picture Viewer";
+	IDS_AM_FILTERHELP "<<Enter your search string here>>";
+
+	IDS_DATATYPE_KERNING	"Kerning";
+
+	IDS_KERNING_SELECTION_START			"Start";
+	IDS_KERNING_SELECTION_END				"End";
+	IDS_KERNING_EDITMODE						"Show 3D GUI";
+	IDS_KERNING_KERNING							"Kerning";
+	IDS_KERNING_KERNING_SHORT				"Kerning";
+	IDS_KERNING_TRACKING						"Tracking";
+	IDS_KERNING_TRACKING_SHORT			"Tracking";
+	IDS_KERNING_SCALEH							"Horizontal Scale";
+	IDS_KERNING_SCALEH_SHORT				"Horizontal Scale";
+	IDS_KERNING_SCALEV							"Vertical Scale";
+	IDS_KERNING_SCALEV_SHORT				"Vertical Scale";
+	IDS_KERNING_SCALE								"Scale";
+	IDS_KERNING_SCALE_SHORT					"Scale";
+	IDS_KERNING_BASELINESHIFT				"Baseline Shift";
+	IDS_KERNING_BASELINESHIFT_SHORT	"Baseline Shift";
+	IDS_KERNING_LEADING							"Leading";
+	IDS_KERNING_LEADING_SHORT				"Leading";
+	IDS_KERNING_RESET								"Reset All";
+	IDS_KERNING_RESET_SELECTED			"Reset Selected";
+	IDS_KERNING_SELECT_ALL					"Select All";
+
+  IDS_RM_MARERIALOVERRIDE         "Material Override";
+  IDS_RM_TAKE_ASSIGNMENT           "Take Assignment";
+}

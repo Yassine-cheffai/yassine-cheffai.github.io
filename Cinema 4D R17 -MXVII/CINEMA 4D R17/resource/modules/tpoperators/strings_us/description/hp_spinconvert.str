@@ -1,0 +1,9 @@
+STRINGTABLE HP_SpinConvert
+{
+	HP_SpinConvert	"PSpinConvert";
+	
+	IN_SPCON_SPEED	"Speed";
+	IN_SPCON_AXIS		"Axis";
+	
+	OUT_SPCON_SPIN	"Spin";
+}

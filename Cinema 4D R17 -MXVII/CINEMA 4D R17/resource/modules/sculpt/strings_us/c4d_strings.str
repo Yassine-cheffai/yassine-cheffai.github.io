@@ -1,0 +1,350 @@
+// C4D-StringResource
+// Identifier	Text
+
+STRINGTABLE
+{
+	IDS_SCULPT_BRUSH_BASE		"Sculpt Brush Base";
+	IDS_SCULPT_BRUSH_RELAX		"Smooth";
+	IDS_SCULPT_BRUSH_MASK		"Mask";
+
+	IDS_SCULPT_BRUSH_BASE_HELP				"Sculpt Brush Base";
+	IDS_SCULPT_BRUSH_RELAX_HELP				"Smooth out the surface by averaging the position of the vertices";
+	IDS_SCULPT_BRUSH_MASK_HELP				"Mask out an area of the surface so that it will not be affected by any brush";
+	
+	IDS_SCULPTLAYER_BROWSER		"Sculpt Layers";
+	IDS_SCULPT_OBJECT			"Sculpt Object";
+	IDS_SCULPT_LAYER_DATA		"Sculpt Layer";
+	IDS_SCULPT_LAYER_SYSTEM		"Sculpt Layer System";
+
+	IDS_POLYSCULPT_DATA			"Polygon Sculpt";
+	
+	IDS_BASEOBJECTLAYERNAME		"Base Object";
+	IDS_NEWFOLDERNAME			"New Folder";
+	IDS_NEWLAYERNAME			"Layer";
+	IDS_LAYER					"Layer";
+
+  	IDS_TREE_COLUMN_NAME	"Name";
+	IDS_TREE_COLUMN_LOCK	"Lock";
+	IDS_TREE_COLUMN_VISIBLE	"Visible";
+	IDS_TREE_COLUMN_HASMASK  "Mask";
+	IDS_TREE_COLUMN_HASCOLOR  "Color";
+	IDS_TREE_COLUMN_LEVEL	"Level";
+	IDS_TREE_COLUMN_STRENGTH  "Strength";
+	IDS_TREE_COLUMN_SYMMETRY_X  "X";
+	IDS_TREE_COLUMN_SYMMETRY_Y  "Y";
+	IDS_TREE_COLUMN_SYMMETRY_Z  "Z";
+	IDS_TREE_COLUMN_SYMMETRY_XY  "XY";
+	IDS_TREE_COLUMN_SYMMETRY_YZ  "YZ";
+	IDS_TREE_COLUMN_SYMMETRY_XZ  "XZ";
+	IDS_TREE_COLUMN_SYMMETRY_LOCAL  "Local";
+	IDS_TREE_COLUMN_SYMMETRY_RADIAL  "Radial";
+	
+	IDS_LAYER_MIRROR_OFF		"Mirror Off";
+	IDS_LAYER_MIRROR_X			"Mirror X";
+	IDS_LAYER_MIRROR_Y			"Mirror Y";
+	IDS_LAYER_MIRROR_Z			"Mirror Z";
+	IDS_LAYER_MIRROR_LOCAL_X	"Mirror Local X";
+	IDS_LAYER_MIRROR_LOCAL_Y	"Mirror Local Y";
+	IDS_LAYER_MIRROR_LOCAL_Z	"Mirror Local Z";
+
+
+	IDS_SCULPT_PRESETS_EXISTS	"A # with the name # already exists, do you want to overwrite it?";
+	IDS_SCULPT_PRESETS		"Sculpt Presets";
+	IDS_SCULPT_PRESET_BRUSH		"Sculpt Brush Preset";
+	IDS_SCULPT_PRESET_STAMP		 "Sculpt Stamp Preset";
+	IDS_SCULPT_PRESET_STENCIL	 "Sculpt Stencil Preset";
+	IDS_SCULPT_PRESET_SPLINE	 "Sculpt Spline Preset";
+
+	IDS_NEW_PRESET_DIALOG_NAME			"Sculpt Brush Preset";
+	IDS_NEW_STAMPPRESET_DIALOG_NAME		"Sculpt Stamp Preset";
+	IDS_NEW_STENCILPRESET_DIALOG_NAME	"Sculpt Stencil Preset";
+	IDS_NEW_SPLINEPRESET_DIALOG_NAME	"Sculpt Spline Preset";
+
+	IDS_SCULPTMATERIAL_OPENBROWSER "Sculpting Materials";
+	
+	IDS_MENU_LAYER	"Layers";
+	IDS_MENU_TOOLS	"Tools";
+  
+	IDS_SCULPTCOMMAND_SUBDIVIDE					"Subdivide";
+	IDS_SCULPTCOMMAND_SUBDIVIDE_OPTIONS			"Subdivide Options";
+	IDS_SCULPTCOMMAND_SUBDIVIDE_UP				"Increase";
+	IDS_SCULPTCOMMAND_SUBDIVIDE_DOWN			"Decrease";
+	IDS_SCULPTCOMMAND_ADDFOLDER					"Add Folder";
+	IDS_SCULPTCOMMAND_ADDLAYER					"Add Layer";
+	IDS_SCULPTCOMMAND_DELETELAYER				"Delete Layer";
+	IDS_SCULPTCOMMAND_CLEARLAYER				"Clear Layer";
+	IDS_SCULPTCOMMAND_CLEARLAYERMASK			"Clear Mask";
+	IDS_SCULPTCOMMAND_MERGEVISBLELAYERS			"Merge Visible";
+	IDS_SCULPTCOMMAND_FLATTENLAYERS				"Flatten";
+
+	IDS_SCULPTCOMMAND_LAYERINVERTMASK			"Invert Mask";
+	IDS_SCULPTCOMMAND_LAYERBLURMASK				"Blur Mask";
+	IDS_SCULPTCOMMAND_LAYERHIDEMASKED			"Hide Masked";
+	IDS_SCULPTCOMMAND_LAYERUNHIDEMASKED			"Show Masked";
+
+	IDS_SCULPTCOMMAND_DELETE_HIGHERLEVELS		"Delete Higher Levels";
+	IDS_SCULPTCOMMAND_LAYEROPACITY				"Opacity";			
+	IDS_SCULPTCOMMAND_LAYERVISIBLE				"Visible";	
+		
+	IDS_SCULPTCOMMAND_CREATEPOLYGONOBJECT		"Create Polygon Copy";
+	IDS_SCULPTCOMMAND_CREATEPOLYGONOBJECT_ALL	"Create Polygon Copy For Every Level";
+
+	IDS_SCULPTCOMMAND_EXTRACTOBJECTFROMMASK		"Extract Object From Mask";
+	IDS_SCULPTCOMMAND_EXTRACTOBJECTFROMLAYER	"Extract Object From Layer";
+		
+	IDS_SCULPTCOMMAND_SUBDIVIDE_HELP				"Subdivide the Sculpt Object up a level. A Sculpt Tag will be added the first time, enabling it to be sculpted on.";
+	IDS_SCULPTCOMMAND_SUBDIVIDE_UP_HELP				"Increase the Subdivision level on a Sculpt Object";
+	IDS_SCULPTCOMMAND_SUBDIVIDE_DOWN_HELP			"Decrease the Subdivisoin level on a Sculpt Object";
+	IDS_SCULPTCOMMAND_ADDFOLDER_HELP				"Adds a new Sculpting Folder to a Sculpt Object so you can organize your layers";
+	IDS_SCULPTCOMMAND_ADDLAYER_HELP					"Adds a new Sculpting Layer to a Sculpt Object at the currently active level";
+	IDS_SCULPTCOMMAND_DELETELAYER_HELP				"Deletes the current selected Sculpting Layer on Sculpt Object";
+	IDS_SCULPTCOMMAND_CLEARLAYER_HELP				"Clears the sculpting information on the currently selected layer of a Sculpt Object";
+	IDS_SCULPTCOMMAND_CLEARLAYERMASK_HELP			"Clears the mask on the currently selected layer of a Sculpt Object";
+	IDS_SCULPTCOMMAND_MERGEVISBLELAYERS_HELP		"Merge all the visible layers on Sculpt Object to a single layer per level.";
+	IDS_SCULPTCOMMAND_FLATTENLAYERS_HELP			"Flattens all the layers of a Sculpt Object to the Base Object Layer.";
+
+	IDS_SCULPTCOMMAND_LAYERINVERTMASK_HELP			"Inverts the mask on the currently selected layer of a Sculpt Object";
+	IDS_SCULPTCOMMAND_LAYERBLURMASK_HELP			"Blurs the mask on the currently selected layer of a Sculpt Object";
+	IDS_SCULPTCOMMAND_LAYERHIDEMASKED_HELP			"Hide Masked";
+	IDS_SCULPTCOMMAND_LAYERUNHIDEMASKED_HELP		"Unhide Masked";
+
+	IDS_SCULPTCOMMAND_DELETE_HIGHERLEVELS_HELP		"Delete all subdivision levels, and the layers at those levels, on a Sculpt Object that are higher than the currently active level.";
+	IDS_SCULPTCOMMAND_LAYEROPACITY_HELP				"Opacity";			
+	IDS_SCULPTCOMMAND_LAYERVISIBLE_HELP				"Visible";	
+		
+	IDS_SCULPTCOMMAND_CREATEPOLYGONOBJECT_HELP		"Create a new Polygon Object from the currently selected Sculpt Object at its currently visible state in the viewport";
+	IDS_SCULPTCOMMAND_CREATEPOLYGONOBJECT_ALL_HELP	"Create a new Polygon Object for every level on the currently selected Sculpt Object";
+
+	IDS_SCULPTCOMMAND_EXTRACTOBJECTFROMMASK_HELP	"Create a new Polygon Object based on the mask on the currently selected layer of the selected Sculpt Object";
+	IDS_SCULPTCOMMAND_EXTRACTOBJECTFROMLAYER_HELP	"Create a new Polygon Object based on the sculpting information on the currently selected layer of the selected Sculpt Object";
+	
+	IDS_SCULPTCOMMAND_ADDFALLOFFPRESET_HELP			"Press to add a Falloff Preset";
+	IDS_SCULPTCOMMAND_ADDBRUSHPRESET_HELP			"Press to add a Brush Preset";
+
+	
+	IDS_PAINT_NONE					"None";
+	IDS_PAINT_DRAWDIRECTION			"Draw Direction";
+	IDS_PAINT_DRAWRANDOM			"Randomness";
+	IDS_PAINT_DRAWWHEEL				"Mouse Wheel";
+	IDS_PAINT_DRAWDISTANCE			"Distance";
+	IDS_PAINT_PENPRESSURE			"Pen Pressure";
+	IDS_PAINT_PENTILT				"Pen Tilt";
+	IDS_PAINT_PENFINGERWHEEL		"Pen Finger Wheel";
+	IDS_PAINT_PENDIRECTION			"Pen Direction";
+	IDS_PAINT_PENROTATION			"Pen Rotation";
+	IDS_PAINT_VALUE					"Value";
+	IDS_PAINT_COPYCURVE				"Copy Curve";
+	IDS_PAINT_PASTECURVE			"Paste Curve";
+	IDS_PAINT_RESETTODEFAULT		"Reset to Default";
+	IDS_PAINT_FLIPX					"Flip Horizontal";
+	IDS_PAINT_FLIPY					"Flip Vertical";
+	IDS_PAINT_MIN					"Min";
+	IDS_PAINT_MAX					"Max";
+	IDS_PAINT_LOOPS					"Loops";
+	IDS_PAINT_PIXELLENGTH			"Pixel Length";
+	IDS_PAINT_EFFECTORSETTINGS		"Effector Settings";
+	
+	IDS_NEWBRUSHPRESET_DIALOGTITLE	"New Brush Preset";
+	IDS_NEWFALLOFFPRESET_DIALOGTITLE "New Falloff Preset";
+	
+	IDS_DELETELAYERSTODELETEFOLDER	 "You need to delete all the layers in the folder before you can delete it.";
+
+	IDS_COLLAPSEVISIBLETOBASE_CONFIRM		"Are you sure you want to collapse all the visible layers to the baselayer? This operation is not undoable.";
+	IDS_DELETE_HIGHERLEVELS_CONFIRM			"Are you sure you want to delete all the layers that are higher than your current sculpt level? This operation is not undoable.";
+
+	IDS_SCULPT_UNDOREDO_SCENEHOOK	"Sculpt Objects";
+	IDS_SCULPT_SURFACE_OBJECT		"SurfaceSculptObject";
+
+	IDS_BRUSH_HUD_SIZE					"Size: ";
+	IDS_BRUSH_HUD_PRESSURE				"Pressure: ";
+
+	IDS_VP_HUD_LAYER					"Layer: ";
+	IDS_VP_HUD_LEVEL					"Level: ";
+	IDS_VP_HUD_MEMORY					"Memory: ";
+	IDS_VP_HUD_POLYGONCOUNT				"PolygonCount: ";
+
+	IDS_SCULPT_LAYERMANAGER				"Sculpt Layers...";
+	IDS_SCULPT_LAYERMANAGER_HELP		"Opens the Sculpt Layer Manager";
+
+	IDS_SCULPT_TAG						"Sculpt";
+
+	IDS_SCULPT_PREFERENCES				"Sculpting";
+	IDS_BASELAYER_IS_CHILD_OF_FOLDER	"You can not delete a folder if it contains the Base Layer";
+	IDS_CHILDREN_NOT_CURRENT_LEVEL		"To delete a folder all children must be the same subdivision level as the current level"; 
+	IDS_MEMORY_EXCEEDED_LIMIT			"You have already exceeded your maximum sculpting memory usage set in the preferences. Do you still want to subdivide?";
+	IDS_MEMORY_SUBDIVDE_LIMIT			"Subdividing will use more memory than is specified in the sculpting preferences. Are you sure you wish to subdivide?";
+	IDS_MEMORY_SYSTEM_LIMIT				"Subdividing will use more memory than you have on your computer. Doing so will cause the system to become slow and possibly unresponsive. Are you sure you wish to subdivide?";
+
+	IDS_PROGRESS_SUBD_UPDATESUBDIVISONMESH	"Updating Subdivision Mesh";
+	IDS_PROGRESS_SUBD_ADDLAYERS				"Adding Layers";
+	IDS_PROGRESS_SUBD_COPYINGPOINTS			"Copying Points";
+	IDS_PROGRESS_SUBD_REBUILDINGOBJECTS		"Rebuilding Object";
+	IDS_PROGRESS_SUBD_REBUILDINGCOLLISION	"Rebuilding Collision Data";
+	IDS_PROGRESS_SUBD_REBUILDINGCOLLISION_CACHE "Cache";
+	IDS_PROGRESS_SUBD_UPDATING				"Updating";
+	IDS_PROGRESS_SUBD_FINALUPDATE			"Final Update";
+	IDS_PROGRESS_SUBD_FINISHED				"Finished";
+
+	IDS_PROGRESS_CREATE_COPYINGOBJECT		"Copying Object";
+	IDS_PROGRESS_CREATE_INITLAYERS			"Initializing Layers";
+	IDS_PROGRESS_CREATE_INIT_SUBDIVISONMESH	"Initializing Subdivision Data";
+	IDS_PROGRESS_CREATE_REBUILDOBJECTS		"Rebuilding Objects";
+	IDS_PROGRESS_CREATE_SUBDIVIDING			"Subdividing Level";
+	IDS_PROGRESS_CREATE_UPDATE				"Updating";
+	IDS_PROGRESS_CREATE_REBUILDINGCOLLISION "Rebuilding Collision Data";
+	IDS_PROGRESS_CREATE_FINALUPDATE			"Final Update";
+
+	IDS_PROGRESS_SUBD_SUBDIVIDING			"Subdividing";
+	IDS_PROGRESS_SUBD_INCREASING			"Increasing Subdivision";
+	IDS_PROGRESS_SUBD_DECREASING			"Decreasing Subdivision";
+	IDS_PROGRESS_CREATE_CREATING			"Creating Sculpt Object";
+
+	IDS_PROGRESS_OPENGL_INIT				"Initializing Vertex Buffer Objects";
+
+
+	IDS_SCULPT_BRUSH_TOGGLE_SYMMETRY_X_HOTKEY	"Sculpt Brush Toggle X Symmetry";
+	IDS_SCULPT_BRUSH_TOGGLE_SYMMETRY_Y_HOTKEY	"Sculpt Brush Toggle Y Symmetry";
+	IDS_SCULPT_BRUSH_TOGGLE_SYMMETRY_Z_HOTKEY	"Sculpt Brush Toggle Z Symmetry";
+	IDS_SCULPT_BRUSH_SIZE_HOTKEY				"Sculpt Brush Size";
+	IDS_SCULPT_BRUSH_SIZE_INC_HOTKEY			"Sculpt Brush Size Increase";
+	IDS_SCULPT_BRUSH_SIZE_DEC_HOTKEY			"Sculpt Brush Size Decrease";
+	IDS_SCULPT_BRUSH_PRESSURE_HOTKEY			"Sculpt Brush Pressure";
+	IDS_SCULPT_BRUSH_PRESSURE_INC_HOTKEY		"Sculpt Brush Pressure Increase";
+	IDS_SCULPT_BRUSH_PRESSURE_DEC_HOTKEY		"Sculpt Brush Pressure Decrease";
+	IDS_SCULPT_BRUSH_STENCIL_HOTKEY			"Sculpt Brush Stencil Adjust";
+	IDS_SCULPT_BRUSH_STENCIL_TOGGLE_HOTKEY	"Sculpt Brush Toggle Stencil Visibility";
+	IDS_SCULPT_BRUSH_WIREFRAME_TOGGLE_HOTKEY	"Sculpt Brush Toggle Wireframe";
+	IDS_SCULPT_BRUSH_BACKFACES_HOTKEY	"Sculpt Brush Fill Backfaces";
+	IDS_SCULPT_BRUSH_PLANE_HOTKEY		"Sculpt Brush Custom Plane Adjust";
+
+	IDS_SCULPT_BRUSH_SIZE_INC_BIG_HOTKEY			"Sculpt Brush Size Increase Big Steps";
+	IDS_SCULPT_BRUSH_SIZE_DEC_BIG_HOTKEY			"Sculpt Brush Size Decrease Big Steps";
+	IDS_SCULPT_BRUSH_PRESSURE_INC_BIG_HOTKEY		"Sculpt Brush Pressure Increase Big Steps";
+	IDS_SCULPT_BRUSH_PRESSURE_DEC_BIG_HOTKEY		"Sculpt Brush Pressure Decrease Big Steps";
+
+	IDS_SCULPT_BRUSH_TOGGLE_SYMMETRY_X_HOTKEY_HELP	"Toggle the X Symmetry";
+	IDS_SCULPT_BRUSH_TOGGLE_SYMMETRY_Y_HOTKEY_HELP	"Toggle the Y Symmetry";
+	IDS_SCULPT_BRUSH_TOGGLE_SYMMETRY_Z_HOTKEY_HELP	"Toggle the Z Symmetry";
+	IDS_SCULPT_BRUSH_SIZE_HOTKEY_HELP		"Hold to change just the size of the brush";
+	IDS_SCULPT_BRUSH_SIZE_INC_HOTKEY_HELP	"Increase the size of the brush";
+	IDS_SCULPT_BRUSH_SIZE_DEC_HOTKEY_HELP	"Decrease the size of the brush";
+	IDS_SCULPT_BRUSH_PRESSURE_HOTKEY_HELP	"Hold to change just the pressure of the brush";
+	IDS_SCULPT_BRUSH_PRESSURE_INC_HOTKEY_HELP "Increase the pressure of the brush";
+	IDS_SCULPT_BRUSH_PRESSURE_DEC_HOTKEY_HELP "Decrease the pressure of the brush";  
+	IDS_SCULPT_BRUSH_STENCIL_HOTKEY_HELP		 "Hold to adjust the stencil. Left Button to move, Middle button to rotate and Right button to scale";  
+	IDS_SCULPT_BRUSH_STENCIL_TOGGLE_HOTKEY_HELP "Toggle the visibility of the Stencil in the viewport";  
+	IDS_SCULPT_BRUSH_WIREFRAME_TOGGLE_HOTKEY_HELP "Toggle the visibility of the Wireframe in the viewport";  
+	IDS_SCULPT_BRUSH_BACKFACES_HOTKEY_HELP "Temporarily enables the Fill Backfaces option during a brush stroke when using one of the Fill Draw Modes";
+	IDS_SCULPT_BRUSH_PLANE_HOTKEY_HELP "Hold to adjust the custom plane. Left Button to change the depth, Right button to scale";
+
+	IDS_SCULPT_BRUSH_SIZE_INC_BIG_HOTKEY_HELP	"Increase the size of the brush by larger steps";
+	IDS_SCULPT_BRUSH_SIZE_DEC_BIG_HOTKEY_HELP	"Decrease the size of the brush by larger steps";
+	IDS_SCULPT_BRUSH_PRESSURE_INC_BIG_HOTKEY_HELP "Increase the pressure of the brush by larger steps";
+	IDS_SCULPT_BRUSH_PRESSURE_DEC_BIG_HOTKEY_HELP "Decrease the pressure of the brush by larger steps";  
+
+	IDS_SCULPT_BRUSH_SHOW_BRUSH_PRESETS_HOTKEY "Load Sculpt Preset";
+	IDS_SCULPT_BRUSH_SHOW_STAMP_PRESETS_HOTKEY "Load Stamp Preset";
+	IDS_SCULPT_BRUSH_SHOW_STENCIL_PRESETS_HOTKEY "Load Stencil Preset";
+	IDS_SCULPT_BRUSH_SHOW_SPLINE_PRESETS_HOTKEY "Load Spline Preset";
+
+	IDS_SCULPT_BRUSH_SHOW_BRUSH_PRESETS_HOTKEY_HELP "Load a sculpting brush preset";
+	IDS_SCULPT_BRUSH_SHOW_STAMP_PRESETS_HOTKEY_HELP "Load a sculpting stamp preset";
+	IDS_SCULPT_BRUSH_SHOW_STENCIL_PRESETS_HOTKEY_HELP "Load a sculpting stencil preset";
+	IDS_SCULPT_BRUSH_SHOW_SPLINE_PRESETS_HOTKEY_HELP "Load a sculpting spline preset";
+
+	IDS_SCULPTCOMMAND_COPYMASK "Copy Mask";
+	IDS_SCULPTCOMMAND_PASTEMASK "Paste Mask";
+	IDS_SCULPTCOMMAND_COPYMASK_HELP "Copy the mask on the selected layer";
+	IDS_SCULPTCOMMAND_PASTEMASK_HELP "Paste the mask to the selected layer";
+
+	IDS_RESYM_DLG "Sculpt Symmetry";
+	IDS_RESYM_CMD "Sculpt Symmetry";
+	IDS_RESYM_CMD_HELP "Tools to make the object symmetrical.";
+	IDS_RESYM_PROCESSING "Processing";
+	IDS_RESYM_INITIALIZING "Initializing";
+
+	IDS_SCULPT_REPROJECT_CMD "Project Mesh";
+	IDS_SCULPT_REPROJECT_PROGRESS "Project Mesh Progress";
+	IDS_SCULPT_REPROJECT_PROGRESS_STATUS "Projecting Subdivision Level";
+	IDS_SCULPT_REPROJECT_PROGRESS_STATUS_SMOOTHING "Smoothing";
+
+	IDS_SCULPTCOMMAND_LAYER_MIRROR "Mirror Layer To";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_XMIN "-X";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_XMAX "+X";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_YMIN "-Y";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_YMAX "+Y";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_ZMIN "-Z";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_ZMAX "+Z";
+
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK "Mirror Mask To";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_XMIN "-X";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_XMAX "+X";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_YMIN "-Y";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_YMAX "+Y";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_ZMIN "-Z";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_ZMAX "+Z";
+
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT "Mirror Object To";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_XMIN "-X";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_XMAX "+X";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_YMIN "-Y";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_YMAX "+Y";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_ZMIN "-Z";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_ZMAX "+Z";
+
+	IDS_SCULPTCOMMAND_SMARTRESYM "Equalize";
+	IDS_SCULPTCOMMAND_SMARTRESYM_X "X";
+	IDS_SCULPTCOMMAND_SMARTRESYM_Y "Y";
+	IDS_SCULPTCOMMAND_SMARTRESYM_Z "Z";
+
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_XMIN_HELP "Mirror the sculpting for this layer from the right to the left";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_XMAX_HELP "Mirror the sculpting for this layer from the left to the right";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_YMIN_HELP "Mirror the sculpting for this layer from the top to the bottom";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_YMAX_HELP "Mirror the sculpting for this layer from the bottom to the top";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_ZMIN_HELP "Mirror the sculpting for this layer from the front to the back";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_ZMAX_HELP "Mirror the sculpting for this layer from the back to the front";
+
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_XMIN_HELP "Mirror the mask for this layer from the right to the left";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_XMAX_HELP "Mirror the mask for this layer from the left to the right";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_YMIN_HELP "Mirror the mask for this layer from the top to the bottom";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_YMAX_HELP "Mirror the mask for this layer from the bottom to the top";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_ZMIN_HELP "Mirror the mask for this layer from the front to the back";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_MASK_ZMAX_HELP "Mirror the mask for this layer from the back to the front";
+
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_XMIN_HELP "Mirror the object from right to left and apply the detail to this layer";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_XMAX_HELP "Mirror the object from left to right and apply the detail to this layer";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_YMIN_HELP "Mirror the object from top to bottom and apply the detail to this layer";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_YMAX_HELP "Mirror the object from bottom to top and apply the detail to this layer";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_ZMIN_HELP "Mirror the object from front to back and apply the detail to this layer";
+	IDS_SCULPTCOMMAND_LAYER_MIRROR_OBJECT_ZMAX_HELP "Mirror the object from back to front and apply the detail to this layer";
+
+	IDS_SCULPTCOMMAND_SMARTRESYM_X_HELP "Make the object symmetrical by averaging the two sides of the X Axis. Any masked areas will be symmetrically copied across without any averaging";
+	IDS_SCULPTCOMMAND_SMARTRESYM_Y_HELP "Make the object symmetrical by averaging the two sides of the Y Axis. Any masked areas will be symmetrically copied across without any averaging";
+	IDS_SCULPTCOMMAND_SMARTRESYM_Z_HELP "Make the object symmetrical by averaging the two sides of the Z Axis. Any masked areas will be symmetrically copied across without any averaging";
+
+	IDS_SCULPTCOMMAND_SETDRAWMODE_FREEHAND	"Freehand";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_DRAGDAB	"DragDab";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_DRAGRECT	"DragRect";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_LINE		"Line";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_LASSO_FILL		"Lasso Fill";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_POLY_FILL			"Poly Fill";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_RECTANGLE_FILL	"Rectangle Fill";
+
+	IDS_SCULPTCOMMAND_SETDRAWMODE_FREEHAND_HELP "Select the Freehand Sculpting Draw Mode";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_DRAGDAB_HELP  "Select the DragDab Sculpting Draw Mode";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_DRAGRECT_HELP "Select the DragRect Sculpting Draw Mode";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_LINE_HELP     "Select the Line Sculpting Draw Mode";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_LASSO_FILL_HELP "Select the Lasso Fill Sculpting Draw Mode";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_POLY_FILL_HELP "Select the Poly Fill Sculpting Draw Mode";
+	IDS_SCULPTCOMMAND_SETDRAWMODE_RECTANGLE_FILL_HELP "Select the Rectangle Fill Sculpting Draw Mode";
+
+	IDS_SCULPT_UNSUBDIVIDE			"Unsubdivide";
+	IDS_SCULPT_UNSUBDIVIDE_HELP		"Extract the lower subdivision levels for an object and turn it into a sculptable object";
+
+	IDS_UNSUBDIVIDED				"Unsubdivided";
+
+	IDS_SCULPT_BRUSH_MODIFIER_STRENGTH "Strength";
+
+	IDS_SCULPT_TO_POSEMORPH			"Sculpt To Pose Morph";
+	IDS_SCULPT_TO_POSEMORPH_HELP	"Creates a new Polygon Object with the Sculpt Layers as Pose Morphs";
+}

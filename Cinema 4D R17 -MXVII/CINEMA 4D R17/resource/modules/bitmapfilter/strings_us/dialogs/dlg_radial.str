@@ -1,0 +1,11 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS DLG_RADIAL
+{
+	STR_TITLE "Radial Blur";
+	STR_ANGLE	"Angle:";
+	STR_MIX	"Blend:";
+  STR_TEXTURE_MODE "Wrap Texture";
+ 	STR_PREVIEW "Document Preview";
+	STR_EMPTY "";
+}
